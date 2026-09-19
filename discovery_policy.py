@@ -26,7 +26,7 @@ SEARCH_TRACKS += [
     ("raylib game language:C++ in:name,description", "native", 120000),
     ("pygame game language:Python in:name,description", "native", 75000),
 ]
-GAME_RELEVANCE = re.compile(r"\b(?:games?|gaming|gamedev|phaser|godot|unity(?:2d|3d)?|cocos2d?|libgdx|love2d|defold|monogame|spritekit|raylib|pygame|pixi(?:js)?|gamepad|arcade|clicker|incremental|idle|plinko|slot|rogueli(?:ke|te)|survivors?|platformer|puzzle|rpg|shooter|metroidvania|gameplay|level editor|game engine|game framework|gamification)\b", re.I)
+GAME_RELEVANCE = re.compile(r"\b(?:games?|gaming|gamedev|phaser|godot|unity(?:2d|3d)?|cocos2d?|libgdx|love2d|defold|monogame|spritekit|raylib|pygame|pixi(?:js)?|gamepad|arcade|clicker|incremental|idle|plinko|slot|rogueli(?:ke|te)|survivors?|platformer|puzzle|rpg|shooter|metroidvania|mini.?games?|gameplay|level editor|game engine|game framework|gamification)\b", re.I)
 UNRELATED = re.compile(r"\b(?:rxjs|devsecops|accessibility|harness engineering|discord quest auto|lottery prediction|bukkit|spigot|minecraft mod|minecraft plugin|bot that automatically plays|world of warcraft fishing bot)\b", re.I)
 MECHANICS = {
     "progression/upgrades": re.compile(r"\b(?:incremental|idle|clicker|upgrade|progression|level.?up)\b", re.I),
@@ -46,6 +46,8 @@ def relevance_reason(repo: dict) -> str | None:
     text = f"{name} {description} {topics}"
     if UNRELATED.search(text) and not re.search(r"\b(?:phaser|godot|unity|cocos2d?|libgdx|defold)\b", topics, re.I):
         return "explicit unrelated software/tutorial/bot; metadata retained for reconsideration"
+    if repo.get("discovery_track") == "phaser":
+        return None  # Phaser match may be in README only; keep a possible plugin.
     if GAME_RELEVANCE.search(text):
         return None
     if not name.strip() or (not description and not topics):
@@ -58,15 +60,15 @@ def inferred_track(repo: dict) -> str:
         return repo["discovery_track"]
     text = " ".join((repo.get("name") or "", repo.get("description") or "", " ".join(repo.get("topics") or []))).lower()
     language = (repo.get("language") or "").lower()
-    if "unity" in text:
+    if re.search(r"\bunity(?:2d|3d)?\b", text):
         return "unity"
-    if "phaser" in text:
+    if re.search(r"\bphaser\b", text):
         return "phaser"
-    if "godot" in text or language == "gdscript":
+    if re.search(r"\bgodot\b", text) or language == "gdscript":
         return "godot"
-    if "android" in text or "libgdx" in text or language in ("kotlin", "java"):
+    if re.search(r"\b(?:android|libgdx)\b", text) or language in ("kotlin", "java"):
         return "android"
-    if "ios" in text or "spritekit" in text or language == "swift":
+    if re.search(r"\b(?:ios|spritekit)\b", text) or language == "swift":
         return "ios"
     if any(token in text for token in ("monogame", "love2d", "defold", "raylib", "cocos", "pygame")):
         return "native"
@@ -92,7 +94,7 @@ def enrich(item: dict, repo: dict) -> dict:
     """Independent, explicitly unverified mechanics and rewrite-cost hints."""
     track = inferred_track(repo)
     engine = item.get("engine") or "Unknown"
-    if engine == "Unknown" and track == "unity" and "unity" in (" ".join(repo.get("topics") or []) + " " + (repo.get("description") or "")).lower():
+    if engine == "Unknown" and track == "unity" and re.search(r"\bunity(?:2d|3d)?\b", (" ".join(repo.get("topics") or []) + " " + (repo.get("description") or "")), re.I):
         engine = "Unity (metadata only)"
     title = f"{repo.get('name') or ''} {repo.get('description') or ''}"
     mechanics = [tag for tag, pattern in MECHANICS.items() if pattern.search(title)]
