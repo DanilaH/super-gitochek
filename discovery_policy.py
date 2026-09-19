@@ -6,6 +6,14 @@ from game_miner import SEARCHES, preliminary
 
 # Preserve old query strings and pagination; GitHub repo sizes are in KB.
 SEARCH_TRACKS = [(q, "phaser" if "phaser" in q else "godot" if "godot" in q else "browser", 30000) for q in SEARCHES]
+# Small live A/B on 2026-09-20: matching names/descriptions surfaced playable-code
+# leads drowned out by unrelated README matches. Keep README queries too: they
+# surface mini-game collections that are not named for individual mechanics.
+SEARCH_TRACKS += [
+    ("phaser incremental game in:name,description", "phaser", 30000),
+    ("phaser fishing game in:name,description", "phaser", 30000),
+    ("phaser mining game in:name,description", "phaser", 30000),
+]
 SEARCH_TRACKS += [
     ("phaser plugin language:TypeScript in:name,description", "phaser", 30000),
     ("phaser plugin language:JavaScript in:name,description", "phaser", 30000),
