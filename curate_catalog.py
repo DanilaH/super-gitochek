@@ -15,6 +15,7 @@ FRAMEWORK_PORT = re.compile(r"\b(?:make|making)\s+phaser\s+works?\s+with\b", re.
 SERVER_DEPENDENCY = re.compile(r"\b(?:websockets?|socket\.io|dedicated server|requires? a backend)\b", re.I)
 WEB3_DEPENDENCY = re.compile(r"\b(?:ERC-?721|NFT|crypto payout|smart contract)\b", re.I)
 HARDWARE_SIMULATOR = re.compile(r"\b(?:arduino|microcontroller|cpu emulator)\b.*\b(?:simulator|emulator)\b", re.I)
+INPUT_TOOL = re.compile(r"\b(?:input mapping|gesture detection|helper library|utility functions)\b", re.I)
 
 
 def classify(item: dict) -> tuple[str, str]:
@@ -24,7 +25,7 @@ def classify(item: dict) -> tuple[str, str]:
         return "other", "hardware simulator; not a game, but preserved for review"
     if SERVER_RUNTIME.search(desc) or FRAMEWORK_PORT.search(desc):
         return "tool", "game-engine runtime or platform port, not a standalone game"
-    if PLUGIN.search(name) or PLUGIN.search(desc) or re.search(r"(?:^|[-_.])plugins?(?:$|[-_.])", name, re.I):
+    if PLUGIN.search(name) or PLUGIN.search(desc) or INPUT_TOOL.search(desc) or re.search(r"(?:^|[-_.])plugins?(?:$|[-_.])", name, re.I):
         return "tool", "plugin or game development tool; compatibility not verified"
     if STARTER.search(desc) or re.search(r"(?:^|[-_.])(?:templates?|boilerplates?|starters?)(?:$|[-_.])", name, re.I):
         return "starter", "project starter or instructional example, not necessarily a complete game"
@@ -39,7 +40,6 @@ def exclusion_reason(item: dict) -> str | None:
 
 
 def _render(items: list[dict]) -> str:
-    # These labels are metadata leads, not gameplay or commercial rights verification.
     display = []
     for item in items:
         mechanics = ", ".join(item.get("mechanic_signals") or []) or "not inferred"
