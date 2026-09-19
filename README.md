@@ -1,30 +1,33 @@
 # GitHub Game Miner
 
-Discover small public game repositories, Phaser plugins, starters, and other technical projects for study and adaptation. Results are **unverified candidates**, not proof that a game runs or that any code/assets may be republished.
+Discover public games, Phaser plugins, starters and technical experiments for study. These are **unverified candidates**, not proven playable games or permission to republish code and assets.
 
-## GitHub Actions: run a scan
+## Run in GitHub Actions
 
-Open **[Actions → Game Miner](https://github.com/DanilaH/super-gitochek/actions/workflows/game-miner.yml) → Run workflow**, choose the `main` branch and start with `inspect=30`, `per_query=30`, `pages=1`. On completion, open that run and download its `game-miner-catalog` artifact. Unzip and open `index.html` locally.
+Open **[Actions → Game Miner](https://github.com/DanilaH/super-gitochek/actions/workflows/game-miner.yml) → Run workflow** on `main`. Start with `inspect=30`, `per_query=30`, `pages=1`. Download `game-miner-catalog` from the completed run and open `index.html` locally. **Open `new.html` to see only newly inspected projects**; `new.json` and `new.csv` contain the same new-only subset.
 
-The artifact preserves every inspected repository in `candidates.json`, `candidates.csv`, and `raw_candidates.json`. Instead of deleting plugins or unusual projects, it adds a rough `category` and `review_note` and creates separate HTML and JSON pages for `game`, `tool`, `starter`, `complex_game` and `other`. `excluded.json` is an empty legacy-compatibility file. The category labels are heuristic, not a final assessment.
+### How incremental discovery works
 
-**Pushes and pull requests run only fast offline tests.** Expensive API scans run only when manually requested, using the workflow's temporary `GITHUB_TOKEN`; no personal access token or custom secret is needed.
+Manual scans preserve `data/discovery-registry.json` in the repository, committed by GitHub Actions. It keeps GitHub repository IDs (stable across renames), all inspected catalog entries, a pending queue and the next search page for each query. Each scan advances its search pages, skips inspection of previously seen IDs, and inspects up to `inspect` new candidates from the queue. Uninspected candidates are not discarded. The full catalog accumulates across runs, including plugins, starters and games with extra dependencies. `results/scan_stats.json` reports new inspections, pending candidates and already-inspected search hits.
+
+The first incremental run initializes the registry and may rediscover projects in earlier, pre-registry artifacts once. Thereafter previously inspected IDs are skipped. This prevents repeating the **expensive inspection**, not all GitHub search requests: search pages still need to be fetched to discover new results. The page cursor is best-effort because GitHub search rankings change. Previously inspected projects are **not automatically re-inspected after updates**; that can be added later.
+
+The registry is versioned and persists independently of GitHub's temporary Actions caches and 7-day downloadable artifacts. If Actions cannot push to `main`, check the repository's Actions workflow token write permissions and branch protection; the scan job requires `contents: write`. Pushes and pull requests run only offline tests, not the API scan.
 
 ## Run locally
 
-Python 3.10+ with no third-party dependencies. Optional `GITHUB_TOKEN` provides higher API limits.
+Python 3.10+, standard library only. Set `GITHUB_TOKEN` for higher API limits, if available.
 
 ```bash
-python3 game_miner.py scan --inspect 30 --per-query 30 --output results
-python3 curate_catalog.py results
+python3 incremental_scan.py --inspect 30 --per-query 30 --registry data/discovery-registry.json --output results
 python3 -m unittest discover -s tests -v
 python3 game_miner.py download owner/repository
 ```
 
-Downloads are commit-pinned ZIP files. This tool never extracts or executes downloaded code. Do not blindly run `npm install` or build scripts from untrusted repositories on your host computer; use an isolated environment after inspection.
+The original `game_miner.py scan` is still available for standalone, non-incremental experiments; its 12-hour HTTP cache lives under `.github-cache/` and is **not** the persistent seen registry. Downloads are commit-pinned ZIP archives and are never extracted or executed automatically.
 
-## Interpretation and limits
+## Catalog and safety
 
-The ranking estimates adaptation fit from GitHub metadata, repository file trees, and the root `package.json`. It does **not** assess actual gameplay, build success, novelty, originality, or market demand. GitHub's license key is only a preliminary hint. A permissive code license may not cover graphics, sound, fonts, logos or bundled third-party content. Review original licenses and asset provenance before commercial reuse.
+The artifact includes cumulative `candidates.json`, `candidates.csv` and `index.html`, plus `new.*`, `scan_stats.json`, `raw_candidates.json`, and category pages for games, tools/plugins, starters, games with external dependencies and other discoveries. All candidates are preserved, with heuristic labels rather than deleted.
 
-Next step: sandboxed build and browser screenshots for selected, manually reviewed projects; keep that pipeline separate from basic discovery.
+Metadata and file-tree inspection do not verify gameplay, build success, originality, licenses or commercial viability. GitHub's code license does not necessarily cover graphics, audio, fonts, trademarks or third-party assets. Review provenance and licenses before any reuse, and inspect untrusted install/build scripts in an isolated environment.
