@@ -1,0 +1,79 @@
+name: Game Miner
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      inspect:
+        description: Number of candidates to inspect
+        type: number
+        required: true
+        default: 20
+      per_query:
+        description: Search hits per query (1-100)
+        type: number
+        required: true
+        default: 20
+      pages:
+        description: Pages per query (1-10)
+        type: number
+        required: true
+        default: 1
+
+permissions:
+  contents: read
+
+concurrency:
+  group: game-miner-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Run offline tests
+        run: |
+          python -m py_compile game_miner.py
+          python -m unittest discover -s tests -v
+
+  scan:
+    if: github.event_name != 'pull_request'
+    needs: test
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Search GitHub and inspect candidates
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          INSPECT: ${{ inputs.inspect || '12' }}
+          PER_QUERY: ${{ inputs.per_query || '10' }}
+          PAGES: ${{ inputs.pages || '1' }}
+        run: |
+          python game_miner.py scan --inspect "$INSPECT" --per-query "$PER_QUERY" --pages "$PAGES" --output results
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          candidates = json.loads(Path('results/candidates.json').read_text())
+          print(f'Catalog: {len(candidates)} inspected candidates')
+          if not candidates:
+              raise SystemExit('Scan returned zero inspected candidates')
+          PY
+      - name: Upload searchable catalog
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: game-miner-catalog
+          path: results/
+          retention-days: 7
+          if-no-files-found: warn
