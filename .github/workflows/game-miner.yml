@@ -44,8 +44,7 @@ jobs:
           python -m unittest discover -s tests -v
 
   scan:
-    if: >-
-      github.event_name == 'workflow_dispatch' || github.event.head_commit.message == 'ci: smoke test incremental state'
+    if: github.event_name == 'workflow_dispatch'
     needs: test
     runs-on: ubuntu-latest
     timeout-minutes: 25
@@ -59,8 +58,8 @@ jobs:
       - name: Discover unseen projects and generate catalogs
         env:
           GITHUB_TOKEN: ${{ github.token }}
-          INSPECT: ${{ inputs.inspect || '2' }}
-          PER_QUERY: ${{ inputs.per_query || '5' }}
+          INSPECT: ${{ inputs.inspect || '30' }}
+          PER_QUERY: ${{ inputs.per_query || '30' }}
           PAGES: ${{ inputs.pages || '1' }}
         run: |
           python incremental_scan.py --inspect "$INSPECT" --per-query "$PER_QUERY" --pages "$PAGES" --output results --registry data/discovery-registry.json
