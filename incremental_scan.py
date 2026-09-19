@@ -27,12 +27,15 @@ def utc_now() -> str:
 
 def load_registry(path: Path) -> dict:
     if not path.exists():
-        return {"version": 1, "seen": {}, "pending": {}, "query_cursors": {}, "irrelevant": {}}
+        return {"version": 1, "seen": {}, "pending": {}, "query_cursors": {},
+                "query_page_sizes": {}, "irrelevant": {}}
     data = json.loads(path.read_text(encoding="utf-8"))
     if data.get("version") != 1 or not all(isinstance(data.get(field), dict) for field in ("seen", "pending", "query_cursors")):
         raise ValueError("Invalid discovery registry schema; refusing to overwrite it")
     if not isinstance(data.setdefault("irrelevant", {}), dict):
         raise ValueError("Invalid irrelevant registry; refusing to overwrite it")
+    if not isinstance(data.setdefault("query_page_sizes", {}), dict):
+        raise ValueError("Invalid query page-size registry; refusing to overwrite it")
     return data
 
 
@@ -63,6 +66,7 @@ def run_incremental(args: argparse.Namespace, *, api: GitHub | None = None, sear
     seen: dict = state["seen"]
     pending: dict = state["pending"]
     cursors: dict = state["query_cursors"]
+    page_sizes: dict = state["query_page_sizes"]
     irrelevant: dict = state["irrelevant"]
     api = api or GitHub(os.getenv("GITHUB_TOKEN"), Path(args.cache), refresh=True)
     queries = SEARCH_TRACKS if searches is None else [(q, "unspecified", 30000) for q in searches]
@@ -70,6 +74,7 @@ def run_incremental(args: argparse.Namespace, *, api: GitHub | None = None, sear
     already_inspected = 0
     new_irrelevant = 0
     restored = 0
+    query_stats = []
     # Updated heuristics may rescue entries previously considered unrelated.
     for key, entry in list(irrelevant.items()):
         if relevance_reason(entry["repo"]) is None:
@@ -91,22 +96,37 @@ def run_incremental(args: argparse.Namespace, *, api: GitHub | None = None, sear
             irrelevant[key] = {"repo": repo, "reason": reason}
             del pending[key]
             new_irrelevant += 1
-    max_page = max(1, min(10, 1000 // args.per_query))
+    # GitHub Search exposes at most the first 1,000 results for each query.
+    # The last page may contain fewer than per_query items.
+    max_page = max(1, (1000 + args.per_query - 1) // args.per_query)
     for index, (base_query, track, size_limit) in enumerate(queries, 1):
         query = f"{base_query} is:public fork:false archived:false size:<{size_limit}"
-        page = int(cursors.get(base_query, 1))
+        previous_size = page_sizes.get(base_query)
+        if previous_size != args.per_query:
+            if base_query in cursors:
+                print(f"Search {index}: per_query changed/unknown ({previous_size} -> {args.per_query}); restarting at page 1 safely", file=sys.stderr)
+            page = 1
+        else:
+            page = int(cursors.get(base_query, 1))
+        page_sizes[base_query] = args.per_query
         if page < 1 or page > max_page:
             page = 1
+        measurement = {"query": base_query, "page_size": args.per_query,
+                       "hits": 0, "new_unique_queued": 0, "already_inspected_hits": 0,
+                       "new_irrelevant": 0, "pages_fetched": 0}
         for _ in range(args.pages):
             data = api.get("/search/repositories", {"q": query, "per_page": args.per_query, "page": page})
             hits = data.get("items", [])
             if data.get("incomplete_results"):
                 print(f"WARNING: incomplete search {index}; will retry page {page}", file=sys.stderr)
                 break
+            measurement["hits"] += len(hits)
+            measurement["pages_fetched"] += 1
             for repo in hits:
                 key = repo_key(repo)
                 if key in seen:
                     already_inspected += 1
+                    measurement["already_inspected_hits"] += 1
                 elif key in irrelevant:
                     continue
                 else:
@@ -116,9 +136,11 @@ def run_incremental(args: argparse.Namespace, *, api: GitHub | None = None, sear
                         irrelevant[key] = {"repo": candidate, "reason": reason}
                         pending.pop(key, None)
                         new_irrelevant += 1
+                        measurement["new_irrelevant"] += 1
                     else:
                         if key not in pending:
                             new_discoveries += 1
+                            measurement["new_unique_queued"] += 1
                         if key in pending and track == "unspecified":
                             candidate["discovery_track"] = pending[key].get("discovery_track")
                         pending[key] = candidate
@@ -127,6 +149,7 @@ def run_incremental(args: argparse.Namespace, *, api: GitHub | None = None, sear
             cursors[base_query] = page
             if len(hits) < args.per_query or page == 1:
                 break
+        query_stats.append(measurement)
 
     now = utc_now()
     new_keys = []
@@ -156,6 +179,7 @@ def run_incremental(args: argparse.Namespace, *, api: GitHub | None = None, sear
     (target / "new.html").write_text(_render(new_items), encoding="utf-8")
     write_csv(target / "new.csv", new_items)
     (target / "irrelevant.json").write_text(json.dumps(irrelevant, indent=2, ensure_ascii=False), encoding="utf-8")
+    (target / "search_query_stats.json").write_text(json.dumps(query_stats, indent=2, ensure_ascii=False), encoding="utf-8")
     stats = {
         "new_discoveries_queued": new_discoveries,
         "already_inspected_search_hits": already_inspected,
