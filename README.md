@@ -4,7 +4,7 @@ Find public games **and** Phaser plugins, tools, templates, and experiments for 
 
 ## Curated ideas and decisions
 
-**Start here in a new chat:** [hand-reviewed game ideas, mechanics, caveats and repo links](docs/GAME_IDEAS.md). The [decisions log](docs/DECISIONS.md) records why this is the durable source of truth; `data/discovery-registry.json` records automatic discovery, **not** approval. Keep the ideas document updated after each meaningful manual review rather than relying on chat history or expiring Actions artifacts.
+**Start here in a new chat — read BOTH:** [the original hand-reviewed ideas journal](docs/GAME_IDEAS.md) and [the fifth/sixth scan's manual findings](docs/GAME_IDEAS_SCAN_05_06.md). The [decisions log](docs/DECISIONS.md) explains why the two curated documents, together, are the durable manual record; `data/discovery-registry.json` records automatic discovery, **not** approval. The original journal's `204 / 276` scan statistics are a historical snapshot; the latest completed scan (2026-09-19) catalogued 539 repositories, with 10 pending. Neither count is a count of promising games. Keep the curated record updated after meaningful manual reviews rather than relying on chat history or expiring Actions artifacts.
 
 ## Run in GitHub Actions
 
