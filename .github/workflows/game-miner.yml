@@ -44,7 +44,8 @@ jobs:
           python -m unittest discover -s tests -v
 
   scan:
-    if: github.event_name == 'workflow_dispatch'
+    if: >-
+      github.event_name == 'workflow_dispatch' || github.event.head_commit.message == 'ci: hidden-gems-next-scan'
     needs: test
     runs-on: ubuntu-latest
     timeout-minutes: 25
@@ -58,8 +59,8 @@ jobs:
       - name: Discover unseen projects and generate catalogs
         env:
           GITHUB_TOKEN: ${{ github.token }}
-          INSPECT: ${{ inputs.inspect || '30' }}
-          PER_QUERY: ${{ inputs.per_query || '30' }}
+          INSPECT: ${{ inputs.inspect || '70' }}
+          PER_QUERY: ${{ inputs.per_query || '2' }}
           PAGES: ${{ inputs.pages || '1' }}
         run: |
           python incremental_scan.py --inspect "$INSPECT" --per-query "$PER_QUERY" --pages "$PAGES" --output results --registry data/discovery-registry.json
