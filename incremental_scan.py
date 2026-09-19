@@ -69,7 +69,22 @@ def run_incremental(args: argparse.Namespace, *, api: GitHub | None = None, sear
     new_discoveries = 0
     already_inspected = 0
     new_irrelevant = 0
-    # Revisit old pending items using the new conservative metadata precheck.
+    restored = 0
+    # Updated heuristics may rescue entries previously considered unrelated.
+    for key, entry in list(irrelevant.items()):
+        if relevance_reason(entry["repo"]) is None:
+            pending.setdefault(key, entry["repo"])
+            del irrelevant[key]
+            restored += 1
+    for entry in seen.values():
+        item = entry["item"]
+        # Real engine evidence overrides a search-track guess (TOSIOS is not iOS).
+        if item.get("engine") in ("Phaser", "PixiJS", "Browser/JS", "Three.js", "Godot", "Unity"):
+            detected = item["engine"]
+            item["discovery_track"] = ("phaser" if detected == "Phaser" else
+                                       "godot" if detected == "Godot" else
+                                       "unity" if detected == "Unity" else "browser")
+    # Revisit old pending items using the current conservative metadata precheck.
     for key, repo in list(pending.items()):
         reason = relevance_reason(repo)
         if reason:
@@ -147,6 +162,7 @@ def run_incremental(args: argparse.Namespace, *, api: GitHub | None = None, sear
         "newly_inspected": len(new_items),
         "pending": len(pending),
         "irrelevant_new": new_irrelevant,
+        "irrelevant_restored": restored,
         "irrelevant_total": len(irrelevant),
         "total_catalog": len(seen),
     }
