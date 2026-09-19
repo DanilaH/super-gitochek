@@ -44,7 +44,7 @@ jobs:
           python -m unittest discover -s tests -v
 
   scan:
-    if: github.event_name != 'pull_request'
+    if: github.event_name == 'workflow_dispatch'
     needs: test
     runs-on: ubuntu-latest
     timeout-minutes: 25
@@ -56,8 +56,8 @@ jobs:
       - name: Search GitHub, inspect and curate candidates
         env:
           GITHUB_TOKEN: ${{ github.token }}
-          INSPECT: ${{ inputs.inspect || '20' }}
-          PER_QUERY: ${{ inputs.per_query || '20' }}
+          INSPECT: ${{ inputs.inspect || '30' }}
+          PER_QUERY: ${{ inputs.per_query || '30' }}
           PAGES: ${{ inputs.pages || '1' }}
         run: |
           python game_miner.py scan --inspect "$INSPECT" --per-query "$PER_QUERY" --pages "$PAGES" --output results
