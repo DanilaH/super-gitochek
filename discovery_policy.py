@@ -94,6 +94,11 @@ def enrich(item: dict, repo: dict) -> dict:
     """Independent, explicitly unverified mechanics and rewrite-cost hints."""
     track = inferred_track(repo)
     engine = item.get("engine") or "Unknown"
+    # A search-query match is weaker evidence than detected files/dependencies.
+    # In particular, a TypeScript PixiJS shooter must not be labeled iOS.
+    detected_tracks = {"Phaser": "phaser", "PixiJS": "browser", "Browser/JS": "browser",
+                       "Three.js": "browser", "Godot": "godot", "Unity": "unity"}
+    track = detected_tracks.get(engine, track)
     if engine == "Unknown" and track == "unity" and re.search(r"\bunity(?:2d|3d)?\b", (" ".join(repo.get("topics") or []) + " " + (repo.get("description") or "")), re.I):
         engine = "Unity (metadata only)"
     title = f"{repo.get('name') or ''} {repo.get('description') or ''}"
