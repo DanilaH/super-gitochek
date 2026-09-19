@@ -2,6 +2,10 @@
 
 Find public games **and** Phaser plugins, tools, templates, and experiments for studying mechanics. Unity, Android, iOS, and native desktop projects are valid leads even when porting them to Phaser would require a rewrite. Discoveries are **not verified builds, playable games, or permission to republish code or assets**.
 
+## Curated ideas and decisions
+
+**Start here in a new chat:** [hand-reviewed game ideas, mechanics, caveats and repo links](docs/GAME_IDEAS.md). The [decisions log](docs/DECISIONS.md) records why this is the durable source of truth; `data/discovery-registry.json` records automatic discovery, **not** approval. Keep the ideas document updated after each meaningful manual review rather than relying on chat history or expiring Actions artifacts.
+
 ## Run in GitHub Actions
 
 Open [Actions → Game Miner](https://github.com/DanilaH/super-gitochek/actions/workflows/game-miner.yml) → **Run workflow** on `main`; start with `inspect=30`, `per_query=30`, `pages=1`. Download the `game-miner-catalog` artifact from the completed run. Open `index.html` for all inspected projects and `new.html` for only the projects inspected in that run. `new.json` and `new.csv` contain the same subset. **Pushes and pull requests run tests only; they do not trigger a costly GitHub search.**
