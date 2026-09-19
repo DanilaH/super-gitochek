@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       inspect:
-        description: Number of candidates to inspect
+        description: New candidates to inspect
         type: number
         required: true
         default: 30
@@ -40,7 +40,7 @@ jobs:
           python-version: '3.11'
       - name: Run offline tests
         run: |
-          python -m py_compile game_miner.py curate_catalog.py
+          python -m py_compile game_miner.py curate_catalog.py incremental_scan.py
           python -m unittest discover -s tests -v
 
   scan:
@@ -48,35 +48,34 @@ jobs:
     needs: test
     runs-on: ubuntu-latest
     timeout-minutes: 25
+    permissions:
+      contents: write  # persist a small, versioned registry in the repository
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Search GitHub, inspect and curate candidates
+      - name: Discover unseen projects and generate catalogs
         env:
           GITHUB_TOKEN: ${{ github.token }}
           INSPECT: ${{ inputs.inspect || '30' }}
           PER_QUERY: ${{ inputs.per_query || '30' }}
           PAGES: ${{ inputs.pages || '1' }}
         run: |
-          python game_miner.py scan --inspect "$INSPECT" --per-query "$PER_QUERY" --pages "$PAGES" --output results
-          python curate_catalog.py results
-          python - <<'PY'
-          import json
-          from pathlib import Path
-          candidates = json.loads(Path('results/candidates.json').read_text())
-          print(f'Curated catalog: {len(candidates)} candidates')
-          for candidate in candidates[:8]:
-              print(f"  {candidate['full_name']} [{candidate['engine']}] — {candidate['license']}")
-          if not candidates:
-              raise SystemExit('Scan returned zero curated candidates')
-          PY
-      - name: Upload searchable catalog
-        if: always()
+          python incremental_scan.py --inspect "$INSPECT" --per-query "$PER_QUERY" --pages "$PAGES" --output results --registry data/discovery-registry.json
+      - name: Upload full and new-only catalogs
         uses: actions/upload-artifact@v4
         with:
           name: game-miner-catalog
           path: results/
           retention-days: 7
-          if-no-files-found: warn
+          if-no-files-found: error
+      - name: Persist discovery registry for the next scan
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/discovery-registry.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'chore: remember inspected game repositories [skip ci]'
+            git push origin HEAD:main
+          fi
