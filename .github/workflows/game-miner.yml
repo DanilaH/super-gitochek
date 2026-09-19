@@ -10,12 +10,12 @@ on:
         description: Number of candidates to inspect
         type: number
         required: true
-        default: 20
+        default: 30
       per_query:
         description: Search hits per query (1-100)
         type: number
         required: true
-        default: 20
+        default: 30
       pages:
         description: Pages per query (1-10)
         type: number
@@ -40,7 +40,7 @@ jobs:
           python-version: '3.11'
       - name: Run offline tests
         run: |
-          python -m py_compile game_miner.py
+          python -m py_compile game_miner.py curate_catalog.py
           python -m unittest discover -s tests -v
 
   scan:
@@ -53,21 +53,24 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Search GitHub and inspect candidates
+      - name: Search GitHub, inspect and curate candidates
         env:
           GITHUB_TOKEN: ${{ github.token }}
-          INSPECT: ${{ inputs.inspect || '12' }}
-          PER_QUERY: ${{ inputs.per_query || '10' }}
+          INSPECT: ${{ inputs.inspect || '20' }}
+          PER_QUERY: ${{ inputs.per_query || '20' }}
           PAGES: ${{ inputs.pages || '1' }}
         run: |
           python game_miner.py scan --inspect "$INSPECT" --per-query "$PER_QUERY" --pages "$PAGES" --output results
+          python curate_catalog.py results
           python - <<'PY'
           import json
           from pathlib import Path
           candidates = json.loads(Path('results/candidates.json').read_text())
-          print(f'Catalog: {len(candidates)} inspected candidates')
+          print(f'Curated catalog: {len(candidates)} candidates')
+          for candidate in candidates[:8]:
+              print(f"  {candidate['full_name']} [{candidate['engine']}] — {candidate['license']}")
           if not candidates:
-              raise SystemExit('Scan returned zero inspected candidates')
+              raise SystemExit('Scan returned zero curated candidates')
           PY
       - name: Upload searchable catalog
         if: always()
