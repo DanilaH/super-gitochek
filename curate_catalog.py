@@ -1,16 +1,11 @@
 #!/usr/bin/env python3
-"""Categorize discovery results without discarding games, plugins or technical projects.
-
-Categories are metadata hints, not playability or licensing verification.
-"""
+"""Categorize results without discarding Phaser plugins or unfamiliar games."""
 from __future__ import annotations
-
 import argparse
 import csv
 import json
 from pathlib import Path
 import re
-
 from game_miner import render_html
 
 PLUGIN = re.compile(r"\b(?:plugins?|ads integration|web workers|software library|integration library|game engine|game framework|sdk)\b", re.I)
@@ -39,12 +34,18 @@ def classify(item: dict) -> tuple[str, str]:
 
 
 def exclusion_reason(item: dict) -> str | None:
-    """Compatibility shim: no discoveries are discarded merely for not being games."""
+    """Legacy API: interesting tools and difficult projects must remain reviewable."""
     return None
 
 
 def _render(items: list[dict]) -> str:
-    display = [{**item, "description": f"[{item['category']}] {item.get('description') or ''}"} for item in items]
+    # These labels are metadata leads, not gameplay or commercial rights verification.
+    display = []
+    for item in items:
+        mechanics = ", ".join(item.get("mechanic_signals") or []) or "not inferred"
+        context = (f"[{item['category']}] [{item.get('discovery_track') or 'unknown'}] "
+                   f"Mechanic clues: {mechanics}; porting: {item.get('porting_effort_hint') or 'unverified'}. ")
+        display.append({**item, "description": context + (item.get("description") or "")})
     return render_html(display)
 
 
@@ -54,12 +55,15 @@ def curate(folder: Path) -> tuple[int, int]:
     if not isinstance(items, list):
         raise ValueError("candidates.json must contain a list")
     groups = {"game": [], "tool": [], "starter": [], "complex_game": [], "other": []}
+    tracks = {name: [] for name in ("phaser", "browser", "unity", "android", "ios", "native", "godot", "unspecified")}
     categorized = []
     for item in items:
         category, note = classify(item)
         entry = {**item, "category": category, "review_note": note}
         categorized.append(entry)
         groups[category].append(entry)
+        track = item.get("discovery_track") or "unspecified"
+        tracks.setdefault(track, []).append(entry)
     (folder / "raw_candidates.json").write_text(json.dumps(items, ensure_ascii=False, indent=2), encoding="utf-8")
     (folder / "excluded.json").write_text("[]\n", encoding="utf-8")
     source.write_text(json.dumps(categorized, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -75,20 +79,23 @@ def curate(folder: Path) -> tuple[int, int]:
         writer.writerows({key: item.get(key, "") for key in fieldnames} for item in categorized)
     labels = {"game": "Games", "tool": "Plugins and tools", "starter": "Starters and examples", "complex_game": "Games requiring integrations", "other": "Other discoveries"}
     navigation = ' · '.join(f'<a href="{key}.html">{label} ({len(groups[key])})</a>' for key, label in labels.items())
-    index = _render(categorized).replace("<h1>Game Miner</h1>", f"<h1>Game Miner</h1><nav>{navigation}</nav>", 1)
+    platform_navigation = ' · '.join(f'<a href="{key}.html">{key} ({len(subset)})</a>' for key, subset in tracks.items() if subset)
+    index = _render(categorized).replace("<h1>Game Miner</h1>", f"<h1>Game Miner</h1><nav>{navigation}</nav><nav>{platform_navigation}</nav>", 1)
     (folder / "index.html").write_text(index, encoding="utf-8")
     for category, subset in groups.items():
         (folder / f"{category}.html").write_text(_render(subset), encoding="utf-8")
         (folder / f"{category}.json").write_text(json.dumps(subset, ensure_ascii=False, indent=2), encoding="utf-8")
+    for track, subset in tracks.items():
+        (folder / f"{track}.html").write_text(_render(subset), encoding="utf-8")
+        (folder / f"{track}.json").write_text(json.dumps(subset, ensure_ascii=False, indent=2), encoding="utf-8")
     print("Catalog: " + ", ".join(f"{k}={len(v)}" for k, v in groups.items()) + f"; preserved={len(categorized)}")
     return len(categorized), 0
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Categorize game and Phaser tooling discoveries without discarding them")
+    parser = argparse.ArgumentParser(description="Classify game and tooling discoveries without discarding them")
     parser.add_argument("folder", nargs="?", default="results")
-    args = parser.parse_args()
-    curate(Path(args.folder))
+    curate(Path(parser.parse_args().folder))
 
 
 if __name__ == "__main__":
