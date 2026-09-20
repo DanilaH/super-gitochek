@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'site/**'
+      - 'scripts/prepare_plinko_demo.py'
       - '.github/workflows/game-demos-pages.yml'
   workflow_dispatch:
 
@@ -21,9 +22,24 @@ jobs:
     steps:
       - name: Check out site
         uses: actions/checkout@v4
+      - name: Stage pinned Plinko preview
+        env:
+          PLINKO_SHA: '76bb83c1655156c81c5010d0ea96521f245cc1a9'
+        run: |
+          set -euo pipefail
+          git clone --quiet --depth=1 https://github.com/GitLomaz/plinko.git "$RUNNER_TEMP/plinko-upstream"
+          git -C "$RUNNER_TEMP/plinko-upstream" fetch --quiet --depth=1 origin "$PLINKO_SHA"
+          git -C "$RUNNER_TEMP/plinko-upstream" checkout --quiet --detach "$PLINKO_SHA"
+          test "$(git -C "$RUNNER_TEMP/plinko-upstream" rev-parse HEAD)" = "$PLINKO_SHA"
+          PLINKO_SOURCE="$RUNNER_TEMP/plinko-upstream" python3 scripts/prepare_plinko_demo.py
       - name: Validate publishing directory
         run: |
           test -f site/index.html
+          test -f site/plinko/index.html
+          test -f site/plinko/JS/main.js
+          test -f site/plinko/assets/images/balls.png
+          test ! -f site/plinko/JS/star.js
+          test ! -f site/plinko/JS/analytics.js
           if find site -type l -print -quit | grep -q .; then
             echo 'Symlinks are not allowed in the Pages artifact.' >&2
             exit 1
