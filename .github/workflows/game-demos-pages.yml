@@ -6,6 +6,7 @@ on:
     paths:
       - 'site/**'
       - 'scripts/prepare_plinko_demo.py'
+      - 'scripts/prepare_lucky_fisher_demo.py'
       - '.github/workflows/game-demos-pages.yml'
   workflow_dispatch:
 
@@ -32,6 +33,16 @@ jobs:
           git -C "$RUNNER_TEMP/plinko-upstream" checkout --quiet --detach "$PLINKO_SHA"
           test "$(git -C "$RUNNER_TEMP/plinko-upstream" rev-parse HEAD)" = "$PLINKO_SHA"
           PLINKO_SOURCE="$RUNNER_TEMP/plinko-upstream" python3 scripts/prepare_plinko_demo.py
+      - name: Stage pinned Lucky Fisher preview
+        env:
+          LUCKY_FISHER_SHA: 'c3eabe2e4fd28f5f2241eb869ed86837d4dabbc7'
+        run: |
+          set -euo pipefail
+          git clone --quiet --depth=1 https://github.com/d2658182-hub/lucky-fisher.git "$RUNNER_TEMP/lucky-fisher-upstream"
+          git -C "$RUNNER_TEMP/lucky-fisher-upstream" fetch --quiet --depth=1 origin "$LUCKY_FISHER_SHA"
+          git -C "$RUNNER_TEMP/lucky-fisher-upstream" checkout --quiet --detach "$LUCKY_FISHER_SHA"
+          test "$(git -C "$RUNNER_TEMP/lucky-fisher-upstream" rev-parse HEAD)" = "$LUCKY_FISHER_SHA"
+          LUCKY_FISHER_SOURCE="$RUNNER_TEMP/lucky-fisher-upstream" python3 scripts/prepare_lucky_fisher_demo.py
       - name: Validate publishing directory
         run: |
           test -f site/index.html
@@ -40,6 +51,10 @@ jobs:
           test -f site/plinko/assets/images/balls.png
           test ! -f site/plinko/JS/star.js
           test ! -f site/plinko/JS/analytics.js
+          test -f site/lucky-fisher/index.html
+          test -f site/lucky-fisher/vendor/phaser.min.js
+          test -f site/lucky-fisher/src/main.js
+          test -f site/lucky-fisher/assets/sprites/fish-blue.png
           if find site -type l -print -quit | grep -q .; then
             echo 'Symlinks are not allowed in the Pages artifact.' >&2
             exit 1
