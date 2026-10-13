@@ -343,3 +343,43 @@ For immediate **live feel tests**, not commercial validation:
 10. **Dungeon Idle** — generic low-art idle economy control.
 
 The gacha and repair findings strengthen the case that the next search should continue around **physical action + reveal/reward**, rather than generic idle generators or large management games.
+
+
+### MEDIUM-HIGH + external gameplay signal — Parcel Master — `benjames-171/parcel-master`
+
+Repo: https://github.com/benjames-171/parcel-master
+
+This candidate is unusual in the current list because it has both inspected implementation **and** independent jam feedback.
+
+Confirmed in code:
+
+- Parcels continuously travel along tile-based conveyor paths.
+- Junctions have a small valid-direction set; interacting with a junction cycles its output direction.
+- Parcels have types and must reach the matching output/bin.
+- A wrong delivery costs one of three stars; reaching zero ends the run.
+- Some parcels can cycle type while travelling, forcing attention/memory.
+- The repository defines 9 levels and 3 difficulty bands with saved per-level star progress.
+
+External signal from Gamedev.js Jam 2026:
+
+- Won the Open Source challenge.
+- Ranked #18 in Gameplay and #22 Overall in the jam results shown on itch.
+- Expert feedback specifically praised the very simple interaction, escalating pressure, satisfying routing and replayability.
+
+Production caveat: the core verb is tiny, but the original gets much of its longevity from authored conveyor layouts. A product inspired by it would need either procedural layouts or a cheap level-generation workflow to preserve the low-production target.
+
+**Status: MEDIUM-HIGH live-test candidate, with stronger external gameplay evidence than most repositories in this research.**
+
+### EXTERNAL SIGNAL ONLY — Junkbot Repair
+
+Jam page: https://fatalfencer.itch.io/junkbot-repair
+
+The source repository was not found in the GitHub search pass, so this is **not** promoted to a code-confirmed candidate yet.
+
+Observed/publicly described loop:
+
+- A mobile-oriented conveyor sorting / hidden-object activity.
+- The game shows which junk parts are required to repair a robot; the player finds/sorts those parts from the junk conveyor.
+- Ranked #14 Overall in Gamedev.js Jam 2026 and #2 in Graphics; public jam feedback includes positive comments on its addictive/chill sorting feel.
+
+Keep it as a playtest/reference lead. Do not infer implementation burden until source or a deeper teardown is available.
