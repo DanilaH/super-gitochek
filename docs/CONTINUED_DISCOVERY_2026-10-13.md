@@ -179,3 +179,167 @@ Swipe-based waste sorting with changing bin types, lives, increasing difficulty 
 6. **Dungeon Idle** — useful control case for a generic low-art idle economy.
 
 These ranks are **research priority, not commercial potential**. Demand, retention and monetization remain unmeasured.
+
+
+---
+
+## Recursive follow-up — tactile machines, reveal loops and hybrid mechanics
+
+This continuation deliberately moved away from generic idle/clicker searches and targeted physical-feeling browser loops: repair, machinery, merge hybrids, gacha/reveal, cleanup and short service interactions. README claims were checked against implementation files where a project was promoted.
+
+### HIGH — Fix It! — `masonlet/fix-it`
+
+Repo: https://github.com/masonlet/fix-it
+
+A particularly strong **tactile repair** candidate.
+
+Confirmed in code:
+
+- Broken items move along a conveyor.
+- Tapping a fault opens a short timed repair minigame.
+- Six implemented minigame types are wired through `MinigameManager`: tap, pump, drag, spin, swipe and timing.
+- Pumping tracks pointer movement; spinning measures clockwise circular drag; the timing game has a rotating needle, multiple hit zones and explicit miss allowance.
+- Successful repair removes one fault; later items can contain multiple faults.
+- Difficulty independently ramps belt speed, item spawn interval and available minigame time.
+- The design explicitly targets mouse and touch and adaptive portrait/landscape layouts.
+
+Why it matters: it gets much more tactile variety from a small reusable verb set than a handcrafted level game. The useful structure is:
+
+`moving object → spot fault → 2–4 s physical gesture → immediate fixed-state payoff → next object / more faults`.
+
+Whole-game production burden is above ClickMining or ORBIT, but still bounded because six reusable repair verbs can service many object skins.
+
+**Status: HIGH PRIORITY live mobile test.** For testing game feel, it currently outranks Gearworks.
+
+### HIGH — Super Serious Gacha Simulator — `keyshooter/juniper-game-jam-26-clean-version`
+
+Repo: https://github.com/keyshooter/juniper-game-jam-26-clean-version
+
+Godot rather than Phaser, but unusually close to the project's original low-input/reward-loop target.
+
+Confirmed in code:
+
+- The player physically rotates the gachapon crank; clockwise pointer rotation is accumulated and every full 360° emits a capsule-spawn event.
+- Capsule rarity is selected through weighted tables.
+- Purchased upgrades modify rarity probabilities.
+- A capsule immediately pays currency based on its value and a purchased money multiplier.
+- Shop items also support passive money generation.
+- The run has a concrete target: reach 100,000 money.
+- The project includes distinct rarity presentation/particles and capsule visuals.
+
+Useful structure:
+
+`one repeated physical action → capsule anticipation → rarity reveal → currency → payout/odds/automation upgrade → better future reveals`.
+
+This is the closest source-backed mechanic found so far to the previously discussed “simple action → anticipation/visual reward → next unlock” structure. The original project is Godot and has more art than ClickMining, so it is stronger as a **mechanic thesis/reference** than as the easiest Pages mirror.
+
+**Status: HIGH PRIORITY mechanic reference / author-build playtest.**
+
+### MEDIUM-HIGH — Gearworks — `GraFreak0/Gear-Shift`
+
+Repo: https://github.com/GraFreak0/Gear-Shift
+
+Confirmed:
+
+- Machines travel along a conveyor.
+- Missing parts are dragged from a tray into machine slots.
+- Wrong/right interaction, early-fix bonuses and combo chains are implemented around the moving objects.
+- Skills include belt freeze, slow motion and an automatic wrench.
+- Upgrade/meta systems and mobile layout handling exist.
+- Conveyor geometry changes with level.
+
+It is a real compact machine-repair game, but **Fix It! is the stronger tactile reference** because its faults invoke genuinely different gestures rather than mostly part matching.
+
+**Status: MEDIUM-HIGH live-test candidate.**
+
+### MEDIUM-HIGH — Kitchen Merge — `prod-broke-again/kitchen-merge`
+
+Repo: https://github.com/prod-broke-again/kitchen-merge
+
+Confirmed:
+
+- 6×6 merge board.
+- Identical items progress through a five-step chain from seed to feast.
+- Low-tier items are automatically dropped over time.
+- Spawn charges regenerate and can be replenished through a rewarded action.
+- A shift is won by producing the required number of max-tier feasts and lost when the board is jammed with no merge.
+- Max-tier creation gives currency.
+- The platform layer already separates local and Yandex Games SDK behavior; production output is static HTML5.
+
+This is technically extremely close to deployment-ready for the user's target platforms. Its weakness is originality: the core merge loop is familiar, so it needs live evidence that the specific pacing/reward presentation is unusually sticky before treating it as a product thesis.
+
+**Status: MEDIUM-HIGH control candidate; strong deployment fit, weaker novelty.**
+
+### MEDIUM-HIGH — Merge Bowl — `mitchallen/game-merge-101`
+
+Repo: https://github.com/mitchallen/game-merge-101
+
+Confirmed:
+
+- Finger/mouse aims a bowling-style lane and one tap launches the current puck.
+- Same-tier puck collisions merge upward.
+- Two max-tier pucks clear for a large bonus.
+- Settled pieces accumulating back across the foul line cause game over.
+- The next puck is previewed and best score persists locally.
+- Rendering is Three.js but textures are generated procedurally; collision/merge physics are a compact custom 2D implementation.
+
+Why it matters: it turns the familiar Suika merge rule into a more active, directional input. This gives the player a tactile shot and a chain-reaction payoff without requiring handcrafted content.
+
+**Status: MEDIUM-HIGH live-test candidate.**
+
+### MEDIUM — Kindworks Waste Cleanup — `kindworksgames/kindworks-waste-cleanup`
+
+Confirmed:
+
+- Layered rubbish pieces can only be selected when exposed.
+- Selected pieces enter a five-slot tray.
+- Three equal pieces disappear/recycle.
+- Full tray before clearing the stack loses the level.
+- Touch controls and local progression are wired.
+- The repository contains 750 layouts.
+
+Mechanically functional and mobile-friendly, but it is close to the familiar “triple tile / match tray” family and depends on a large layout catalog for its advertised campaign.
+
+**Status: MEDIUM reference, below House Cleanup.**
+
+### MEDIUM — Astro Stack — `dzyamik/cozy-stack`
+
+A polished Suika-style physics merge with an 11-tier collection book, deterministic daily challenge and persistent streak/theme unlock layers. Mobile input and a Pages-ready build are present.
+
+The retention wrappers are useful references, but the central mechanic is already highly familiar. Do not rank it above more differentiated loops merely because its implementation is mature.
+
+### ISOLATED IDEA ONLY — Mycelium — `liuyuling528-oss/mycelium`
+
+The whole project is too system-heavy for the production-burden target, but one mechanic is unusual: expanding a spatial network toward richer distant resources is penalized by transport loss and congestion, so “grow outward” is not automatically optimal.
+
+Keep only this compact hypothesis:
+
+`cheap nearby output vs costly route to richer distant node`.
+
+Do not import the project's full disease, AI rival, tree, colony, strain and prestige systems into a small MVP.
+
+### Deprioritized after inspection
+
+- `mrwuss/idle` / Pressure Works — sophisticated hydraulic idle with flow/pressure/heat, R&D, departments, staff and prestige; far too system-heavy for the current search.
+- `giovanniypro-web/empire-idle` — broad company-management tree rather than a compact physical loop.
+- `risingore/gear-arena` / SOUL STRIKE — an interesting “charge, then one decisive button” combat idea, but the actual project carries substantial enemies, bosses, build/loadout, story and asset burden.
+- `Stiggstogg/machines` / MACHINE DISCO — observe-and-reproduce rhythm patterns, but its identity relies heavily on authored music/levels.
+- `warrenrross/Five-Element-Crafting` — clever ordered-pair crafting and discovery system, but roughly 100 entities / 110 recipes plus a second puzzle mode make it content-heavy.
+- `masterhan/sugarspark-bakery` and `abrahamambedkar-debug/food-empire` — functioning service/economy games, but customer/recipe/NPC content pushes them away from the ultra-small target.
+
+## Revised research-priority queue
+
+For immediate **live feel tests**, not commercial validation:
+
+1. **ClickMining** — complete low-cost progression/reward loop.
+2. **Fix It!** — strongest varied tactile interaction loop.
+3. **Super Serious Gacha Simulator** — strongest simple-action / rarity-reveal / upgrade thesis; test author build first.
+4. **Kindworks House Cleanup** — visible before/after completion and tactile chores.
+5. **Claw Machine** — physical prize anticipation.
+6. **Merge Bowl** — differentiated active merge hybrid.
+7. **ORBIT Daily** — minimal one-button daily-retention control.
+8. **Kitchen Merge** — technically deployment-ready familiar merge control.
+9. **Henry's Dig depth mechanic** — prototype the isolated choice rather than porting the whole project.
+10. **Dungeon Idle** — generic low-art idle economy control.
+
+The gacha and repair findings strengthen the case that the next search should continue around **physical action + reveal/reward**, rather than generic idle generators or large management games.
