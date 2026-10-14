@@ -1,0 +1,1642 @@
+[
+  {
+    "repo": "rengelbert/moon-herder-cocos2d",
+    "path": "README.md",
+    "sha": "70d68774b0bec058c9273e6a8a5c2fb8be131aaa",
+    "url": "https://github.com/rengelbert/moon-herder-cocos2d/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "moon-herder-cocos2d\n===================\n\niOS game done with Cocos2d"
+  },
+  {
+    "repo": "fulldecent/pizzaman",
+    "path": "README.md",
+    "sha": "f7a254baa0ce856bdcd01c008c05600bd6428706",
+    "url": "https://github.com/fulldecent/pizzaman/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "\n# Pizza-Man\n\n[![Build and test](https://github.com/fulldecent/pizzaman/actions/workflows/build-test.yml/badge.svg)](https://github.com/fulldecent/pizzaman/actions/workflows/build-test.yml) [![Lint](https://github.com/fulldecent/pizzaman/actions/workflows/lint.yml/badge.svg)](https://github.com/fulldecent/pizzaman/actions/workflows/lint.yml)\n\nGet in on the App Store: <https://apps.apple.com/us/app/pizza-man/id931174800>\n\nThe iOS game\n\nDevour this devilishly difficult diversion.\n\nThis game takes place in the future where man has left the planet and only pizza remains!\n\nHelp this 7-slice plain pizza pie indulge in incoming pepperoni pieces.\n\nYou will become immortal (in real life) if you reach level 100.\n\n* Email <englishmajor@phor.net> if you're able to add additional alliteration above\n\n---\n\n## Development\n\n### Requirements\n\n* Xcode 15.0+\n\n* iOS 15.0+\n* Swift 5.9+\n\n### Building\n\nThis pro"
+  },
+  {
+    "repo": "Global-Gamejam/TheReaper",
+    "path": "README.md",
+    "sha": "268836a7c3524278668795b222dda28f8d116fc5",
+    "url": "https://github.com/Global-Gamejam/TheReaper/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "<p align=\"center\">\n  <img src =\"https://raw.githubusercontent.com/JulienGenoud/TheReaper/master/Ressources/player.gif\"/>\n</p>\n<h1 align=\"center\">The Reaper</h1>\n\nThe Reaper is an iOS game during the **Global game jam** at Bordeaux, in the EPITECH School (7-8 november 2014).\nThe challenge of the **game jam**, is to make a game during 48hours, on on a given topic, and with the technology of our choice. For build this game, we use **SpriteKit** for **iOS 8**, using **Switf**, only available for iPad. We our passionate about the mobile development, that's why we choose this technologie.\n\n<hr>\n<h3 align=\"center\">The Team:</h3>\n- [Julien GENOUD](https://www.linkedin.com/pub/julien-genoud/6a/873/88a) (Developer Android / iOS)\n- [Rémi ROBERT](https://www.linkedin.com/pub/rémi-robert/69/a58/704) (Developer iOS)\n- Alexandre QUINTIN (Designer - game Design)\n<hr>\n<p align=\"center\">\n  <img src =\"http"
+  },
+  {
+    "repo": "andong777/YouCanYouUp",
+    "path": "README.md",
+    "sha": "e4d2a00e3c582510fd60c5587e5cb921fb4f483a",
+    "url": "https://github.com/andong777/YouCanYouUp/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "YouCanYouUp\n===========\n\nA mobile game using Cocos2d-x.\n"
+  },
+  {
+    "repo": "IgorMDev/HoleBall",
+    "path": "README.md",
+    "sha": null,
+    "url": null,
+    "status": "NOT_FOUND",
+    "excerpt": ""
+  },
+  {
+    "repo": "Carapacik/Beltz",
+    "path": "README.md",
+    "sha": "0520775e55fcd3a34bbab7f895d0fbb4250bbd18",
+    "url": "https://github.com/Carapacik/Beltz/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "# Beltz\n\nA puzzle game about pulleys and belts. Match every connection to set the machine in motion: open belts connect pulleys turning in the same direction; crossed belts connect opposite directions.\n\n## Features\n\n- **120 levels across four sections.**\n- **Four rule sets:** switch belts, switch connected belts by tapping pulleys, reverse pulley directions, or combine both actions with locked elements.\n- **Progressive unlocks:** complete 10 levels in a section to unlock the next. Replay completed levels from the level browser.\n- **Interactive tutorials** for every section, with practice boards that run when solved.\n- **Procedural level generation** with verified solvability, adjustable difficulty and varied pulley positions, distances and connection counts.\n- **Hints, undo and restart.**\n- **Saved progress and session recovery.**\n- **Independent music and sound controls.**\n\n## Screensho"
+  },
+  {
+    "repo": "mberkdemir/godot-casesimulator",
+    "path": "README.md",
+    "sha": "6be4556b8155455cc7daa0932ccf5031f1cba367",
+    "url": "https://github.com/mberkdemir/godot-casesimulator/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "## Godot Engine Case Simulator Description <br/>\nProject includes fundamental of case opening systems. You can start to develop more complex case opening systems by using this repo.\n<br/>\n\n## Planned Developments <br/>\n1) Sound effects will be added.\n2) Saving the items you have earned and listing will be added.\n\n## A Note <br/>\nIf you use different size for the case items and different spacing the final result could be wrong. You should calculate high limit and increasing value again.\n"
+  },
+  {
+    "repo": "chpsterz/Miner",
+    "path": "README.md",
+    "sha": "01125acc78eb7b2b7593a1b019083c3d33c53ea6",
+    "url": "https://github.com/chpsterz/Miner/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "<h1 align=\"center\">\n  <br>\n  <img src=\"https://raw.githubusercontent.com/ChpssCode/Miner/main/public/assets/Terra.png\" width=300>\n  <br/>\n  Miner Game Codebase\n  <br>\n</h1>\n\nThis is a [Phaser 3](https://github.com/photonstorm/phaser) project with [TypeScript](https://www.typescriptlang.org/) and [Vite](https://vitejs.dev/).\n\n# Running the Project\n\nYou can run the project on your local machine with the commands below.\n\n| Command | Description |\n|---------|-------------|\n| `npm install` | Install project dependencies |\n| `npm run dev` | Builds project and open web server, watching for changes |\n| `npm run build build` | Builds code bundle with production settings  |\n| `npm run serve` | Run a web server to serve built code bundle |\n\n## Development\n\nAfter cloning the repo, run `npm run install` from your project directory. Then, you can start the local development\nserver by running `npm run "
+  },
+  {
+    "repo": "aglitchman/defold-ld50-game",
+    "path": "README.md",
+    "sha": "cabf64feb37999d5ed43bba3ef6de9d405317802",
+    "url": "https://github.com/aglitchman/defold-ld50-game/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "# Merge Getaway - Ludum Dare 50\n\n[![Play on Itch.io](https://static.jam.vg/raw/200/81/z/4d8ef.gif)](https://glitchman.itch.io/merge-getaway)\n\n***More information will be soon!***\n\nThe police unexpectedly started pursuing you. Sooner or later... every criminal will get caught! Merge with cars of the same colour to accelerate and to escape from the police! 🚗🚓💨\n\n**[–> 🌟 PLAY THE GAME IN YOUR BROWSER 🌟 <–](https://glitchman.itch.io/merge-getaway)**\n\nThe game is for LD50 the COMPO category. \n\n### Controls\n- A or D, Left or Right - to control the car.\n- M - toggle music.\n- R - restart the game if you stuck.\n\n### Known Issues\n- The game runs too fast on high-frequency displays (>60Hz).\n\n### Used tools\n- Game engine: [Defold](https://defold.com/)\n- 3D framework: [Scene3D](https://github.com/indiesoftby/defold-scene3d)\n- 3D modelling: [SideFX Houdini](https://www.sidefx.com/)\n- 2D graphics: "
+  },
+  {
+    "repo": "EpicSharpCode/CockroachPanic",
+    "path": "README.md",
+    "sha": "c6658ff514d5575e79398dc61d0fd3a1e9c42fb7",
+    "url": "https://github.com/EpicSharpCode/CockroachPanic/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# 🐜 CockroachPanic!\n<img src=\"https://github.com/EpicSharpCode/CockroachPanic/blob/master/Assets/CockroachPanic!/Graphics/Logo.png\" width=\"300\" height=\"150\">\n\nA game about the difficult life of a cockroach who wants to get to the finish line, but the player tries to prevent him from reaching the finish line 🏁🔍\n\nThe project was originally created on <b>Unity 2021.3.9f1</b> and game was made as a demo 💾\n\n<b>Main scene =></b> Assets/CockroachPanic!/Scenes/Main.unity\n\n<img src=\"https://github.com/EpicSharpCode/CockroachPanic/blob/master/Media/CockroachPanic Screenshots Split alpha.png\">\n"
+  },
+  {
+    "repo": "polyarik/shape-up",
+    "path": "README.md",
+    "sha": null,
+    "url": null,
+    "status": "NOT_FOUND",
+    "excerpt": ""
+  },
+  {
+    "repo": "ellenatsu/PetRatsIdleGame",
+    "path": "README.md",
+    "sha": "77bc2f50e374f38ad10313e690185c89b3a16ee4",
+    "url": "https://github.com/ellenatsu/PetRatsIdleGame/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "# PetRatsIdleGame\n2D idle clicker game made by unity\n\n1st game starting to learn Unity!\n\nBackground refer to Travel Frog and Rats refer to online pics (all gonna revise soon)\n\nclick rats to feed it until the appetite bar is full and the next rat show up!\n"
+  },
+  {
+    "repo": "Krugalo/Incremental",
+    "path": "README.md",
+    "sha": "03b48d5c49eba049266db807562111a0b4daf098",
+    "url": "https://github.com/Krugalo/Incremental/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "# Incremental\nIncremental game - dev phase\nby Krugalo\n\n{ main.js, package.json, package-lock.json } files used for window app (using electron)\n\nto install electron:\nnpm i -D electron\n\nto run game:\nnpm start\n\nuse index.html file to run game in browser\n\nwritten using Vue 2\n"
+  },
+  {
+    "repo": "Team-Swamp/IceBites",
+    "path": "README.md",
+    "sha": "aafbffebb8c1d8a2b72dd035a5b337508897b8bc",
+    "url": "https://github.com/Team-Swamp/IceBites/blob/develop/README.md",
+    "status": "retrieved",
+    "excerpt": "# Ice Bites\nWelcome to the Ice Bites project! A game about a point and click penguin restaurant.\n\n| Links | Description |\n| ---------|----------|\n| [The Team](https://github.com/Team-Swamp/IceBites/wiki/The-Team) | Here is a list of the team members with their rolls and what they have made |\n| [Asset Naming Conventions](https://github.com/Team-Swamp/IceBites/wiki/Asset-Naming-Conventions) | An in depth convention for naming files |\n| [Code Convention](https://github.com/Team-Swamp/IceBites/wiki/Code-convention) | A code convention used for this project |\n| [Definition of done](https://github.com/Team-Swamp/IceBites/wiki/Definition-of-done) | When is something done? Here a list of criterias of the definition of done. |\n| [Functional Design](https://github.com/Team-Swamp/IceBites/wiki/Functional-Design) | A description about how to play the game |\n| [Git workflow](https://github.com/Team-S"
+  },
+  {
+    "repo": "Insality/shooting_circles",
+    "path": "README.md",
+    "sha": "c2e8ac6f6d6b5e875ee7300f04e88b44e094302b",
+    "url": "https://github.com/Insality/shooting_circles/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "![](media/logo.png)\n\n# Shooting Circles\n\nThis project was created for the [Explosion Community](https://forum.defold.com/t/community-challenge-explosions/77315) challenge, and it goes a bit beyond the initial scope.\n\nShooting Circles is a simple game example built using only the tiny-ecs library. It's a ECS-kind of implementation, where I have a systems, entities and a world. Systems have a states and external API. Levels are created as a collections and when spawned they will create a new entities.\n\n## Overview\n\n### Game Flow\nThe initial script is `/loader/loader.script`, which initializes all libraries and loads the game.collection.\nThe `/game/game.script` script creates a world, loads systems, and loads a level with level_loader_command.\nAll other logic is handled through the ECS systems, located in the `/systems` folder.\n\n### Systems\n- All systems are placed in the `/systems` folder."
+  },
+  {
+    "repo": "andrestorres123/delve",
+    "path": "README.md",
+    "sha": "a2341214302aea43808df7657402bc929d3e61ed",
+    "url": "https://github.com/andrestorres123/delve/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "# TnT-LLM: Text Mining at Scale with Large Language Models 🚀\n\n## Overview\n\nThis project implements TnT-LLM, a framework designed for large-scale text mining using Large Language Models (LLMs). TnT-LLM automates two core tasks: label taxonomy generation and text classification, both of which traditionally require significant manual effort and domain expertise.\n\nThe framework consists of two phases:\n\n**Taxonomy Generation**: A zero-shot, multi-stage process where LLMs automatically generate and refine a label taxonomy based on the input text data.\n\n**Text Classification**: LLMs then generate pseudo-labels to train lightweight, scalable classifiers that can be deployed efficiently at scale.\n\nTnT-LLM combines the accuracy of LLMs with the scalability of traditional classifiers, making it highly efficient for real-world applications such as conversational AI analysis. This project uses the f"
+  },
+  {
+    "repo": "Raksoiv/phaser-incremental-1",
+    "path": "README.md",
+    "sha": null,
+    "url": null,
+    "status": "NOT_FOUND",
+    "excerpt": ""
+  },
+  {
+    "repo": "sahilkn/phaser-fishing-game",
+    "path": "README.md",
+    "sha": null,
+    "url": null,
+    "status": "NOT_FOUND",
+    "excerpt": ""
+  },
+  {
+    "repo": "eidorian-richi/void-miner",
+    "path": "README.md",
+    "sha": "57e81fcd30084485558f125af48bdc5f77cd4b71",
+    "url": "https://github.com/eidorian-richi/void-miner/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "# Void Miner\n\nA space mining adventure game inspired by classic Asteroids with modern progression mechanics. Navigate asteroid fields using physics-based movement, mine valuable materials, and upgrade your ship to explore deeper into the void.\n\n## Game Concept\n\n**Core Gameplay:**\n- Physics-based ship movement (thrust and momentum like classic Asteroids)\n- Mine different asteroid types for various materials (iron, crystals, rare metals)\n- Use collected materials to upgrade ship capabilities\n- Explore procedurally generated asteroid fields\n- Encounter enemies protecting valuable asteroid clusters\n\n**Visual Style:**\n- Vector/geometric graphics with bright, colorful shapes\n- Different colored geometric asteroids representing material types\n- Scalable graphics optimized for mobile screens\n\n**Target Audience:** Family-friendly game designed for ages 8-12\n\n## Development Status\n\n🚀 **Phase 2 Co"
+  },
+  {
+    "repo": "piecehealth/fishing_pond_game",
+    "path": "README.md",
+    "sha": "8a7f4e68651d066b7ae7d1141710e48ada71b13c",
+    "url": "https://github.com/piecehealth/fishing_pond_game/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "# Fishing Pond Game 🎣\n\nA game theory-based coding challenge for backend engineering teams. Learn Sorbet type checking while exploring strategic decision-making in an iterated resource management game.\n\n## Quick Start\n\n```bash\n# Install dependencies\nbundle install\n\n# Run a quick demo\nbin/play --demo\n\n# Test all example strategies\nbin/play --dry-run --rounds 4 --reports\n\n# Run tests\nbundle exec rspec\n```\n\n## Game Overview\n\n- **Players**: n players (even number recommended)\n- **Duration**: n rounds\n- **Objective**: Catch the most fish across all rounds\n\n### Core Rules\n\n**Pond Dynamics:**\n- Initial pond: 100 fish\n- Growth rate: 15%-25% per turn (randomly varies each turn to add uncertainty)\n- Fishing duration: 10 turns per pairing\n- Maximum catch per turn: 30 fish per player\n\n**Fishing:**\n- Both players simultaneously decide how many fish to catch (0-30)\n- **Success**: If total catch ≤ pond"
+  },
+  {
+    "repo": "rufalo/miner-game",
+    "path": "README.md",
+    "sha": "3481e195f3e6563f760c1ff7646c5a3e953b47b7",
+    "url": "https://github.com/rufalo/miner-game/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# Miner Snake\n\nA small top-down Phaser 3 game where you control a circle, mine colored minerals, attach upgrade \"body parts\" that drag behind you like a snake, and fight enemies that guard richer deposits further from spawn.\n\nPackaged as an Electron desktop app with a Windows launcher.\n\n## Run as a desktop app\n\nDouble-click **`Miner Snake.bat`** on the Desktop. It will, on first run, install dependencies and build the game, then open it in an Electron window. Subsequent runs just open the window.\n\nYou can also run the launcher directly from the project folder:\n\n```bat\nlaunch.bat\n```\n\nOr via npm:\n\n```bash\nnpm start          # build + launch in Electron\nnpm run play       # launch in Electron (assumes build is already in dist/)\n```\n\n## Run in a browser (Vite dev server)\n\n```bash\nnpm install\nnpm run dev\n```\n\nThen open the URL Vite prints (usually `http://localhost:5173`).\n\n## Controls\n\n- **"
+  },
+  {
+    "repo": "andrewlocke2001-debug/critical-depth",
+    "path": "README.md",
+    "sha": "48dbcd242231c795b6543523cf51fa165155a248",
+    "url": "https://github.com/andrewlocke2001-debug/critical-depth/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "# CRITICAL DEPTH\n\n*Dig deep. Blast deeper. End the world.*\n\nA single-player 2D mining game (~6–7 hours to finish). You start at the mouth of a mine.\nAt the bottom of it — about a kilometre down — is the Cradle, an ancient socket that fits\nexactly one apocalypse. Build it. Deliver it. Win, technically.\n\nBuilt with Phaser 3 + TypeScript + Vite. All art and sound are generated at runtime — no assets.\n\n## ▶ Play it\n\n**https://andrewlocke2001-debug.github.io/critical-depth/** — plays in any browser.\n\n- **Desktop**: keyboard (WASD + the keys below).\n- **Phone / tablet**: on-screen thumbpad + buttons appear automatically. Landscape recommended.\n\nProgress autosaves in your browser (one slot per browser).\n\n## Run it locally\n\n```bash\nnpm install\nnpm run dev        # http://localhost:5199\n```\n\n`npm run build` produces a static build in `dist/`.\n\n## Controls\n\n| Key | Action |\n|---|---|\n| WASD / Arro"
+  },
+  {
+    "repo": "alexeychikk/happy-birthday-orly",
+    "path": "README.md",
+    "sha": "29abc4e193bf323ac32303f51f712d08f4d48fe7",
+    "url": "https://github.com/alexeychikk/happy-birthday-orly/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# [Happy Birthday, Orly!](https://hb-orly-server.onrender.com)\n\nSimple HTML5 game created for the birthday of my beloved girlfriend Orly.  \nBuilt with [Phaser 3](https://phaser.io/phaser3) game framework.  \n[Enjoy!](https://hb-orly-server.onrender.com)\n\n# Setup\n\n## 1. Install dependencies:\n\nRun:\n\n`npm install`\n\n## 2. Run the development server:\n\nRun:\n\n`npm start`\n\nThis will run a server so you can run the game in a browser.\n\nOpen your browser and enter [localhost:8080](http://localhost:8080) into the address bar.\n\nAlso this will start a watch process, so you can change the source and the process will recompile and refresh the browser\n\n## Build for deployment:\n\nRun:\n\n`npm run build`\n\nThis will optimize and minimize the compiled bundle.\n\n## Production web server:\n\nRun:\n\n`npm run server`\n\nThis will start production web server on port `process.env.PORT || 5000`. It serves static files and\nca"
+  },
+  {
+    "repo": "ozelali/BatZel",
+    "path": "README.md",
+    "sha": "85faf384b21649163fd77771aaf17666ea5815e8",
+    "url": "https://github.com/ozelali/BatZel/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# BatZel\nA simple android game with LibGDX and Kotlin\n\nFrom this page ( https://play.google.com/store/apps/details?id=com.aliozel.batzel ) \nyou can support me by downloading and playing the application\n"
+  },
+  {
+    "repo": "meoww-qwerty/idleClicker",
+    "path": "README.md",
+    "sha": "edf5d5da0783664a205ef819058e64f729f7911c",
+    "url": "https://github.com/meoww-qwerty/idleClicker/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "# idleClicker\nSimple clicker unity game\n\nThe enemies are randomly spawning. To shoot the player must click the button in right bottom corner of the screen.\n\n![alt text](https://user-images.githubusercontent.com/74233809/161601839-02e118aa-aaed-4d7e-9e27-1a0b6a691ba3.png)\n\n![alt text](https://user-images.githubusercontent.com/74233809/161601843-f364f01d-10b3-420b-9d16-626ceea24c80.png)\n\nWhen 0 HP remains, the player is asked if they want to restart the game.\n\n![alt text](https://user-images.githubusercontent.com/74233809/161601846-a28ba5ed-e397-4c0c-96d1-05558d053850.png)\n"
+  },
+  {
+    "repo": "PavelMalkov/Clicker",
+    "path": "README.md",
+    "sha": null,
+    "url": null,
+    "status": "NOT_FOUND",
+    "excerpt": ""
+  },
+  {
+    "repo": "Pusachef/Clicker",
+    "path": "README.md",
+    "sha": null,
+    "url": null,
+    "status": "NOT_FOUND",
+    "excerpt": ""
+  },
+  {
+    "repo": "Navyciokas/Clicker",
+    "path": "README.md",
+    "sha": null,
+    "url": null,
+    "status": "NOT_FOUND",
+    "excerpt": ""
+  },
+  {
+    "repo": "PrilepskiyAE/Clicker",
+    "path": "README.md",
+    "sha": "7168e1c90ae8df10ef3fbef323441f496d0e4865",
+    "url": "https://github.com/PrilepskiyAE/Clicker/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "# Clicker\nMy Unity game сlicker template\n### Template\n![Image alt](https://github.com/PrilepskiyAE/Clicker/blob/main/screen1.png)\n### Finish result\n![Image alt](https://github.com/PrilepskiyAE/Clicker/blob/main/screen2.png)\n"
+  },
+  {
+    "repo": "gexchai/Cocos2dxNovelGame",
+    "path": "README.md",
+    "sha": "08be1da9968ecd9d10163c3a9b925ae0a0a19b3a",
+    "url": "https://github.com/gexchai/Cocos2dxNovelGame/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "Cocos2d-xで作るNovelGame\n\n![開発中の画面](https://raw.github.com/kyokomi/Cocos2dxNovelGame/master/work/screnshot_2013-09-07%2020.22.32.png)\n"
+  },
+  {
+    "repo": "renshan/arrowGame",
+    "path": "README.md",
+    "sha": "a60c37d5758e1c963ceac2d1ae1f4eb8efcaa496",
+    "url": "https://github.com/renshan/arrowGame/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# arrowGame\n\n本游戏是一个基于 Cocos2d-x 3.6 的射箭游戏，相关的游戏教程发布在[Cocos中文官网](http://cn.cocos2d-x.org/)和[我的博客](http://shannn.com/)，希望本系列教程对大家有所帮助，在此感谢大家的一路支持！O(∩_∩)O~\n\n**在 VS 中运行代码请先删除中文注释！**"
+  },
+  {
+    "repo": "blabash/BossBattleTrivia",
+    "path": "README.md",
+    "sha": "b70b56a01dd616e4a6764c7eee4f967400f3484b",
+    "url": "https://github.com/blabash/BossBattleTrivia/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "## Overview\nDefeat nefarious foes by answering random trivia questions! Just like a big, bad boss battle in your favorite video game, widdle away at the bad guy's health bar until they are vanquished. However, the only way to do damage is correctly answering trivia questions hurled your way. Answer incorrectly and your health bar will be the one taking damage. Audio fx serve to bring the enemy boss to life, and loot drops heighten the stakes.\n\n### Functionality\n* Played through a series of button clicks, players are presented with a question and have to select the correct answer from several options. Players have limited time to answer.\n* Player/Boss health bars update based on whether the player's answer was correct.\n* As the game progresses, new questions are generated until either the boss or the player have no remaining health in their health bars.\n* Player can choose to play again a"
+  },
+  {
+    "repo": "robot518/MusicGame",
+    "path": "README.md",
+    "sha": "c1dcd171cef8af53ac1fe380006cce79db07aca8",
+    "url": "https://github.com/robot518/MusicGame/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# MusicGame\n\n# [游戏详细介绍](https://zhuanlan.zhihu.com/p/78363112) \n"
+  },
+  {
+    "repo": "sarnavakonar/Gamebaaz",
+    "path": "README.md",
+    "sha": "d7f8e7257b1e8e868230f0682fc0e9f22356457b",
+    "url": "https://github.com/sarnavakonar/Gamebaaz/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "## Gamebaaz 🎮\n![GitHub license](https://img.shields.io/apm/l/link) [![ktlint](https://img.shields.io/badge/code%20style-%E2%9D%A4-FF4081.svg)](https://ktlint.github.io/) [![GitHub stars](https://img.shields.io/github/stars/sarnavakonar/Gamebaaz?style=social)](https://github.com/sarnavakonar/Gamebaaz/stargazers)\n\n\nA *full-stack application* showing the power 💪 of **KOTLIN**. Entire android app + backend Apis written in **Kotlin** :fire:\n\nAndroid             |  Backend\n:-------------------------:|:-------------------------:\n<img src=\"https://developer.android.google.cn/codelabs/jetpack-compose-animation/img/ea1442f28b3c3b39.png?hl=pt-br\" width=\"100\" height=\"75\">       Jetpack Compose |  <img src=\"https://avatars.githubusercontent.com/u/28214161?s=200&v=4\" width=\"75\" height=\"75\"> Ktor framework\n<img src=\"https://i.pcmag.com/imagery/reviews/06fdvkyOgcsc4kzcSqhLmxB-12.1601663115.fit_scale.s"
+  },
+  {
+    "repo": "bendangelo/EntityJS",
+    "path": "README.md",
+    "sha": "96c55e3300d906e4f03f2a86dad00c8943153255",
+    "url": "https://github.com/bendangelo/EntityJS/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# EntityJS\nAn HTML5 javascript game engine utlizing the entity-component design. Write highly flexible code in a powerful javascript framework.\n\n## EntityJS is currently being rewritten\n\nVersion 0.5.0 is moving away from ruby to a nodejs package. The game engine is also moving towards an entity-system design pattern. Checkout the dev branch for the latest updates.\n\n## What makes this different from other javascript game engines?\nEntity strives to be the most flexible game engine available. We understand no one likes rewritting the same functions and lines of code over and over. So we have developed a solution to this problem and that is the component-entity design. The traditional approach to game engine design is creating a hierarchy of classes. This is infact the **most** tightly coupled design. This creates close coupled classes whos functionality is strictly typed to one class, its n"
+  },
+  {
+    "repo": "amatuer/cocos2d-game",
+    "path": "README.md",
+    "sha": null,
+    "url": null,
+    "status": "NOT_FOUND",
+    "excerpt": ""
+  },
+  {
+    "repo": "KonajuGames/MonoGame-StarterKits",
+    "path": "README.md",
+    "sha": null,
+    "url": null,
+    "status": "NOT_FOUND",
+    "excerpt": ""
+  },
+  {
+    "repo": "Germanunkol/trAInsported",
+    "path": "README.md",
+    "sha": "588f653862319b69056102a376839d8e7ed07827",
+    "url": "https://github.com/Germanunkol/trAInsported/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "Trains Game\n==============================\n\nGetting started:\n------------------------------\n**Case 1:** You have a binary of the game. Double-click it and run -> voila!\n\n**Case 2:** You have a .love version of the game, you'll need to install the awesome Löve2D game engine. Get it at love2d.org or via your package manager (trAInsported works with Löve version 0.9.1). Then double click the .love file.\n\n**Case 3:** You have the source of the game. Get the Löve2D engine and install it. Then open a console, type the path to the love engine (on unix, you might just need 'love', on windows you need the whole path to the Love.exe) and the path to the game folder after it (the one holding the main.lua file). See an example of this in the section **Command Line Options**!\n\nFirst, try getting into the tutorials. Once through them, have a look at the Documentation.html file in this folder.\n\nThen, t"
+  },
+  {
+    "repo": "tongpengfei/tui",
+    "path": "README.md",
+    "sha": "1eb499be3acf46839c8241d5d18600b633bb2d61",
+    "url": "https://github.com/tongpengfei/tui/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "********************************************************************************\n** Tui user manual\n\n  FAQ:\n* What is Tui?\n  Tui is a game UI editer. It is a FlashCS6 extension, writen in jsfl and as3.\n  You can edit game UI in FlashCS6 with real-time preview. The editer outputs\n  a xml file. The current version( v1.0 ) supports the follow schemes: \n    iphone(320*480 or 480*320)\n    iphone5(568*320 or 320*568)\n\tipad(1024*768 or 768*1024)\n\tandroid(480*800 or 800*480).\n\n    Below are the features of Tui:\n    * Tui is \"what you seen is what you get\".\n    * Seperate the work of artists, designers and programmers.\n    * Easy to learn and easy to use.\n    * Stable.\n    * As long as your working environment supports Flash, it will work.\n    * One of the best feature is the support for event! For example, you may test a button click \n  event in Tui's preview panel, and see debug log like \"recei"
+  },
+  {
+    "repo": "akof1314/Cocos2dxGame",
+    "path": "README.md",
+    "sha": "7a91cc1d67993d6b9fbb7044872014826a520dbb",
+    "url": "https://github.com/akof1314/Cocos2dxGame/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "Cocos2dxGame\n============\n\nCocos2d-x Game Tutorials\n\nTowerDefense 塔防类型 Cocos2d-x 2.1.4\n\nCatMaze A星寻路 Cocos2d-x 3.0 beta2\n\n\nLink： http://blog.csdn.net/akof1314\n"
+  },
+  {
+    "repo": "backjy/LinkGame",
+    "path": "README.md",
+    "sha": null,
+    "url": null,
+    "status": "NOT_FOUND",
+    "excerpt": ""
+  },
+  {
+    "repo": "arthurpessoa/love2d-example",
+    "path": "README.md",
+    "sha": "0f5891b011ca91ada39e01e8bfc435b8ca415c19",
+    "url": "https://github.com/arthurpessoa/love2d-example/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "Love2D\n======\n"
+  },
+  {
+    "repo": "eternaldensity/Sandcastle-Builder",
+    "path": "README.md",
+    "sha": "259face1fa2626f585f5f78022efbb0fb3cbd5e1",
+    "url": "https://github.com/eternaldensity/Sandcastle-Builder/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# Sandcastle Builder\n\nxkcd: 1190: Time: The Game\n\nThis is an Idle Game written in Javascript. It is based on the xkcd comic 1190: Time, especially the forum thread about that comic. (These are known as the One True Comic and One True Thread among devotees (or 'OTTers').\n\nThe game is currently hosted at http://castle.chirpingmustard.com\n\n## Credits\n\nOriginal Code mostly by Eternal Density.\n\nQuite a lot of code by Waveney.\n\nQuite a bit of code by LucidCrux.\n\nParts of code and the clockface image by ChronosDragon.\n\nIcons by LucidCrux, ChronosDragon, BlitzGirl, and StormAngel/cmyk.\n\nPatches and fixes from many others including pickten, Calamitizer, EPSIL0N, LuminousLeopards, mart0258, erp-lsf, TheSnacker, D0rako, eqbot, Unponderable, Bakasan15, AluisioASG, dfriedenbach, snnw, JadeE1024, cloudytheconqueror, Syntech, typobox, AmauryLepicard, Pikrass, dwrpayne, mrkeldon, Uristqwerty, GeneralYou"
+  },
+  {
+    "repo": "bwiklund/gamepad.js",
+    "path": "README.md",
+    "sha": "d2c6557a73122727807f83016378c2ccd2a39e1c",
+    "url": "https://github.com/bwiklund/gamepad.js/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "gamepad.js\n===\n\nA simple demo of the HTML5 Gamepad API, showing debug info and button states for all connected controllers, in realtime.\n\nBuilt with React, TypeScript, and Stylus\n\nSee it in action here: http://html5gamepad.com\n"
+  },
+  {
+    "repo": "kgiannakakis/FruitCatcher",
+    "path": "README.md",
+    "sha": "4844e99b8a6ba691766ba03c1db783371807daf9",
+    "url": "https://github.com/kgiannakakis/FruitCatcher/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "FruitCatcher\n============\n\nA simple libgdx game. It is described in more detail in a [Code Project article](http://www.codeproject.com/Articles/702957/Create-your-first-Android-Game-with-libgdx).\n"
+  },
+  {
+    "repo": "phaserjs/phaser-ce-plugins",
+    "path": "README.md",
+    "sha": "e16c3b5608b76ccf415d727f99239a12d9279e17",
+    "url": "https://github.com/phaserjs/phaser-ce-plugins/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "![Phaser Logo](http://www.photonstorm.com/wp-content/uploads/2013/09/phaser_10_release.jpg)\n\n# Phaser Plugins\n\nThis is the Phaser Plugins repository.\n\nIf you're looking for the framework itself, please go here: https://github.com/photonstorm/phaser\n\n\n## Contributing\n\n- If you find a bug in a Plugin then please report it on [GitHub Issues][issues] or our [Support Forum][forum].\n\n- You can issue Pull Requests for new plugins or fixes to existing ones against the `master` branch.\n\n- If you have a Plugin request, or have written a game or demo that shows a Phaser Plugin in use, then please get in touch. We'd love to hear from you! Either post to our [forum][forum] or email: rich@photonstorm.com\n\n\n## Bugs?\n\nPlease add them to the [Issue Tracker][issues] with as much info as possible, especially source code demonstrating the issue.\n\n\n## About Phaser\n\nPhaser is a fast, free and fun open source "
+  },
+  {
+    "repo": "dgkanatsios/PuzzleGameUnity",
+    "path": "README.md",
+    "sha": "1a34359c259ccb0c990c7f67d4de1c971ad493ed",
+    "url": "https://github.com/dgkanatsios/PuzzleGameUnity/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "[![unofficial Google Analytics for GitHub](https://gaforgithub.azurewebsites.net/api?repo=PuzzleGameUnity)](https://github.com/dgkanatsios/gaforgithub)\n\n# PuzzleGameUnity\n\n![Puzzle game](http://studentguru.gr/cfs-file/__key/communityserver-blogs-components-weblogfiles/00-00-00-00-89-metablogapi/image_5F00_545B3F34.png)\n\nSource code for a Puzzle Game built in Unity. You can check a blog post [here](http://dgkanatsios.com/2014/07/01/simple-puzzle-game-in-unity-source-code-provided-3/) whereas you can play the game [here](http://unitysamples.azurewebsites.net/simplepuzzlegame/).\n"
+  },
+  {
+    "repo": "Gamegur-us/phaser-touch-control-plugin",
+    "path": "README.md",
+    "sha": "e3713e4c201671ee7573a6f5b245fbee4550d86a",
+    "url": "https://github.com/Gamegur-us/phaser-touch-control-plugin/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# phaser-touch-control-plugin\nA great virtual joystick plugin\n\nYou like it? need help? hire me!\nhttps://twitter.com/eugenioclrc/\n"
+  },
+  {
+    "repo": "jpsim/CardsAgainst",
+    "path": "README.md",
+    "sha": "edd4cc5fa12710eadbaea6484d6e6f337580ca4a",
+    "url": "https://github.com/jpsim/CardsAgainst/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# CardsAgainst App\n\n## An iOS game for horrible people\n\nA peer-to-peer [Cards Against Humanity][cah] game for iOS, written with Multipeer Connectivity in Swift 4.\n\n![](https://www.objc.io/images/issue-18/dedicated-9942fc7b.gif)\n\n## Libraries\n\nThis project uses the following libraries:\n\n* [PeerKit](https://github.com/jpsim/PeerKit) for event-driven, zero-config Multipeer Connectivity\n* [Cartography](https://github.com/robb/Cartography) for layout\n* [SVProgressHUD](https://github.com/TransitApp/SVProgressHUD) for HUDs\n\n## Offensive Content\n\nRunning this game from source will use a small, very mild, impossible to offend subset of the Cards Against Humanity cards.\n\nHowever, simply set `let pg13 = false` in [CardManager.swift](https://github.com/jpsim/CardsAgainst/blob/master/CardsAgainst/Controllers/CardManager.swift#L11) to gain access to the entirety of the card collection.\n\n## License\n\nTh"
+  },
+  {
+    "repo": "mengtest/OzgGameEatFish",
+    "path": "README.md",
+    "sha": "c124714941093e2a4e78394368549aa139bc83c5",
+    "url": "https://github.com/mengtest/OzgGameEatFish/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "OzgGame—大鱼吃小鱼\n\n================\n\n本游戏主要用于技术的研究和积累，游戏中所用的图片和声音文件均来自互联网\n\n\n编译前需要把cocos2d-x-3.3rc0的文件复制到OzgGameEatFish/cocos2d里面，也可以使用 https://github.com/ouzhigang/OzgTools/blob/master/2dx_v3_proj_helper.py 来进行（使用前需要将本游戏的cocos2d文件夹删除，否则会报错）\n\n使用cocos2d-x-3.3rc0，win32、ios、mac、android（真机可运行）编译通过。win32环境下需要将Classes文件夹下的所有文件转换为GBK编码。android编译命令，cocos compile -p android -j 4\n\n目前只做了英文版\n\n本游戏的cocos2d-iphone版本：https://github.com/ouzhigang/ozggame_eat_fish\n\n本游戏的swift版本：https://github.com/ouzhigang/OzgGameEatFishSwift\n\n运行状况：\n\n![](https://raw.github.com/ouzhigang/OzgGameEatFish/master/screenshot.jpg)\n"
+  },
+  {
+    "repo": "iampgzp/catchRun",
+    "path": "README.md",
+    "sha": "89bbb4e0beae4c556ce2b26353c8dbc39fe2e9ab",
+    "url": "https://github.com/iampgzp/catchRun/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "##catchRun\n\n\nCatchRun is a puzzle game developed in Swift using SpriteKit framework\n\nThe ghost will be hiden while the ghostbuster tries to catch them in the maze\n\n![](https://raw.githubusercontent.com/iampgzp/catchRun/master/cover.png)\n\nThe game ai uses A* pathfinding to follow the player\n\n![](https://raw.githubusercontent.com/iampgzp/catchRun/master/preview.png)\n"
+  },
+  {
+    "repo": "ZeroYang/PopStar",
+    "path": "README.md",
+    "sha": "0c84caa927c2824a29ab26a7a8c8ba34af70bef3",
+    "url": "https://github.com/ZeroYang/PopStar/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# PopStar\nCocos2d-x v2.2 PopStar Game\n\n\n---\n\n\n#Cocos2d-x 开发《消灭星星》游戏\n\n用Cocos2d-x开发跨平台游戏，高仿《消灭星星》游戏。\n——和传统的消除类游戏不同，本游戏没有时间限制，只要两个相同颜色的星星就可以消除，以关卡的形式进行游戏，每个关卡的分数需求累计增加。\n\n##开发环境\n * Cocos2d-x v2.2\n * Mac + Xcode (下载项目，拷贝到Cocos2d-x v2.2下的projects目录，proj.ios可以直接打开编译运行)\n * 其他平台自己编辑资源和源码引用\n\n## 游戏截图\n![](./1.png)\n\n![](./2.png)\n\n"
+  },
+  {
+    "repo": "ligurio/awesome-ttygames",
+    "path": "README.md",
+    "sha": "0af576f00c5277bdb99c00c7052b0d65fafe7233",
+    "url": "https://github.com/ligurio/awesome-ttygames/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# Unix ASCII games\n\nFeel free to submit pull requests to add new games and improve information about\nthose already in the database.\n\n## How to contribute\n\nCheck `games.yaml` out. All information is inside, and you should more or less\nunderstand what's going on by reading it. Sorting is alphabetical.\n\nSimplest way to contribute: edit [games.yaml](/games.yaml), and then\nyour changes will be submitted as a pull request.\n\nUse this template:\n\n```\n- name: hangman\n  url: https://man.openbsd.org/hangman.6\n  info: computer version of the game hangman\n  screencast:\n  play:\n```\n\n- `name`: Name of the game\n- `url`: URL of main page\n- `info`: free text with game description\n- `screencast`: link to screencast (for example on asciinema)\n- `play`: server hostname where game is available via telnet or ssh\n\n## License\n\n[![CC0 Public Domain](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creati"
+  },
+  {
+    "repo": "FrBrGeorge/PyGame",
+    "path": "README.md",
+    "sha": "0402abc3db7241b898fcf9a5af014ef50fc41c15",
+    "url": "https://github.com/FrBrGeorge/PyGame/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# PyGame\nEducational Pygame App\n\nAlso used while demonstrate git and pylint examples\n"
+  },
+  {
+    "repo": "labnation/MonoGame",
+    "path": "README.md",
+    "sha": "e15c4aa6497b01538e422af71e4ed9d4f4857ae1",
+    "url": "https://github.com/labnation/MonoGame/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# [MonoGame](http://monogame.net/) [![Build Status](http://teamcity.monogame.net/app/rest/builds/buildType:MonoGame_DevelopWin/statusIcon)](http://teamcity.monogame.net/project.html?projectId=MonoGame&guest=1)\n\n[MonoGame](http://monogame.net) is an open source implementation of the Microsoft XNA 4.x Framework.\n\nOur goal is to make it easy for XNA developers to create cross-platform games with extremely high code reuse.\n\n## Supported Platforms\n\n* iOS (including Retina displays)\n* Android\n* Windows (OpenGL & DirectX)\n* Mac OS X\n* Linux\n* [Windows Store Apps](http://dev.windows.com) (for Windows 8 and Windows RT)\n* [Windows Phone 8](http://dev.windowsphone.com)\n* [Windows Phone 8.1](http://dev.windows.com)\n* [PlayStation Mobile](https://psm.playstation.net/portal/en/index.html) (currently 2D only)\n* [OUYA](http://ouya.tv), an Android-based gaming console\n\n## Quick Start\n\nThere are a few pre"
+  },
+  {
+    "repo": "renshan/el-flyingGame",
+    "path": "README.md",
+    "sha": "97621d7e8b85aff263b22d9ff953e60fa522d431",
+    "url": "https://github.com/renshan/el-flyingGame/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# el-flyingGame\n\nQuick-Cocos2d-x v3.3 Final game\n\n本游戏是一个简单的飞行游戏，相关的游戏教程发布在[Cocos中文官网](http://cn.cocos2d-x.org/tutorial/lists?id=129)和[我的博客](http://shannn.com/)，希望本系列教程对大家有所帮助，在此感谢大家的一路支持！O(∩_∩)O~\n"
+  },
+  {
+    "repo": "bfanger/pixi-inspector",
+    "path": "README.md",
+    "sha": "040464d3be9deb82efad881bf04ac0d80a2bef0d",
+    "url": "https://github.com/bfanger/pixi-inspector/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "# PixiJS Devtools\n\nBrowser extension to debug games and apps written with [PixiJS](http://pixijs.com/).\n\n## Features\n\n- Show the scene graph\n- View and edit properties\n- Double-click in the outliner to console.log a node\n- Outline the active node in the viewport.\n- The active node is available in the developer console as `$pixi`\n- Right-click (or alt click) in the viewport to activate a node\n\n## Installation\n\nInstall PixiJS Devtools from:\n\n- [Chrome Web Store](https://chrome.google.com/webstore/detail/pixi-inspector/aamddddknhcagpehecnhphigffljadon)\n- [Add-ons for Firefox](https://addons.mozilla.org/en-US/firefox/addon/pixijs-devtools/)\n\n## Usage\n\n### PixiJS\n\nIn _your code_ find where the `PIXI.Application` instance is created, it looks like this:\n\n```js\nimport { Application } from \"pixi.js\";\n\nconst app = new Application(...)\n```\n\nExpose that `app` to the **PixiJS Devtools** by adding th"
+  },
+  {
+    "repo": "netcell/nine-patch-phaser-plugin",
+    "path": "README.md",
+    "sha": "875b605ccd98b3f5eb7b3e733f64bca552a589fb",
+    "url": "https://github.com/netcell/nine-patch-phaser-plugin/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# Nine Patch Phaser Plugin\n\n**UPDATE**: Unless you are currently using it, or your game is not very complicated, or has no need to run on old mobile devices, I am recommending you not to use this library due to posible performance issues. This is a nice experiment and a modified version of it (specifically designed for a code base of a game, so not gonna be useful publicly released) works pretty well in production. It is possible to look into the `src` folder to understand the library (it's really simple) and modify it to your needs, and I am willing to support you. However, since I am not currently using Phaser, I can't really invest time into updating this old library. Sincerely appologize. Thank you for your interest.\n\nNine Patch Phaser Plugin allows you to use [nine patch images](https://github.com/chrislondon/9-Patch-Image-for-Websites/wiki/What-Are-9-Patch-Images) in the HTML game "
+  },
+  {
+    "repo": "yichen0831/Bomberman_libGdx",
+    "path": "README.md",
+    "sha": "4c0537aeabd9bfe1f489ccec7b5d35f899b03166",
+    "url": "https://github.com/yichen0831/Bomberman_libGdx/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# Bomberman_libGdx\n\nBomberman game made with libGdx\n\nUsing [Artemis-odb](https://github.com/junkdog/artemis-odb) Entity-Component-System\n\n![https://github.com/yichen0831/Bomberman_libGdx/raw/master/screenshot.png](https://github.com/yichen0831/Bomberman_libGdx/raw/master/screenshot.png)\n\nJava excutable [download link](https://github.com/yichen0831/Bomberman_libGdx/releases/download/v1.0/Bomberman_libGdx-1.0.jar)\n\n## Controls:\n\nArrow keys - Up / Down / Left / Right\n\nX - set/kick bomb\n\nZ - detonate bomb\n\n### cheat controls\n\n1 - add bomb\n\n2 - increase power\n\n3 - increase speed\n\n4 - enable kick bomb\n\n5 - enable remote bomb\n\n## Resource\n\nImages - [The Sprite Resource](http://www.spriters-resource.com/)\n\nSounds - [YouTube](https://www.youtube.com/watch?v=uxhzsTI_LwI), [The mushroom kingdom](http://www.themushroomkingdom.net/)\n"
+  },
+  {
+    "repo": "yichen0831/Pacman_libGdx",
+    "path": "README.md",
+    "sha": "9d2bf2343a6e642ed7fd6e52205da4ab07ea1ae3",
+    "url": "https://github.com/yichen0831/Pacman_libGdx/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# Pacman_libGdx\n\nPacman game made with [libGdx](http://www.libgdx.com/) and using the extensions below\n- [Ashley](https://github.com/libgdx/ashley) as Entity Component System\n- [gdxAi](https://github.com/libgdx/gdx-ai) for pathfinding and finite state machine\n- [Box2DLights](https://github.com/libgdx/box2dlights) for visual effects\n\n\n![screenshot](https://github.com/yichen0831/Pacman_libGdx/raw/master/screenshot.png)\n\n## Play / Download\n~Web play: [Link](http://pacman-libgdx.bugs3.com/)~\n\nJava executable: [Link](https://github.com/yichen0831/Pacman_libGdx/releases/download/v1.0/Pacman_libGdx-1.0.jar)\n\n## Controls:\n\nW / S / A / D: move\nEnter: restart game when out of lives\n"
+  },
+  {
+    "repo": "azerion/phaser-nineslice",
+    "path": "README.md",
+    "sha": "5a184368e54aa021028d057b4fb7a2cfdb676545",
+    "url": "https://github.com/azerion/phaser-nineslice/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "Phaser Nineslice\n================\nPhaser-Nineslice plugin adds 9-slice scaling support to Phaser v2 and CE. An implementation for v3 is also\navailable thanks to [jdotrjs](https://github.com/jdotrjs) as [phaser3-nineslice](https://github.com/jdotrjs/phaser3-nineslice).\n\nKey features:\n * Blazing fast\n * Low memory usage\n * Easy to use API\n \n*Important*\nFrom here on this library will be published and updated under [@azerion/phaser-nineslice](https://www.npmjs.com/package/@azerion/phaser-nineslice) at NPM, the old [phaser-nineslice](https://www.npmjs.com/package/phaser-nineslice) will no longer be maintained.\n\nIf you are coming from v1 you can read the migration guide at the bottom\n\nGetting Started\n---------------\nFirst you want to get a fresh copy of the plugin. You can get it from this repo or from npm, ain't that handy.\n```\nnpm install @azerion/phaser-nineslice --save-dev\n```\n\nNext up you"
+  },
+  {
+    "repo": "BPJackson/ios-pokemon-game",
+    "path": "README.md",
+    "sha": "478849d374fabfce3384655a8aff3f2c792568c1",
+    "url": "https://github.com/BPJackson/ios-pokemon-game/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "##Pokemon Challenge\n\n####Objectives:\n1. Make the score counter work.\n2. Make the score persist on the page\n3. Make the second and third buttons randomly select new pokemon\n\n\n####Stretch Goals:\n1. Choose how many pokemon you get to choose from\n2. Create a system for lives where you loose when you are out.\n3. Persist it to a backend\n4. Create a leaderboard\n"
+  },
+  {
+    "repo": "Flaxis/slick-ui",
+    "path": "README.md",
+    "sha": "1118ffe749b20183d8332d4cda48f87a057a15e6",
+    "url": "https://github.com/Flaxis/slick-ui/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "[![Gitter](https://badges.gitter.im/slick-ui/Lobby.svg)](https://gitter.im/slick-ui/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)\n\nReleased as public domain - feel free to do anything to the library code you like. (this excludes the assets and the Phaser game engine)\n\n# SlickUI\n![SlickUI](http://slick-ui.com/img/portfolio/thumbnails/1.jpg)\n\nSlickUI beats the challenge of creating user interfaces easily in an object oriented way.\n\n### Try out some previews\n* [Sliding menu](http://slick-ui.com/preview/menu.html)\n* [Slider controller](http://slick-ui.com/preview/slider.html)\n* [Text input field](http://slick-ui.com/preview/text-field.html)\n\n### Getting started\nInstall using git:\n```sh\ngit clone https://github.com/Flaxis/slick-ui.git\n```\nInstall using bower:\n```sh\nbower install slick-ui\n```\n\nMake sure you have the [Default Kenney theme] in your project assets and ready to lo"
+  },
+  {
+    "repo": "alanblins/quizgame",
+    "path": "README.md",
+    "sha": "ba5934654c6c73970cfc16f6fde6d6c5b0f94a39",
+    "url": "https://github.com/alanblins/quizgame/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# quizgame\nQuiz Game in Phaser - https://quizgamemegadojo.herokuapp.com/\n\n# Installation\n## Pre requisites\n * NodeJS (https://nodejs.org/en/download/package-manager/)\n \n\n## Install the Quiz Game\n```sh\ngit clone https://github.com/alanblins/quizgame.git\ncd quizgame\nnpm i\n```\n\n## Run the game\n```sh\nnpm start\n```\nopen in your browser \n```\nhttp://localhost:8080\n```\n\n# Change the questions\nJust edit www-root/data/questions.json\n```javascript\n\t{\n\t\t\"question\":\"What is the chemical symbol for the element oxygen?\",\n\t\t\"choices\":[\n\t\t\t\"ox2\",\n\t\t\t\"O\",\n\t\t\t\"X\",\n\t\t\t\"G\"\n\t\t],\n\t\t\"answer\":1\n\t},\n```\n\"answer\":1 - It means the second choice \"O\" is the correct answer.\n\n# Insert image for each question.\n* Copy the image to www-root/assets/images_questions/\n* Insert the file name into the \"image\" key inside of questions.json like below:\n\n```javascript\n\t{\n\t\t\"question\":\"What is the chemical symbol for the element ox"
+  },
+  {
+    "repo": "mofr/Diablerie",
+    "path": "README.md",
+    "sha": "e8ee23288c6b922e512ec3342c265a16c735544d",
+    "url": "https://github.com/mofr/Diablerie/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# Diablerie\n\n[![Windows Build Status](http://diablerie.zond.org/build/image/?target=win64)](http://diablerie.zond.org/download/?target=win64)\n\n[![Linux Build Status](http://diablerie.zond.org/build/image/?target=linux)](http://diablerie.zond.org/download/?target=linux)\n\n[![Code Status](https://www.codefactor.io/repository/github/mofr/Diablerie/badge)](https://www.codefactor.io/repository/github/mofr/Diablerie)\n\n![alt tag](https://raw.github.com/mofr/Diablerie/master/Screenshots/rogue_camp.png)\n\nThis is a recreation of Diablo 2 game from Blizzard.\n\nThe game is at a very early stage of development - work in progress.\n\nNo commercial use is intended. All images and sounds used are from Diablo 2 and are property of the original game creators.\n\n# How to run the game\n\nRequirements:\n* Download latest version of Diablerie ([Windows](http://diablerie.zond.org/download/?target=win64), [Linux](http:"
+  },
+  {
+    "repo": "opensourceios/Spin-Zone",
+    "path": "README.md",
+    "sha": "edc0afb3d879d41f845e49b87609afa6baefc7c2",
+    "url": "https://github.com/opensourceios/Spin-Zone/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# Spin-Zone\nSimple iOS SpriteKit game\n\n[View on App Store](https://appsto.re/us/571Ihb.i)\n\n###Screenshots ###\n![Screenshot1](http://i.imgur.com/FRp0LLQ.jpg \"Screenshot\") ![Screenshot2](http://i.imgur.com/GRSYgLf.jpg \"Screenshot2\")\n![Screenshot3](http://i.imgur.com/fllPKj9.jpg \"Screenshot3\") ![Screenshot4](http://i.imgur.com/NDrBhXS.jpg \"Screenshot4\")\n\n###Description ###\nTap the screen to escape The Spin Zone, but don't make a mistake or you'll have to start over.\n\nPush into the background to change colors\n\nHow far will you go to escape The Spin Zone?\n"
+  },
+  {
+    "repo": "SangLiang/PhaserHearthStone",
+    "path": "README.md",
+    "sha": "2a1e6774906a8ea5079d0a39574a1eb805416313",
+    "url": "https://github.com/SangLiang/PhaserHearthStone/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# PhaserDemo\n\n---\n\n学习Phaser游戏开发的小demo\n\n### 1.使用方法\n\n确保你的机器已经安装了node环境。\n\n将源码下载至本地，使用\n\n```\nnpm install\n```\n\n安装相关依赖。然后用\n\n```\ngulp default\n```\n\n启动游戏服务。\n\n### 2.相关教程\n\n欢迎访问[完整开发教程](https://sangliang.github.io/Timing-House/2017/04/15/%E4%BD%BF%E7%94%A8Phaser%E6%9D%A5%E5%BC%80%E5%8F%91%E6%88%91%E7%9A%84%E7%82%89%E7%9F%B3%E4%BC%A0%E8%AF%B4(%E4%B8%80)/)来学习Phaser游戏的开发\n\n![image](https://raw.githubusercontent.com/SangLiang/Blog/gh-pages/pics/201609/33.gif)\n\n### 3.更新日志  \n\n2017.6.6 v1.2.0\n\n1.添加新的卡牌\n\n2.添加战斗日志系统\n\n3.添加新的魔法卡牌逻辑\n\n![image](https://raw.githubusercontent.com/SangLiang/Blog/gh-pages/pics/201609/35.gif)\n\n2017.5.27  v1.1.0\n\n1.玩家可以选择自己的手牌(将不会随机生成卡池中的所有卡牌，而是随机生成玩家选择过的卡牌)\n\n![image](https://raw.githubusercontent.com/SangLiang/Blog/gh-pages/pics/201609/34.gif)\n\n### 4.todo\n\n1.英雄技能\n\n2.~~技能卡牌~~\n\n3.随从攻击动效\n\n4.卡牌动效\n\n--- \n\nLearn Phaser Html5 Game Develop demo\n\n### How to start\n\nEnsure your computer has install"
+  },
+  {
+    "repo": "EntelectChallenge/2017-Battleships",
+    "path": "README.md",
+    "sha": "b9051ac3719189b64334b9401de2ceb29d815779",
+    "url": "https://github.com/EntelectChallenge/2017-Battleships/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# 2017-Battleships\n\nThe current release is version [1.2.2](https://github.com/EntelectChallenge/2017-Battleships/releases/latest).\n\nFor more information about the challenge see the [Challenge website](http://challenge.entelect.co.za/) .\n\n## TL;DR\n\n1.\tDownload the latest release files\n2.\tBuild your own bot\n3.\tSubmit your bot \n4.\tPrepare to fight for the title: Ruler of the high seas.\n\n# Project Structure\n\nIn this project you will find everything you need to build and run a bot on your local machine.  This project contains the following:\n\n1. Game Engine - The game engine is responsible for running matches between players.\n2. Sample Bots - Sample bots can be used a starting point for your bot.\n3. Reference Bots - The reference bot contains some AI logic that will play the game based on predefined rules.  You can use this to play against your bot for testing purposes.\n4. Sample State Files -"
+  },
+  {
+    "repo": "MaorS/iOS-Proj-CasinoGame",
+    "path": "README.md",
+    "sha": "a14e9938cf46f0748369afd7cec0600ce870a365",
+    "url": "https://github.com/MaorS/iOS-Proj-CasinoGame/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# Swift 3 Casino Game\n\n1. Using UIPickerView as Slot machine\n2. Using Sprites sheet for animation\n3. Using User Defaults for local save user score\n\n\n![Maor Shams](https://github.com/MaorS/iOS-Proj-CasinoGame/blob/master/casino.gif?raw=true)\n\n\n[![Swift 3 Casino Game](http://i.imgur.com/NZKNDCk.png)](https://youtu.be/3dNqRTQk5zs \"Swift 3 Casino Game\")\n\n\n"
+  },
+  {
+    "repo": "tutsplus/create-a-blackjack-game-in-swift-and-spritekit",
+    "path": "README.md",
+    "sha": "7b7426f4c443c95c3f20cacd8101b03657241299",
+    "url": "https://github.com/tutsplus/create-a-blackjack-game-in-swift-and-spritekit/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# Envato Tuts+ Tutorial: [Create a Blackjack Game in Swift 3 and SpriteKit][published url]\n## Instructor: [James Tyner][instructor url]\n\nIn this tutorial you'll create a blackjack game in SpriteKit using Swift 3. You'll learn about implementing touch, creating visual animations, and many other concepts  that will come in handy when building a SpriteKit game.\n------\n\nThese are source files for the Envato Tuts+ tutorial: [Create a Blackjack Game in Swift 3 and SpriteKit][published url]\n\nAvailable on [Envato Tuts+](https://tutsplus.com). Teaching skills to millions worldwide.\n\n[published url]: http://code.tutsplus.com/tutorials/create-a-blackjack-game-in-swift-3-and-spritekit--cms-28511\n[instructor url]: https://tutsplus.com/authors/james-tyner\n"
+  },
+  {
+    "repo": "VincentPat/Phaser-PickApple",
+    "path": "README.md",
+    "sha": "f6e156bca0175ce5976b7951f8eac091e111efdc",
+    "url": "https://github.com/VincentPat/Phaser-PickApple/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# Phaser-PickApple\nA simple game based on Phaser.js\n\nSegmentfault上的教程：[从零到一：用Phaser.js写意地开发小游戏](https://segmentfault.com/blog/zero2one)\n"
+  },
+  {
+    "repo": "ErkrodC/UnityChess",
+    "path": "README.md",
+    "sha": "0e0a7f9c4a390d51cdbcf29835b2dc45ef7db9d3",
+    "url": "https://github.com/ErkrodC/UnityChess/blob/development/README.md",
+    "status": "retrieved",
+    "excerpt": "# UnityChess\n\nUnityChess is a 2D Chess game built using Unity/C#.\n\n![UnityChess demo](UnityChess.gif)\n\n### Contributing\nDownloading a zip of the repository may not work. To properly clone, [download](https://git-lfs.github.com/) and install Git LFS.\nFor a more in-depth explanation/guide, visit the relevant [wiki page](https://github.com/ErkrodC/UnityChess/wiki/Getting-The-Project).\n\nPlease follow the collaborative github workflow, well described [here](https://github.com/asmeurer/git-workflow/blob/master/README.md).\n\nThe project is using the following version of Unity: [Unity 6000.2.12f1](https://unity3d.com/get-unity/download/archive)\n\nIt's recommended you use [Unity Hub](https://unity3d.com/get-unity/download) to manage Unity versions as it's likely the project will be upgraded as new versions come out."
+  },
+  {
+    "repo": "Fedex100/project-based-learning",
+    "path": "README.md",
+    "sha": "eb2cb9b7370a31c65c3b116cea144603dcf96815",
+    "url": "https://github.com/Fedex100/project-based-learning/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# Project Based Learning\n\nA list of programming tutorials in which learners build an application from scratch. These tutorials are divided into different primary programming languages. Some have intermix technologies and languages.\n\nTo get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.\n\n## Table of Contents:\n* [C/C++](#cc)\n* [C#](#c)\n* [Clojure](#clojure)\n* [Java](#java)\n* [JavaScript](#javascript)\n* [Kotlin](#kotlin)\n* [Python](#python)\n* [Go](#go)\n* [Ruby](#ruby)\n* [Haskell](#haskell)\n* [PHP](#php)\n* [R](#r)\n* [Rust](#rust)\n* [Additional resources](#additional-resources)\n\n## C/C++:\n* [Write a Shell in C](https://brennan.io/2015/01/16/write-a-shell-in-c/)\n* [Build Your Own Text Editor](http://viewsourcecode.org/snaptoken/kilo/)\n* [Build Your Own Lisp](http://www.buildyourownlisp.com/)\n* [Write an OS from scratch](https://g"
+  },
+  {
+    "repo": "lazyboywu/phaser-plugin-state-transition",
+    "path": "README.md",
+    "sha": "6e67ab188a126700fbe89805b4b7fee74b2717de",
+    "url": "https://github.com/lazyboywu/phaser-plugin-state-transition/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "State Transition Plugin for Phaser\n=======================\n场景切换通常用于两个不同的界面之间，尤其是在移动端的设备上，因为屏幕尺寸和交互方式的特性，就更多的会出现这些切换的操作，而很突然地从一个界面切换到另一个界面会给用户带来困扰，所以在触发这些操作的同时，往往需要过渡形式的动画来引导用户是如何从一个界面切换到另一个界面的。\n\n这个插件就是解决 Phaser 框架中，2个 State 之间的切换的过渡动画。\n参考以下插件\n\n[phaser-state-transition](https://github.com/cristianbote/phaser-state-transition)\n\n[phaser-state-transition-plugin](https://github.com/aaccurso/phaser-state-transition-plugin)\n\n## Example\n[演示 codepen](https://codepen.io/lazyboywu/full/brqLbj)\n\n[演示 runjs](http://runjs.cn/detail/ct2n4zft)\n\n## 如何使用\n\n在页面中引入 js\n\n```javascript\n<script src=\"path/to/phaser-plugin-state-transition.js\"></script>\n```\n添加 Phaser 插件\n```javascript\ngame.plugins.add(StateTransition.Manager);\n```\n\n启用过渡动画\n```javascript\ngame.stateTransition.start('stateKey', transitionData);\n```\n\n其中 transitionData 可是以下格式\n\n```javascript\n{\n    type: 'cover',\n    direction: StateTransition.Transition.Co"
+  },
+  {
+    "repo": "chris-chris/unity-clicker-game",
+    "path": "README.md",
+    "sha": null,
+    "url": null,
+    "status": "NOT_FOUND",
+    "excerpt": ""
+  },
+  {
+    "repo": "tokgozmusa/NPuzzle",
+    "path": "README.md",
+    "sha": "d34711811bb4f890bdb371fae85d3af4b7cd04bf",
+    "url": "https://github.com/tokgozmusa/NPuzzle/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# NPuzzle [![forthebadge](http://forthebadge.com/images/badges/built-for-android.svg)](https://github.com/tokgozmusa/NPuzzle)\n\n[![forthebadge](https://img.shields.io/badge/code%20style-ktlint-FF4081.svg)](https://github.com/shyiko/ktlint)\n\nNPuzzle is a classic puzzle game. It is written in Kotlin for Android devices.\n\nYou can play 3x3, 4x4 or 5x5 puzzles. Enjoy!\n\nTODO: Implement Solver BFS\n\n![](/screen-records/screen-record.gif)\n"
+  },
+  {
+    "repo": "mingli1/Unlucky",
+    "path": "README.md",
+    "sha": "8d3877993bcc1cfe74d4292f9bcc6e57152b29df",
+    "url": "https://github.com/mingli1/Unlucky/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "\n# Unlucky \nUnlucky is a LibGDX Android RPG game based on RNG (random number generator) with a turn-based battle system. RNG is usually frowned upon in games, but this game's entire theme is RNG. Everything from attacks in battle to item enchanting to movement is based on RNG. \n<div>\n    <img width=\"400px\" height=\"240px\" hspace=\"15\" src=\"https://user-images.githubusercontent.com/29984767/44676899-856d7600-aa02-11e8-82ca-897e3ca45092.gif\">\n    <img width=\"400px\" height=\"240px\" hspace=\"15\" src=\"https://user-images.githubusercontent.com/29984767/44678123-9e2b5b00-aa05-11e8-93ab-d9d0c693ddfa.gif\">\n</div>\n\n## About\n\nThe player ventures and battles monsters in maps with various themes. Currently there are three available worlds all with 10+ levels in each world. In these maps, the player will have to defeat monsters and find a star tile to complete the level. Monsters may drop items that can i"
+  },
+  {
+    "repo": "NoxiousPluK/MonoGame.Primitives2D",
+    "path": "README.md",
+    "sha": "b6f0385537274d3b72e794da92d9d32fa47d43c4",
+    "url": "https://github.com/NoxiousPluK/MonoGame.Primitives2D/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# MonoGame.Primitives2D\nThe 2D XNA Primitives project ported to the modern world.\n\nNuGet package: https://www.nuget.org/packages/MonoGame.Primitives2D/\n\nSample project: https://github.com/DoogeJ/MonoGame.Primitives2D.Sample\n\n## Changelog\n### 2020-02-19 (1.1.1)\nNuGet package fixes\n * ReferencedFrameworkAssemblies created an issue in the NuGet package\n\n### 2020-02-19 (1.1.0)\nGeneral clean-up and preparations to create a NuGet package:\n * Clean up license and readme\n * Remove sample project\n * Update MonoGame to version 3.7.1.189\n * Update the project files to Visual Studio 2019\n * Add MonoGame icon\n * Update Assembly information in preparation for NuGet package creation\n * Create NuGet package manifest\n\n### 2017-11-27 (1.0.0)\nDifferences with the original [repository](https://bitbucket.org/C3/2d-xna-primitives/wiki/Home) (last updated 2012):\n * Updated the project files to Visual Studio 20"
+  },
+  {
+    "repo": "rogerboesch/tanks",
+    "path": "README.md",
+    "sha": "08697d869701e620cbbcfef0b1b11e696c160fc9",
+    "url": "https://github.com/rogerboesch/tanks/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# Tanks - Gameplay example with SpriteKit\n\nThis SpriteKit based tank game is not a full featured game but shows many of the main concepts of a real game (using SpriteKit and Swift 4).\nTopics covered:\n- Scrolling\n- Level creation (Hills)\n- Physics 2D\n- Gameplay\n- Scoring\n- HUD's\n- Sounds\n- Particle Systems\n- Multiplatform (iOS, tvOS, macOS)\n\n![Screenshot 1](/screenshots/screenshot1.png)\n\n![Screenshot 2](/screenshots/screenshot2.png)\n\n"
+  },
+  {
+    "repo": "remarkablegames/phaser-template",
+    "path": "README.md",
+    "sha": "a03b93f9e7b404a574f6dc3a1e26013c30e5496a",
+    "url": "https://github.com/remarkablegames/phaser-template/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "<p align=\"center\">\n  <img src=\"public/logo192.png\" alt=\"Phaser Template\">\n</p>\n\n# Phaser Template\n\n[![release](https://img.shields.io/github/v/release/remarkablegames/phaser-template)](https://github.com/remarkablegames/phaser-template/releases)\n[![build](https://github.com/remarkablegames/phaser-template/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablegames/phaser-template/actions/workflows/build.yml)\n\n<kbd>phaser-template</kbd> is a template for making [Phaser](https://phaser.io/) games. The template is inspired by the tutorial \"[Making your first Phaser 3 game](https://phaser.io/tutorials/making-your-first-phaser-3-game)\".\n\nPlay in your browser:\n\n- [remarkablegames](https://remarkablegames.org/phaser-template/)\n\nOr download for desktop:\n\n- [Windows](https://github.com/remarkablegames/phaser-template/releases/latest/download/windows.zip)\n- [macOS](https://github.co"
+  },
+  {
+    "repo": "AnimaRain/ShootAR",
+    "path": "README.md",
+    "sha": "8624c8cc2caaab533af39c6acad1f9b2dce6095d",
+    "url": "https://github.com/AnimaRain/ShootAR/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# ShootAR\nThis is our graduation project for [Computer & Informatics Engineering Department of Technological Educational\nInstitute of Western Greece](http://www.cied.teiwest.gr).\n\nShootAR is an AR game for Android built with the Unity game engine. Enemies appear in the area around the player\nand the player uses the phone's camera and gyroscope to aim and shoot them.\n\n*If you have a question that was not answered in this readme or the\n[closed issues](https://github.com/AnimaRain/ShootAR/issues?q=is%3Aclosed+label%3Aquestion), or you find a mistake\nor discrepancy in this readme, you are more than welcome to open a new issue or contact one of the [maintainers](#authors).*\n\n## Table of contents\n1. [Requirements](#requirements)\n2. [Installation](#installation)\n3. [Building](#building)\n   1. [Required software](#required-software)\n   2. [Downloading the source files](#downloading-the-source-fi"
+  },
+  {
+    "repo": "avagyanah/phaser3-i18n-plugin",
+    "path": "README.md",
+    "sha": "a6bc562a2d72f98f742fc76441e78de7b06a3806",
+    "url": "https://github.com/avagyanah/phaser3-i18n-plugin/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# Phaser3 i18n Plugin\n\n[![Build Status](https://travis-ci.org/koreezgames/phaser3-i18n-plugin.svg?branch=master)](https://travis-ci.org/koreezgames/phaser3-i18n-plugin) [![David](https://david-dm.org/koreezgames/phaser3-i18n-plugin.svg)]() [![Project status](https://img.shields.io/badge/status-active-brightgreen.svg)](#status)\n\nPhaser3 i18n is a plugin for Phaser 3 that allows you to have seamless translations in your game. It uses **[i18next](https://github.com/i18next/i18next)** as it's source for translations management, which is widely adopted by the JS community in other projects as well.\n\nKey features:\n\n* Support for translations namespaces\n* Simple key/value JSON\n* Seamless switching of languages\n* No extra function calls for translating strings, directly build into Phaser's Text object\n\n## Getting Started\n\n### Installation\n\n#### **_Using script tag:_**\n\n[![](https://data.jsdelivr"
+  },
+  {
+    "repo": "jdotrjs/phaser3-nineslice",
+    "path": "README.md",
+    "sha": "f8955a3541d0b0c51afe168dba8da24dfdd98375",
+    "url": "https://github.com/jdotrjs/phaser3-nineslice/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# Phaser3 9-slice Plugin\n\n> This is built for Phaser v3 and was inspired by the fantastic v2/CE version\ncontributed by [AleBles][AleBles]. Find it at [@orange-games/phaser-nineslice][orange].\n>\n> This plugin is not actively maintained but I am happy to apply PRs and push a\n> new builds as things come in. Additionally If somebody wants to fork I can redirect\n> folks to a new repo as well :bow:\n\n[AleBles]: https://github.com/AleBles\n[orange]: https://github.com/orange-games/phaser-nineslice\n\n## Would you like to adopt me?\n\nI fell out of phaser development many years and didn't realize this library was still\ngetting use 😅. If you'd like to adopt it I'm sure it would love a little care and\nfeeding. I'll watch for updates to [this ticket][love_me_plz] and then hopefully\nsomebody can un-mothball ye olde plugin.\n\n[love_me_plz]: https://github.com/jdotrjs/phaser3-nineslice/issues/52\n\n## What is"
+  },
+  {
+    "repo": "fkworld/cocos-game-framework",
+    "path": "README.md",
+    "sha": "c18a21297ea215b401ffa79ce08e3e747b58ef35",
+    "url": "https://github.com/fkworld/cocos-game-framework/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# cocos 轻量级游戏框架\n\n![](https://img.shields.io/badge/Creator版本-2.4.0-blue)\n![](https://img.shields.io/badge/框架版本-1.0.0-blue)\n![](https://img.shields.io/badge/脚本语言-TypeScript-blue)\n[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)\n[![blog](https://img.shields.io/badge/blog-game--develop--road-yellow.svg)](https://www.yuque.com/fengyong/game-develop-road)\n\n## 说明\n\n- 以个人实践为主，有些方案并非是最佳实践。\n- 适用于轻量级游戏，单一场景，界面使用 prefab 进行管理。\n- 适用于新手，仅包含一些基础的游戏模块。\n- 为什么需要游戏框架？https://www.yuque.com/fengyong/game-develop-road/dmuel4\n\n## 使用方法\n\n- 拷贝 release 页面中的相应文件到自己的项目中。\n  - fy-\\*.d.ts，是框架声明文件，需要拷贝到 assets 目录外。\n  - fy-\\*.dev.js，是框架文件，需要拷贝到 assets 目录下，并设置为插件脚本。\n  - fy-\\*.min.js，是框架压缩文件，用于代替 dev.js 文件。不推荐使用，因为我已不再开发游戏，缺少大量的实际测试，框架不可避免会有一些 bug，使用压缩文件不易 debug。\n- 下载完整项目，执行 `npm install && npm run build` 命令，拷贝 dist 目录下的相应文件到项目中。\n- 模块实现参考。\n\n## 项目\n\n### 工具依赖\n\n- typescript\n- eslint\n- prettier\n- j"
+  },
+  {
+    "repo": "diguifi/Dude-SideScroll",
+    "path": "README.md",
+    "sha": "c28dead5d381393c599ffc582a7a307264cced10",
+    "url": "https://github.com/diguifi/Dude-SideScroll/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "﻿# Dude's Quest\n[![CodeFactor](https://www.codefactor.io/repository/github/diguifi/dude-sidescroll/badge/master)](https://www.codefactor.io/repository/github/diguifi/dude-sidescroll/overview/master)\n![GitHub last commit](https://img.shields.io/github/last-commit/diguifi/Dude-SideScroll.svg?style=popout)\n![GitHub stars](https://img.shields.io/github/stars/diguifi/Dude-SideScroll.svg?style=popout)\n\n<p align=\"center\">\n  <img src=\"https://user-images.githubusercontent.com/31022286/53242999-45bbda00-3685-11e9-88d5-78c1cb259fba.gif\"/>\n</p>\n\n# [Play!](https://diguifi.itch.io/dudes-quest)\n_(not fully supported on Edge)_\n\nA side-scrolling adventure game, featuring Dude, from [Adventures of Dude in the Top-Down world](https://github.com/diguifi/Dude-TopDown).\n\nEmbrace this quest to save the princess \"Princess\" and bring peace once again to the kingdom!  \nDeal with evil little goblins and cool puzz"
+  },
+  {
+    "repo": "siliconion/towerDefense",
+    "path": "README.md",
+    "sha": "5aa5928e2fbc499894e2c651d9d96ffd38366c7c",
+    "url": "https://github.com/siliconion/towerDefense/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# Tower Defense\n\nShoot down the patriarchy with our rainbow laser :rainbow: :rainbow: :rainbow:\n\nStarted at Women Who Code Austin 4th Diversity Hackthon with the following awesome crew:\n* [siliconion](https://github.com/siliconion)\n* [s3rj](https://github.com/s3rj)\n* [rachiebytes](https://github.com/rachiebytes)\n* [cutofmyjib](https://github.com/cutofmyjib)\n* [t886515](https://github.com/t886515)\n\nThe goal for this project is to learn about canvas and game developing.\n\n### Tech Stack\nHTML5 canvas. Pure ES6!\n \n\n### Quick Start\nOpen index.html in your browser, and begin to play!\n\nCurrently the game is only tested in Chrome 69.\n\n### Code Walk-through\n\n##### Components\nA tower defense game is consists of 3 different types of components:\n* Grid: the play area. It contains info about where the towers are.\n* Mob: the enemies that are attacking you! They can only move, until the reach the end an"
+  },
+  {
+    "repo": "coucoutuveuxvoir/mabit",
+    "path": "README.md",
+    "sha": null,
+    "url": null,
+    "status": "NOT_FOUND",
+    "excerpt": ""
+  },
+  {
+    "repo": "IgorRozani/flappy-bird",
+    "path": "README.md",
+    "sha": "4eb8cd25034af70e8a51c345b451126e5dc8df30",
+    "url": "https://github.com/IgorRozani/flappy-bird/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# Flappy Bird ![Flappy Bird](img/favicon.png) \nA Flappy Bird game in [Phaser 3](https://phaser.io/).\n\n[Check it live!](https://igorrozani.github.io/flappy-bird)\n\n## Table of Contents\n* [Game screenshots](#game-screenshots)\n* [Assets](#assets)\n* [How to](#how-to)\n    * [Run it](#run-it)\n    * [Generate documentation](#generate-documentation)\n* [Wiki](#wiki)\n* [License](#license)\n\n\n## Game screenshots\n![Main menu](img/print01.png)\n\n*Main menu*\n\n\n![Playing](img/print02.png)\n\n*Playing*\n\n![Game over screen](img/print03.png)\n\n*Game over*\n\n## Assets\nThe assets used in this project came from the project [FlapPyBird](https://github.com/sourabhv/FlapPyBird) created by [Sourabh Verma](https://github.com/sourabhv).\n\n## How to \n\n### Run it\n1. Clone this repository or click Download ZIP in right panel and extract it \n```\ngit clone https://github.com/IgorRozani/flappy-bird.git \n```\n2. Install [Http-Ser"
+  },
+  {
+    "repo": "narakai/so-many-games-master",
+    "path": "README.md",
+    "sha": "c2cb831d9b019fba4797788ed64a51198697a99b",
+    "url": "https://github.com/narakai/so-many-games-master/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# so-many-games\n\n**电脑端试玩**\n\n[https://potato47.github.io/so-many-games/desktop/](https://potato47.github.io/so-many-games/desktop/)\n\n**手机端扫描关注微信公众号[新手程序员]，菜单栏点击“游戏机\"进入游戏**\n\n![新手程序员](./screenshots/公众号二维码.jpg)\n\n------\n\n|      游戏       |                    玩法                    |                 截图                 |   完成时间    |\n| :-----------: | :--------------------------------------: | :--------------------------------: | :-------: |\n|   **人机五子棋**   |            人机对战，电脑白棋后手，水平幼儿园             |  ![五子棋](./screenshots/gobang.png)  | 2018.2.17 |\n|   **人机黑白棋**   |             人机对战，电脑白棋后手，水平初中             | ![黑白棋](./screenshots/reversi.png)  | 2018.2.19 |\n| **2048丨程序员版** |     手势操作，上下左右，相同数字碰见合并，不封顶，不能滑动游戏结束      |  ![2048](./screenshots/2048.png)   | 2018.2.22 |\n|  **跳一跳丨言情版**  |             长按屏幕蓄力跳。故事结尾让人流泪             |   ![跳一跳](./screenshots/jump.png)   | 2018.3.4  |\n| **拼图丨新垣结衣版**  |       "
+  },
+  {
+    "repo": "dylanmpeck/PompaDroid",
+    "path": "README.md",
+    "sha": "ff150f15bf93613d0c1cd3eed4c848ec4940518b",
+    "url": "https://github.com/dylanmpeck/PompaDroid/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "<h2>PompaDroid</h2>\r\n\r\nA simple 2D beat em up game made in Unity using assets and instructions from a Ray Wenderlich tutorial series found here: https://www.raywenderlich.com/5568-unity-beat-em-up-game-tutorial-getting-started\r\n\r\nThis project was a means of exploring and learning the Unity engine better.\r\n\r\n<h3>Click for Gameplay Demo</h3>\r\n\r\n[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/n4CmoxLUtxw/0.jpg)](https://youtu.be/n4CmoxLUtxw)\r\n\r\n<h3>Screenshots</h3>\r\n\r\n![alt-text](https://github.com/dylanmpeck/PompaDroid/blob/master/screenshots/jump.png \"Jump attack\")\r\n![alt-text](https://github.com/dylanmpeck/PompaDroid/blob/master/screenshots/boss.png \"Boss\")\r\n![alt-text](https://github.com/dylanmpeck/PompaDroid/blob/master/screenshots/gameplay.png \"Gameplay\")\r\n\r\n<strong>UI for Mobile Builds: </strong>\r\n\r\n![alt-text](https://github.com/dylanmpeck/PompaDroid/blob/master/screenshots/mobile"
+  },
+  {
+    "repo": "ConnorUllmann/Idle",
+    "path": "README.md",
+    "sha": "7cd3344929563d25c8a3d6235531e57ec62bd5a3",
+    "url": "https://github.com/ConnorUllmann/Idle/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# Idle\n"
+  },
+  {
+    "repo": "nguoianphu/phaser3-isometric-plugin",
+    "path": "README.md",
+    "sha": "5028779cfc52fb0f262074f179c551760e8f92ca",
+    "url": "https://github.com/nguoianphu/phaser3-isometric-plugin/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# Phaser 3 iso plugin by Koreez Games\n\n``` npm i --save @koreez/phaser3-isometric-plugin ```\n"
+  },
+  {
+    "repo": "atilsamancioglu/IOS11-CatchTheKennyGame",
+    "path": "README.md",
+    "sha": "c534f37ea7da30f761530e4e5321ea42fda2e123",
+    "url": "https://github.com/atilsamancioglu/IOS11-CatchTheKennyGame/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# IOS11-CatchTheKennyGame\n"
+  },
+  {
+    "repo": "mkayys/spotlight",
+    "path": "README.md",
+    "sha": "e0480542c7bee264ba54d0b6b02ffcb18221cf19",
+    "url": "https://github.com/mkayys/spotlight/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# Spotlight\n\n## Background\nSpotlight is a game, where Simon Says meets maze. A player must memorize the right sequence of moves to get to the exit. One wrong move and the player must start over from the first platform.\n\n## Architecture and Technologies\n\nThis project implemented the following:\n\n* Vanilla JavaScript for game logic\n* HTML5 Canvas for rendering \n* Spritesheet for the main character\n* Webpack to bundle and run all the scripts\n\n## Functionality and MVP\n\n* Players can control the character with the arrow keys on the keyboard (Left, Right, Up, Down)\n* Players can only see the platform they are on\n\n### Character Movement\n* Character is rendered through canvas and animated with a spritesheet (rendering different frames for when the character is idle, moving left, right, up, or down)\n\n\n## Future Implementations\n\n* Render the grid and tiles\n* Random generation of playing field for m"
+  },
+  {
+    "repo": "yangrc1234/Unity2DShadowMap",
+    "path": "README.md",
+    "sha": "cd4fa32729319cf9f29e68c9bc75d5e6e83d1865",
+    "url": "https://github.com/yangrc1234/Unity2DShadowMap/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# Unity2DShadowMap\nThis repo shows a demo for the idea using shadowmap in 2d unity game.\n\n![](Images/Preview.gif)\n\nTHIS IS ONLY A DEMO. It only contains very simple lighting behaviour, and it's not for making marvelous 2d graphics. It is only for providing the idea.\n\n# Details\nThe method is of three steps.\n1. Create shadow line mesh for each shadow caster. This doesn't need to be done every frame.\n2. Render shadow mesh to each light's shadowmap. For point light, its shadowmap is 4 rows in the shadowmap texture(each row stands for a 90 degrees range).\n3. Use shadow map to draw light. In the demo, a simple additive light is used. It samples the shadow map and does shadowing.\n\n# References\n[Fast 2D shadows in Unity using 1D shadow mapping](https://www.gamasutra.com/blogs/RobWare/20180226/313491/Fast_2D_shadows_in_Unity_using_1D_shadow_mapping.php)"
+  },
+  {
+    "repo": "MonoGame/MonoGame.Framework.Net",
+    "path": "README.md",
+    "sha": "9c3027d73a6053b203db64e3fbf656a2a1410b0f",
+    "url": "https://github.com/MonoGame/MonoGame.Framework.Net/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# MonoGame.Framework.Net"
+  },
+  {
+    "repo": "ShawnZhang2015/creator-game-legends",
+    "path": "README.md",
+    "sha": null,
+    "url": null,
+    "status": "NOT_FOUND",
+    "excerpt": ""
+  },
+  {
+    "repo": "photonstorm/box2d-lite",
+    "path": "README.md",
+    "sha": "5ffe6c5dc0561858657404fc437b133d4f08138f",
+    "url": "https://github.com/photonstorm/box2d-lite/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# Box2D Lite TypeScript\n\nThis is a port of Erin Catto's [Box2D Lite](https://github.com/erincatto/box2d-lite) to TypeScript.\n\n![image](pages/instancetest.png)\n\n## v0.0.1\n\nAll classes ported. Test bed created. Everything runs, but it's generating a staggering number of vec2 and mat22 instances per frame. Currently, the test is creating 274,000 vec2s and 37,000 mat22s per frame at 20 world iterations. This needs sorting. Inline math to the rescue.\n\n20 world iterations:\n\n```\nFrame: 200 = 201,806 vec2s - 36,926 mat22s\nFrame: 600 = 274,009 vec2s - 37,007 mat22s\n```\n\n10 world iterations:\n\n```\nFrame: 200 = 190,846 vec2s - 36,929 mat22s\nFrame: 600 = 226,913 vec2s - 37,007 mat22s\n```\n\nAll tests from now will use 10 iterations.\n\nNote that the totals are how many _brand new_ vec2 and mat22 instances are created\nin that one single frame. I.e. used purely for collision math.\n\nWhy frames 200 and 600? "
+  },
+  {
+    "repo": "baba-s/techbook-unity-2d-action-game",
+    "path": "README.md",
+    "sha": "72b7a8cc4a7f12aca16e4daa31a6852301b3cb4b",
+    "url": "https://github.com/baba-s/techbook-unity-2d-action-game/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# 「Unityで作る2Dアクションゲーム」の完成プロジェクト\n\n![](https://github.com/baba-s/techbook-unity-2d-action-game/raw/master/game.gif)\n\n## 操作方法\n\n|キー|内容|\n|:--|:--|\n|矢印キー|移動|\n|スペースキー|ジャンプ、二段ジャンプ、カベキック|\n\n## Unity プロジェクトの入手方法\n\n1. このページの「Clone or download」ボタンから「Download ZIP」を選択する\n2. ダウンロードした「techbook-unity-2d-action-game-master.zip」を展開する\n3. 展開した「techbook-unity-2d-action-game-master」フォルダを Unity で開く\n\n## 実行ファイルの入手方法\n\n1. 下記の URL を開く  \nhttps://github.com/baba-s/techbook-unity-2d-action-game/blob/master/Game.zip?raw=true  \n2. ダウンロードした「Game.zip」を展開する\n3. 展開したフォルダ内の「proj.exe」を開く\n\n## 知的財産の表記\n\n### Unity 2D Platformer Controller\n\nhttps://github.com/cjddmut/Unity-2D-Platformer-Controller\n\n```\nThe MIT License (MIT)\n\nCopyright (c) 2014 C.J. Kimberlin\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without "
+  },
+  {
+    "repo": "Colmea/alkito-js-mmorpg",
+    "path": "README.md",
+    "sha": "d70651d1a5bf8821b11de873124b1dc83a52b5bf",
+    "url": "https://github.com/Colmea/alkito-js-mmorpg/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# alkito-js-mmorpg\n\n*This is a Work In Progress*\n\n\nAlkito is a 2D MMORPG in the browser, built with Phaser.js (Typescript) and Node.js (server side).\n\n![Alkito Screenshot](https://user-images.githubusercontent.com/974918/80958409-48779a80-8e05-11ea-96da-975befe49b7c.jpg)\n\n"
+  },
+  {
+    "repo": "shivmsit/FlappyBird",
+    "path": "README.md",
+    "sha": "c40ddcaba2f12060f7d0a2c04270c682b8eee90c",
+    "url": "https://github.com/shivmsit/FlappyBird/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# FlappyBird\n\nThis is FlappyBird re-implementation of [Godot Engine Tutorial - Flappy Bird](https://bitbucket.org/EdwardAngeles/godot-engine-tutorial-flappy-bird) in godot 3.2\n\n## Notice\nAll the assets in this game are taken from original tutorials and Author did not mention the license. If the auther or copyright holder would like for the assets to be removed, please open an issue.\n\n## License\nSource code is provided under [MIT](https://choosealicense.com/licenses/mit/)\n"
+  },
+  {
+    "repo": "gamedevsam/phaser",
+    "path": "README.md",
+    "sha": "d07302429601af308ded99fe58433223a7c34bc7",
+    "url": "https://github.com/gamedevsam/phaser/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# Phaser 4 - HTML5 Game Framework\n\nRebooting the Phaser universe from scratch.\n\n![Phaser4](logo.png)\n\nExamples can be found in the [Phaser 4 Examples repo](https://github.com/phaserjs/examples).\n\nDeveloper updates can be found on the [Phaser Patreon](https://www.patreon.com/join/photonstorm).\n\nGet the latest release from npm:\n\n```\nnpm install @phaserjs/phaser --save-dev\n```\n\nKeep updating it. It's changing multiple times per day.\n\nYou can find all packages under the [@phaserjs](https://www.npmjs.com/settings/phaserjs/packages) organization.\n\n## npm development scripts\n\n| script | action |\n| ------ | ------ |\n| `lint` | Run ESLint across the whole src folder in fix mode |\n| `debug` | Build the main Phaser 4 modules, useful for checking for package errors |\n| `build` | Build all of the Phaser 4 modules |\n| `watch` | Build all modules and enter watch mode |\n| `build-dev` | Build the `dev/in"
+  },
+  {
+    "repo": "andredarcie/the-legend-of-link",
+    "path": "README.md",
+    "sha": "4c7a87d9809e2133ec4d80dcb460f652c4e9a38a",
+    "url": "https://github.com/andredarcie/the-legend-of-link/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# ⚔️ The legend of Link\nA zelda-like game made in Godot\n\n[Play it](https://andredarcie.github.io/the-legend-of-link/)\n"
+  },
+  {
+    "repo": "Rilliane/Chemistry-Game",
+    "path": "README.md",
+    "sha": "121a1564f151425db7d9c667682b697402acdf8a",
+    "url": "https://github.com/Rilliane/Chemistry-Game/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# Chemistry-Game\n一个化学题材的塔防游戏，用cocos creator开发，typescript编写脚本\n\n- 打开工程的方法\n1. 安装cocos creator2.3.3\n2. 下载本项目的工程\n3. 打开cocos creator，选择“项目” “导入”，再选择本工程所在的路径，确认，即可打开工程\n\n"
+  },
+  {
+    "repo": "CoDaS-Lab/ASIST-Client",
+    "path": "README.md",
+    "sha": "f597542d0f7f47789608a6df843a0e6fdc6274ed",
+    "url": "https://github.com/CoDaS-Lab/ASIST-Client/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# CODAS LAB EXPERIMENT\n\nThis client is in beta version and part of a game built for ASIST project using Phaser.js. The client works with the API available at [ASIST-API](https://github.com/CoDaS-Lab/ASIST-API)\n\n## Requirements\n\n- Node 16.9.1+\n\n## Running on localhost\n\n1. Install node modules from the current directory of the project\n     - `npm install`\n2. Set up environment variables\n   - `LOCAL_SOCKET_URL`: API server URL. for example: `https://api-asist.herokuapp.com/` or `http://127.0.0.1:5000/`\n   - `PORT=\"880\"`\n   - `IP=\"0.0.0.0\"`\n3. Start the node server and it should be should be available at `http://localhost:880`\n     - `node server.js`\n"
+  },
+  {
+    "repo": "MonoGame-Extended/MonoGame-Extended-Samples",
+    "path": "README.md",
+    "sha": null,
+    "url": null,
+    "status": "NOT_FOUND",
+    "excerpt": ""
+  },
+  {
+    "repo": "khasanovbi/phaser3-rex-plugins-types",
+    "path": "README.md",
+    "sha": "6e424cfb299712bd5c4cb1a265cbb0505410a156",
+    "url": "https://github.com/khasanovbi/phaser3-rex-plugins-types/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# phaser3-rex-plugins-types\n\n[![npm](https://img.shields.io/npm/v/phaser3-rex-plugins-types.svg)](https://www.npmjs.com/package/phaser3-rex-plugins-types)\n[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)\n[![Build Status](https://travis-ci.org/khasanovbi/phaser3-rex-plugins-types.svg?branch=master)](https://travis-ci.org/khasanovbi/phaser3-rex-plugins-types)\n\nTypes for [phaser3-rex-plugins](https://github.com/rexrainbow/phaser3-rex-notes)\n\n## Getting Started\n\nInstall the module:\n\n```\nnpm i --save phaser3-rex-plugins-types\n```\n\nAdd to your `tsconfig.json` next lines:\n```\n    \"include\": [\n        \"**/*\",\n        \"node_modules/phaser3-rex-plugins-types\"\n    ]\n```\n\n# Supported plugins\n\n## Loader\n\n- [x] [Webfont loader](https://rexrainbow.github.io/phaser3-rex-notes/docs/site/webfontloader/)\n- [x] [Await loader](https:"
+  },
+  {
+    "repo": "liurongqing/phaser3-align-plugin",
+    "path": "README.md",
+    "sha": "688fb2a5a6888c1539475f4688c491f3f138e72a",
+    "url": "https://github.com/liurongqing/phaser3-align-plugin/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# Installation\n\n```bash\nyarn add phaser3-align-plugin\n```\n\n# Usage\n\n1. Import the plugin\n    ```typescript\n    import { AlignPlugin } from 'phaser3-align-plugin'\n    const config = {\n        plugins: {\n            scene: [\n                {\n                    key: 'AlignPlugin',\n                    plugin: AlignPlugin,\n                    mapping: 'align'\n                }\n            ]\n        },\n    }\n    ```\n\n1. Use it\n    ```typescript\n    // Scale\n    this.align.envelop(sprite, 1)\n    this.align.vw(sprite, 1)\n    this.align.vh(sprite, 1)\n\n    // Open grid\n    this.align.grid({rows: 7, cols: 7, debug: true, color: 0xff0000})\n\n    // position\n    this.align.placeAt(sprite, row, col)\n    this.align.placeAtIndex(sprite, index)\n    ```"
+  },
+  {
+    "repo": "projectcerulean/cerulean",
+    "path": "README.md",
+    "sha": "47984e21501799dff6be59cc7362e1f1e6b0b490",
+    "url": "https://github.com/projectcerulean/cerulean/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# Project Cerulean\n\n![](https://raw.githubusercontent.com/projectcerulean/cerulean-img/master/img/screenshots/2022/test_scene.jpg)\n\nJust me making a video game.\n\n\n## Running prebuilt version\n\n1. Download the Godot game engine, version 4.3: https://godotengine.org/download\n2. Grab the latest Cerulean PCK file from the build service: https://builds.sr.ht/~gullik/cerulean/commits/master\n3. Place the Cerulean PCK and the Godot executable in the same directory\n4. Rename the Godot executable to 'cerulean' and run it\n\n## Input map\n\nUsing a gamepad is highly recommended.\n\n| Input                           | Gamepad                                     | Keyboard + mouse     |\n| ------------------------------- | ------------------------------------------- | -------------------- |\n| Move                            | Left stick                                  | WASD                 |\n| Jump        "
+  },
+  {
+    "repo": "yanjifa/game-template",
+    "path": "README.md",
+    "sha": "1dbaa5828e982fc0e8c50364a505a2a4d2d00fa9",
+    "url": "https://github.com/yanjifa/game-template/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "# Cocos Creator 第二优雅的多语言组件实现\n![cocos creator](https://img.shields.io/badge/cocos%20creator-2.4.3-green)\n\n\n- [Cocos Creator 第二优雅的多语言组件实现](#cocos-creator-第二优雅的多语言组件实现)\n    - [简介](#简介)\n    - [怎么跑起来](#怎么跑起来)\n    - [目录结构](#目录结构)\n    - [实现方式](#实现方式)\n\n\n## 简介\n基于 cocos creator 2.4.3 的一个手游项目模板, 提供一些自定义组件以及 Demo, 不定期维护中, 欢迎点赞收藏...\n感兴趣一起交流的可以加我的微信: yanjfia2013, 备注 creator\n\n项目地址: [https://github.com/yanjifa/game-template](https://github.com/yanjifa/game-template)\n\n* 本次着重介绍多语言组件, [Demo在线查看](https://yanjifa.github.io/web-desktop/)\n目前的多语言组件如果想对已经上线的项目进行多语言支持, 普遍都要我对每个 Label 组件都操作一遍, 挂上组件脚本, 这波操作说实话, 小项目还好, 大项目简直让人崩溃。\n所以之前基于 1.10.3 版本搞了一个使用上更方便的多语言实现, 现在适配到 2.4.3 版本, 并添加了对 BMFONT 的支持。\n    * 继承 cc.Label 内置组件实现, 使用上完全兼容 cc.Label。\n    * 老项目方便接入, vscode 全局查找替换即可。\n    ```JavaScript\n    // cocos creator 开发者工具, 控制台输入\n    // uuid 为 LocalizedLabel.ts 脚本的 uuid\n    Editor.Utils.UuidUtils.compressUuid(\"712432e0-72b6"
+  },
+  {
+    "repo": "pengsoo-run/pengsoo-run",
+    "path": "README.md",
+    "sha": "abddd9ed62371f037b6b186552819ed76c4d16d5",
+    "url": "https://github.com/pengsoo-run/pengsoo-run/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# 🐧 Pengsoo Run\n\n<img src=\"README.assets/preview.png\" alt=\"pengsoo-run\" width=\"75%\" />\n\n**펭수런**은 Canvas 위에서 펭수와 함께 쉬지않고 달리는 웹 게임입니다.\n\n게임화면과 게임패드를 각각 **다른 디바이스를 사용하여 플레이**하도록 하여 추억의 팩 게임을 연상시킬 수 있게끔 구현하였습니다. 최대 3인까지 멀티플레잉이 가능하지만 각 플레이어마다 펭수를 컨트롤 하는 역할만 다르게 부여되므로 모든 플레이어는 한마음이 되어야 합니다.\n\n<br>\n\n###  🎮 Let's play Pengsoo Run!\n\n<p>\n  <img src=\"README.assets/pengsoo-run.gif\" alt=\"pengsoo-run\" width=\"40%\" />\n  <img src=\"README.assets/play.jpg\" width=\"45%\" />\n</p>\n\n> 🔗 배포 사이트 :  [https://pengsoo-run.live/](https://pengsoo-run.live/)\n\n> 🔗 전체 플레이 영상 :  [https://youtu.be/qQbZtCGF5fU](https://youtu.be/qQbZtCGF5fU)\n\n<br>\n\n## 🚀 Shortcut\n\n- 💡 [Inspiration](#-Inspiration)\n- 📆 [Schedule](#-Schedule)\n- 🛠 [Tech Stack](#-Tech-Stack)\n- 💾 [Usage](#-Usage)\n- 📡 [Deploy](#-Deploy)\n- ✨ [Features](#-Features)\n- 🎯 [WHY (About Tech Stack)](#-why-about-tech-stack)\n- 🌊 [Challenge](#-Challenge)\n\n<br>\n\n## 💡 "
+  },
+  {
+    "repo": "Plastix/Buzz",
+    "path": "README.md",
+    "sha": "cff8ba0e52e8d451bd4c69ab6a4dfd74633f4ddb",
+    "url": "https://github.com/Plastix/Buzz/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "# Buzz [![LICENSE](https://img.shields.io/badge/License-Mozilla-blue.svg?style=flat)](https://github.com/Plastix/Buzz/blob/4f77caf4d48ba260d303e4535037e222b6911a87/LICENSE) [![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21)\nSpelling Bee game for Android\n![playstore_promo](https://user-images.githubusercontent.com/1526881/114287756-59218f00-9a1e-11eb-8e65-e94799d20772.png)\n\n\n\n## Screenshots\n| | | |\n|--|--|--|\n| ![image](https://user-images.githubusercontent.com/1526881/114287838-33e15080-9a1f-11eb-8afd-7582f2fcddec.png) | ![image](https://user-images.githubusercontent.com/1526881/114287844-4196d600-9a1f-11eb-86ca-3aae4f0a8f2d.png) | ![image](https://user-images.githubusercontent.com/1526881/114287852-4d829800-9a1f-11eb-8b6f-eedc01e9d823.png) | \n| ![image](https://user-images.githubusercontent.com/1526881/114287842-39d73180"
+  },
+  {
+    "repo": "megbrimef/urso-slot-base",
+    "path": "README.md",
+    "sha": "31dfbe0d47cd126ad729b2bb87278185da471ea5",
+    "url": "https://github.com/megbrimef/urso-slot-base/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "URSO HTML5 Slot Machine\n=============\n\n![ursojs.io logo](https://ursojs.io/img/logo.png)\n\n\n### About ###\n\nThis is slot machine game Engine. Main components for the slot machines creation.\n\n- Responsive (for mobile)\n- Fullscreen mode\n- Fast performance\n- Low bundle size\n- Spine support\n\n\n**[Live Demo](https://examples.ursojs.io/slotBase_simpleSlot/build/index.html)**\n\n### Learn more ###\n- You can find more information on the [official website](https://ursojs.io/)\n- Explore working [examples](https://ursojs.io/examples.html) demos and see the code structure\n- Clone [examples repository](https://github.com/megbrimef/urso-examples) to fast learning\n- Join [discord channel](https://discord.gg/JauD9CbDHA) to ask questions and read changelogs\n\n### How to ###\n\n- create index.js with game dependencies and Urso.runGame call rules. We recommend calling this function on boot\n- put the loading config"
+  },
+  {
+    "repo": "nerdsinspace/nocom-explanation",
+    "path": "README.md",
+    "sha": "7c2748ba627a3419f266f0fdedddf32c7ce392dd",
+    "url": "https://github.com/nerdsinspace/nocom-explanation/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "# No Comment Explanation and Information\n\nI'm going to share more information about nocom here, the parts that didn't make sense to put into a Fit script.\n\n<ins>**This writeup assumes you have already watched [this YouTube video](https://www.youtube.com/watch?v=elqAh3GWRpA). It won't make sense if you haven't.**</ins>\n\n**Edit 7 July 2021: I started writing the wiki page [here](https://2b2t.miraheze.org/wiki/Nocom)**\n\n**Edit 8 Feb 2022: I made the source code of nocomment-master public [here](https://github.com/nerdsinspace/nocomment-master)**\n\n**Edit 17 April 2024: [Next coordinate exploit: Randar](https://github.com/spawnmason/randar-explanation)**\n\n**Edit 25 April 2024: [All Nocom data has been released in a torrent](torrent.md)**\n\nHere's the -250k to +250k overworld heatmap at 4K resolution:\n![Image](rect_4k.png)\n\nAnd [here](https://commons.wikimedia.org/wiki/File:2b2t_Nocom_Overworld"
+  },
+  {
+    "repo": "lynn/hello",
+    "path": "README.md",
+    "sha": "972a4b3e822f43019114d25fd5e827fc34e5c527",
+    "url": "https://github.com/lynn/hello/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "# hello\n\nA word game. Play it [**here**](https://hellowordl.net/).\n\n## Introduction\n\n_hello_ is a word game similar to the TV show [Lingo](<https://en.wikipedia.org/wiki/Lingo_(British_game_show)>).\n\nYou get 6 tries to guess a 5-letter target word. After each guess, the letters light up in various colors as clues. Green means a letter is correct in this spot; yellow means a letter is _elsewhere_ in the target word; gray means a letter is not in the target word at all.\n\nClick _About_ inside the game to learn by example.\n\n## Where are the words coming from?\n\nTo generate target words, I have been manually curating the top 25,000 or so entries of [Peter Norvig's English word frequency list](http://norvig.com/mayzner.html) to get rid of obscure words, plurals, conjugated verbs, inappropriate language, and British spellings (sorry). If you get dealt a strange target word, please open an issue "
+  },
+  {
+    "repo": "remarkablegames/phaser-rpg",
+    "path": "README.md",
+    "sha": "6cf7f5ff4154b38d0c86b937b43057bc14570159",
+    "url": "https://github.com/remarkablegames/phaser-rpg/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "<p align=\"center\">\n  <img src=\"public/logo192.png\" alt=\"Phaser RPG\">\n</p>\n\n# Phaser RPG\n\n[![release](https://img.shields.io/github/v/release/remarkablegames/phaser-rpg)](https://github.com/remarkablegames/phaser-rpg/releases)\n[![build](https://github.com/remarkablegames/phaser-rpg/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablegames/phaser-rpg/actions/workflows/build.yml)\n\n<kbd>phaser-rpg</kbd> is a template for making [Phaser](https://phaser.io/) RPG games. The template is inspired by [`phaser-3-tilemap-blog-posts`](https://github.com/mikewesthad/phaser-3-tilemap-blog-posts/tree/master/examples/post-1) (read the [Medium story](https://medium.com/@michaelwesthadley/958fc7e6bbd6)).\n\nPlay in your browser:\n\n- [remarkablegames](https://remarkablegames.org/phaser-rpg/)\n\nOr download for desktop:\n\n- [Windows](https://github.com/remarkablegames/phaser-template/releases/late"
+  },
+  {
+    "repo": "engincandanabas/Tycoon_Clicker",
+    "path": "README.md",
+    "sha": "a00510b9a68004e8e708ca7d7aa5014cc4b80768",
+    "url": "https://github.com/engincandanabas/Tycoon_Clicker/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "# Tycoon_Clicker\nClicker Tycoon game with Unity\n"
+  },
+  {
+    "repo": "Talha-shamim/Ozone",
+    "path": "README.md",
+    "sha": "3495665546bdb9069032a4481688cc0338d51e38",
+    "url": "https://github.com/Talha-shamim/Ozone/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# Project: Ozone\n\n<br>\n\n## Description\n\n<br>\n\n### Problem\n\nOur team engages with **Sustainable Development Goal 13: Climate Change.**\n\nClimate change has become one of the prime concerns for humanity in the past decade. Countless efforts are being made to come up with solutions to counter this problem for the social interest of all living creatures on Earth. One problem among others was ozone layer depletion due to the release of gases containing halogens like CFCs(chlorofluorocarbons).\n\nOzone layer depletion causes increased UV radiation levels at the Earth's surface, which is damaging to human health. Negative effects include increases in certain types of skin cancers, eye cataracts and immune deficiency disorders. UV rays also affect plant growth, reducing agricultural productivity.\n\nOne of the ways to deal with problems on a global scale is to spread public awareness. Public opinion "
+  },
+  {
+    "repo": "KeJunMao/emoji-survival-game",
+    "path": "README.md",
+    "sha": "38da902b94c2148736a45032f8370a86b61f6341",
+    "url": "https://github.com/KeJunMao/emoji-survival-game/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "## emoji SURVIVAL\n\n1. 组\n2. 孩子\n3. 碰撞事件\n\n## 三种 NPC\n\n### 恶魔\n使用属性购买道具，增加一定量的邪恶值，邪恶值会影响怪物属性\n若碰到后不买，\n### 仙女\n使用邪恶值购买增益道具，当前邪恶值越高，属性越好\n\n### 黑市商人\n使用金币购买道具"
+  },
+  {
+    "repo": "kennedyvnak/unity-metroidvania",
+    "path": "README.md",
+    "sha": "ee08701c05fdeae9113090e67fbdce411acf587e",
+    "url": "https://github.com/kennedyvnak/unity-metroidvania/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "# Metroidvania\n\n## Introduction\n\nUnity Metroidvania is a metroidvania game written in C# using the Unity Engine.\nStraightforward.\n\n> [!NOTE]\n> You can check the older version (for Unity 2021) in the branch\n> [v1](https://github.com/kennedyvnak/unity-metroidvania/tree/v1)\n\n![ThePaleMoonlightSample](/Docs/ReadmeImages/ThePaleMoonlightSample.png)\n\n## Credits to the artists\n\n### Main\n\n- [Player](https://aamatniekss.itch.io/fantasy-knight-free-pixelart-animated-character)\n\n### Entities\n\n- [Undead Executioner](https://darkpixel-kronovi.itch.io/undead-executioner)\n- [Skeleton](https://astrobob.itch.io/animated-pixel-art-skeleton)\n\n### Environments\n\n- [The Pale Moonlight](https://corwin-zx.itch.io/the-pale-moonlight)\n- [Moon Graveyard](https://anokolisa.itch.io/moon-graveyard)\n\n### UI\n\n- [Status Bar](https://sweenus.itch.io/sharp-hud)\n\n## Packages used in project\n\n- New Input System\n- Unity Addr"
+  },
+  {
+    "repo": "crdroidandroid/android_packages_apps_GameSpace",
+    "path": "README.md",
+    "sha": "093a4ba5380c92c363a58f8df23b0dfa16398e39",
+    "url": "https://github.com/crdroidandroid/android_packages_apps_GameSpace/blob/17.0/README.md",
+    "status": "retrieved",
+    "excerpt": "# GameSpace\n\nchaldeaprjkt's GameSpace is an alternative to the Google's proprietary implementation of the Game Dashboard with a goals of providing basic user-interface for the [Android Game Mode API](https://developer.android.com/games/gamemode/gamemode-api).\n\nGamespace requires several patches to be applied on the AOSP's SystemUI and Settings :\n- [frameworks/base](https://github.com/chaldeaprjkt/chaldea_frameworks_base/commits/13/gamespace)\n- [packages/apps/Settings](https://github.com/chaldeaprjkt/chaldea_packages_apps_Settings/commits/13/gamespace)\n\n## License\n\nThis work is licensed under [Apache 2.0 License](LICENSE.md).\n"
+  },
+  {
+    "repo": "MonoGame/MonoGame.Library.SDL",
+    "path": "README.md",
+    "sha": "583a6eed032806996cfe45b430b47060959c0caf",
+    "url": "https://github.com/MonoGame/MonoGame.Library.SDL/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "# MonoGame.Library.SDL\n\nThis repository contains build scripts for building and deploying SDL for use with MonoGame."
+  },
+  {
+    "repo": "karranb/space-battleship",
+    "path": "README.md",
+    "sha": "eb89004a64575c99c886def2d756799ffe944e7e",
+    "url": "https://github.com/karranb/space-battleship/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "## Space Battleship\n\n**Hosted on / Play Here**\n\n- [spacesbattheship.com](https://spacesbattleship.com/)\n- [itch.io](https://karran.itch.io/space-battleship)\n- [Google Play](https://play.google.com/store/apps/details?id=com.spacebattleship.app)\n\n### Architecture\n\n- [Infra](./infra)\n- [Backend](./node_server)\n- [Frontend](./phaser_game)\n\n### Contributing\n\n1. Fork it!\n2. Create your feature branch: `git checkout -b my-new-feature`\n3. Commit your changes: `git commit -m 'Add some feature'`\n4. Push to the branch: `git push origin my-new-feature`\n\n**After your pull request is merged**, you can safely delete your branch.\n\n### Gameplay Images\n\n![NEW GAME](docs/newgame.png?raw=true \"NEW GAME\")\n![WAITING FOR OPONENT](docs/WAITING.png?raw=true \"WAITING FOR OPONENT\")\n![CHOOSE SPACESHIP](docs/CHOOSESPACESHIP.png?raw=true \"CHOOSE SPACESHIP\")\n![INTENSE GAMEPLAY](docs/game.png?raw=true \"INTENSE GAMEPLAY"
+  },
+  {
+    "repo": "benjames-171/def-shell",
+    "path": "README.md",
+    "sha": null,
+    "url": null,
+    "status": "NOT_FOUND",
+    "excerpt": ""
+  },
+  {
+    "repo": "akeboshi1/Phaser-wx",
+    "path": "README.md",
+    "sha": "6e012eaa8b7756c1e3313e0b7d4252ba827c9e82",
+    "url": "https://github.com/akeboshi1/Phaser-wx/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# phaser3 for wechat game project\n## Currently Using Phaser3 Build\nv3.55.2\n## phaser适配：\n1. File\n   - ImageFile 本地加载逻辑调整\n   - JsonFile 本地加载逻辑调整\n   - BinaryFile 本地加载逻辑调整\n   - AudioFile 本地加载逻辑调整\n   所有的本地File资源需要在**xhrsetting**中加入**wechatdebug:true**,以此标记是否是本地测试\n   eg:![image](https://user-images.githubusercontent.com/18412751/201629038-29753f72-5e9a-42e4-bc14-823da8962ae4.png)\n\n2. Input\n   - 由于做了交互的适配，场景交互时交互的Element是没有赋值的，所以在wx环境下对交互的element调整了判断逻辑\n3. ScenePlugin\n   - 多个场景的启动逻辑需要给每个scene定义key\n## 微信\n1. 微信分包加载逻辑\n2. 微信worker功能由于只能通过主包加载，所以对其大小有所限制，导致worker功能偏弱\n3. 由于HTMLAudioElement运行时存在卡顿，延迟等问题，所以利用小游戏api创建innerAudioContext播放音乐,来代替phaser3中的音效实现\n\n## 本项目dev分支创建了一个能在手机微信环境下运行的小游戏，可作为例子参考\n"
+  },
+  {
+    "repo": "AlpayC/Project_Rock_Paper_Scissors",
+    "path": "README.md",
+    "sha": "114d7379b597a07d1eb37178539fce43e631f0d3",
+    "url": "https://github.com/AlpayC/Project_Rock_Paper_Scissors/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "﻿# Project - Rock, Scissor, Paper Game like a pirate\r\n\r\n# ONLY PLAYABLE IN 1920x1080px, actually ;-)\r\n\r\n## Table of contents\r\n\r\n- [Overview](#overview)\r\n  - [The challenge](#the-challenge)\r\n  - [Screenshot](#screenshot)\r\n  - [Links](#links)\r\n- [My process](#my-process)\r\n  - [Built with](#built-with)\r\n  - [What I learned](#what-i-learned)\r\n  - [Continued development](#continued-development)\r\n\r\n## Overview\r\n\r\n### The challenge\r\n\r\nMy challenge was to code the game rock-scissor-paper game\r\n\r\n- only using javascript, html and css\r\n- free design\r\n\r\nPersonal challenge was to make a chibi game with real game sprites\r\nand cool pirate character sprites\r\n\r\n### Screenshot\r\n\r\n![](./screenshot.png)\r\n\r\n### Links\r\n\r\n- Solution URL: [https://alpayc.github.io/Project_Rock_Paper_Scissors/]\r\n- Game Character Sprites [https://craftpix.net/freebies/free-2d-pirate-character-sprites/]\r\n- GUI assets [https://cra"
+  },
+  {
+    "repo": "kitswas/VirtualGamePad-Mobile",
+    "path": "README.md",
+    "sha": null,
+    "url": null,
+    "status": "NOT_FOUND",
+    "excerpt": ""
+  },
+  {
+    "repo": "mehmetemineker/flappy-bird",
+    "path": "README.md",
+    "sha": "98bc16a6c978d754855ef8981fbd36efd73e9010",
+    "url": "https://github.com/mehmetemineker/flappy-bird/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "# Flappy Bird Game\n\n![version](https://img.shields.io/badge/version-1.0.2-blue)\n\nThis project contains a Flappy Bird game developed using the Python programming language and the Pygame game development library. In this project, reflecting the classic and entertaining game mechanics, players control a bird and navigate it through obstacles to see how long they can survive.\n\n## Play now, right now! :grinning:\n\n[https://mehmetemineker.github.io/flappy-bird/](https://mehmetemineker.github.io/flappy-bird/)\n\n## Gameplay\n\nThe player's objective is to control the bird, maneuvering it through pipes and earning the highest score possible. Players can make the bird flap upwards by pressing the spacebar on the keyboard. However, precise timing is essential to prevent the bird from falling too quickly. If the bird collides with pipes or the ground, the game ends.\n\n![screen record](gaming.gif)\n\n## How"
+  },
+  {
+    "repo": "wolderado/RaylibGame",
+    "path": "README.md",
+    "sha": "bda21b05f15f333233a943463a502a6cd3ec6e7c",
+    "url": "https://github.com/wolderado/RaylibGame/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "## AstroBlast 3D\n\n![$(AstroBlast 3D)](images/cover.png \"$(Game Title)\")\n\n### Description\n\nDestroy asteroids, collect resources and upgrade your ship as you survive as long as you can against alien fleets!\n\nMade by Wolderado (Salih Ünal)\n\n### How To Play\n\nDesktop located at: src/build/AstroBlast 3D/raylib_game.exe\n\nWeb: Play [HERE](https://wolderado.itch.io/astroblast-3d)\n\n### Game Features\n\n - Epic 3D Space Battles\n - Juicy and Fun Animations\n - Ship Upgrading With Resource Collection\n - Hire Ally Ships Under Your Command\n - 8bit Arcade-y Sound FX\n \n### Project Features\n\n - GameObject Management\n - Particle System (with pooling)\n - Spatial Partitioning For Optimized Collisions\n - Thousands Of Optimized Projectile Bullets\n - Smoothly Fading LODs\n - Event System (Observer Pattern)\n - Game Time Management\n - Sound Management with 3D sounds\n - Finite State Machine (FSM) AI\n - Responsive UI\n "
+  },
+  {
+    "repo": "godothub/godot-taptap",
+    "path": "README.md",
+    "sha": "6546fa5bbb59dacaa38a43121b8d058fbea07afe",
+    "url": "https://github.com/godothub/godot-taptap/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "# Godot 4 TapTap SDK\n\nGodot 4 的 Android TapSDK v4 插件集成与使用说明。\n\n## 集成环境\n\n* Godot `4.2+`\n* Android 自定义构建\n* TapSDK `4.10.7`\n* 已在 TapTap 开发者中心创建应用，并取得 Client ID 和 Client Token\n\n## 安装插件\n\n### 直接使用已构建插件\n\n将 [`plugin/demo/addons/GodotTapTapSDK`](plugin/demo/addons/GodotTapTapSDK) 整个目录复制到游戏项目的 `addons` 目录。\n\n然后在 Godot 中完成以下操作：\n\n1. 打开 **项目设置 -> 插件**，启用 `GodotTapTapSDK`。\n2. 打开 Android 导出预设，启用 **自定义构建**。\n3. 执行一次 Android 导出。\n\n导出插件会自动解析 TapSDK 所需的 Maven 依赖，无需手动向 Godot 项目添加 TapSDK AAR 文件。\n\n### 从源码构建\n\n在仓库根目录执行：\n\n```powershell\n.\\gradlew.bat assemble\n```\n\n构建完成后，插件目录为 `plugin/demo/addons/GodotTapTapSDK`。\n\n## 初始化与通用约定\n\n启用插件后，项目中会自动注册 `GodotTapTap` 自动加载节点。调用任意接口前必须初始化一次：\n\n```gdscript\nfunc _ready() -> void:\n    GodotTapTap.initialize(\n        \"your_client_id\",\n        \"your_client_token\",\n        \"CN\",\n        OS.is_debug_build()\n    )\n```\n\n| 参数 | 类型 | 默认值 | 说明 |\n| --- | --- | --- | --- |\n| `client_id` | `String"
+  },
+  {
+    "repo": "Mayank-Jain-1/StreetFighter",
+    "path": "README.md",
+    "sha": "1488dd3d91b117e57d5f0eae8cb37dcde52fe131",
+    "url": "https://github.com/Mayank-Jain-1/StreetFighter/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "# Street Fighter\n\nYou can access the hosted version of the Street Fighter game by following this link: [Street Fighter Game](https://streetfighterbymayank.netlify.app/)\n\nThis hosted version allows you to play the game directly in your web browser without the need for any downloads or installations. Experience the excitement of classic arcade-style fighting gameplay right from your device!!\n\n<img src=\"public/images/gameplay.png\" alt=\"Gameplay\" width=\"390\" height=\"240\">\n\n## Project Overview\n\nThis project is a simple Street Fighter game implemented using JavaScript and HTML5 canvas. It features classic characters like Ryu and Ken, along with various sound effects and stages.\n\n## Game Controls\n\nThe game controls are as follows:\n\n![Controls](public/images/Controls.png)\n\n### Player 1:\n\n- **Movement**:\n\n  - Keyboard: Arrow keys (Left, Right, Up, Down)\n  - Gamepad: Left thumbstick\n\n- **Attacks**"
+  },
+  {
+    "repo": "goatchurchprime/two-voip-godot-4",
+    "path": "README.md",
+    "sha": "5afba808b3cd98639d719ed1a8c254c9745724c0",
+    "url": "https://github.com/goatchurchprime/two-voip-godot-4/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "## Description\n\nWelcome to the GodotEngine GDExtension [TwovVoip](https://store.godotengine.org/asset/goatchurch/twovoip/) designed \nto cater to all your VoIP (Voice Over IP) needs when building networked games in Godot.\n\nThis plugin uses the industry standard [Xiph/Opus](https://github.com/xiph/opus) compression library \nand the [Xiph/RNNoise](https://github.com/xiph/rnnoise) de-noiser all wrapped in an easy-to-integrate voiphelper \ncomponent to help you get your game players speaking to one another over the network in minutes.\n\nThanks to [@ajlennon](https://github.com/ajlennon) and [@DmitriySalnikov](https://github.com/DmitriySalnikov) \nfor work on the github actions that are successfully building this plugin across \n[all six](https://docs.godotengine.org/en/stable/about/list_of_features.html#platforms) GodotEngine supported platforms.\n\n## High level demo\n\n<img align=\"right\" width=\"304"
+  },
+  {
+    "repo": "kodestan/tank-ops",
+    "path": "README.md",
+    "sha": "490736f32ccf4f1467acb85830f07efcd832cdfc",
+    "url": "https://github.com/kodestan/tank-ops/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "Copyright (c) 2024 kodestan\n\n# tank-ops\n\nMultiplayer turn-based browser game. Client side in Typescript, backend in Go.\n\nThe more developed version of this game available at [tankops.xyz](https://tankops.xyz).\n\nCode only up to the point\n\n![scene from the game](/docs/game.png)\n\n## Usage\n\nYou need to have Go and TypeScript installed to build and run project.\n\nRun these commands from the project's root dir.\n\n1. Build .js files\n```\ntsc\n```\n\n2. Run server on port 8000\n```\ngo run .\n```\n\n3. Open your browser on `127.0.0.1:8000`\n\n\n"
+  },
+  {
+    "repo": "CristopherAquino/GameClicker",
+    "path": "README.md",
+    "sha": "475bf1f0bcf00005e2fe9a8fab5ad1a9a2648df5",
+    "url": "https://github.com/CristopherAquino/GameClicker/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "# GameClicker\nJuego para Android con Unity\n\n# ScreenShots\n![Inicio](https://github.com/user-attachments/assets/055a0b68-5fd1-4df1-b120-f690ac6b5e2b)\n<br>\n![Battle](https://github.com/user-attachments/assets/209d79d7-9767-4027-9ba8-f47990c52df8)\n"
+  },
+  {
+    "repo": "Jhyde927/DeadCityNights",
+    "path": "README.md",
+    "sha": "d4824a9eae3b17b17f42b1226e8485a17250d032",
+    "url": "https://github.com/Jhyde927/DeadCityNights/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# DeadCityNights\n\n**DeadCityNights** is a pixel art adventure game/platformer developed in C++ using raylib.  \n\n## Features\n- **Multiple Locations**: City streets, apartment, a cemetery, and more.\n- **Combat**: Shoot zombies with guns.\n- **Inventory System**: Collect items like car keys and a shovel.\n- **NPC Dialog**: Randomized phrases from NPCs you encounter on the street.\n- **Take Drugs**: Buy drugs off of a dealer on the street.\n- **Shader Effect**: Different shader effects will play depending on the situation.\n- **Voice Acting**: Custom made zombie grunts and moans.\n\n![Screenshot of the game](ScreenShot0.png)\n\n\n## Notes\nI've been programming in python and making games in Godot with gd script for like 4 years. I've always wanted to learn C++ so I could eventually make bigger and better things. I thought a good way to learn C++ would be to make a game in it. I've seen people on the in"
+  },
+  {
+    "repo": "ikevin127/uBot-Rebuild",
+    "path": "README.md",
+    "sha": "d5375d7c43374f9a4a3f676d6319f01cde0f0a17",
+    "url": "https://github.com/ikevin127/uBot-Rebuild/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "# uBot — WalkerPath build\n\nA revived build of **uBot** (a minimal Metin2 bot that drives the `eXLib` python extension) for the **current GameForge Metin2 client** (`metin2client.exe`, 32-bit, packed / runtime-decrypted, protected by `psw_tnt`).\n\nThis folder is a working clone — the original `uBot` is kept untouched as a baseline. It pairs with the rebuilt DLL in [`../MetinPythonLib-WalkerPath`](../MetinPythonLib-WalkerPath), deployed here as `eXLib.mix`.\n\n## How this was done\n\nAll of the reverse engineering and code surgery in this revival was performed by **Claude Opus 4.8** (`claude-opus-4-8`), running as an autonomous **Claude Code** agent (extended thinking / high reasoning effort), driving a live **CheatEngine MCP bridge** against the running game.\n\n> The human operator does **not** do reverse engineering — a previous by-hand attempt to fix `eXLib` failed completely. Everything belo"
+  },
+  {
+    "repo": "marcelontime/spriteforge",
+    "path": "README.md",
+    "sha": "e97bc14a291a18acec4a5ed353da3dcad2067051",
+    "url": "https://github.com/marcelontime/spriteforge/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "# SpriteForge\n\n<div align=\"center\">\n  <img src=\"./media/spriteforge.png\" alt=\"SpriteForge Logo\" width=\"300px\" />\n  <p><em>Generate professional game sprites from photos using OpenAI's GPT-Image-1 model</em></p>\n</div>\n\n## 🎮 Overview\n\nSpriteForge is a web application that transforms regular photos into game-ready character sprites using OpenAI's GPT-Image-1 model. Whether you're a game developer looking for quick character assets or just someone who wants to see themselves as a video game character, SpriteForge makes it easy to generate high-quality sprites in various popular game styles.\n\n## ✨ Features\n\n- **Multiple Game Styles**: Generate sprites in various popular game styles:\n  - Stardew Valley (32×32 pixelart)\n  - Breath of the Wild (256×256 cel-shaded)\n  - Genshin Impact (192×192 anime-styled)\n  - Hollow Knight (128×128 hand-drawn gothic)\n  - Fall Guys (160×160 bouncy cartoon)\n  - "
+  },
+  {
+    "repo": "shezimanor/slot-game",
+    "path": "README.md",
+    "sha": "ae69f4ef86a24d2c44fabf0de1fd589fc8434cec",
+    "url": "https://github.com/shezimanor/slot-game/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "# 老虎機 DEMO\n\n[Demo 連結](https://shezimanor.github.io/slot-game/)\n\n## 遊戲截圖\n\n![遊戲截圖](readme/slot-game.png)\n\n## 遊戲說明\n\n本遊戲專案使用 `Cocos Creator 3.8.5` 建置。\n\n本遊戲是一款簡易的老虎機遊戲流程演示的遊戲 Demo，純前端演示，定義了 7 條賠付線，與 5 種不同等級的水果，每局都會產生一次隨機結果。\n\n由於是簡易 Demo，所以沒有玩家沒有成本，可以無限制遊玩，每局當動畫跑完會即時顯示當局結果，包含中獎水果的顯目顯示，與當局的總獎勵。\n\n玩家可以修改每局的注碼，也可以使用「Auto spin」讓遊戲不斷自動執行。\n\n## 遊戲設計\n\n### 7 條賠付線\n\n必須從第一個 Reel(輪軸) 開始連線，且第一個不為 Wild。\n\n```\n第一條：     第二條：     第三條：     第四條：\n⚪️⚪️⚪️⚪️⚪️   🟡🟡🟡🟡🟡    ⚪️⚪️⚪️⚪️⚪️   🟡⚪️⚪️⚪️🟡\n🟡🟡🟡🟡🟡   ⚪️⚪️⚪️⚪️⚪️    ⚪️⚪️⚪️⚪️⚪️   ⚪️🟡⚪️🟡⚪️\n⚪️⚪️⚪️⚪️⚪️   ⚪️⚪️⚪️⚪️⚪️    🟡🟡🟡🟡🟡   ⚪️⚪️🟡⚪️⚪️\n第五條：     第六條：     第七條：\n⚪️⚪️🟡⚪️⚪️   ⚪️🟡⚪️⚪️⚪️    ⚪️⚪️⚪️🟡⚪️\n⚪️🟡⚪️🟡⚪️   🟡⚪️🟡⚪️🟡    🟡⚪️🟡⚪️🟡\n🟡⚪️⚪️⚪️🟡   ⚪️⚪️⚪️🟡⚪️    ⚪️🟡⚪️⚪️⚪️\n```\n"
+  },
+  {
+    "repo": "Arenax-gaming/ArenaX",
+    "path": "README.md",
+    "sha": "fb67629f5c97e9b6fa797508ce64ae3be66e3ea2",
+    "url": "https://github.com/Arenax-gaming/ArenaX/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "# 🎮 ArenaX Documentation\n\n\n<!-- START STATUS METER -->\n### 📊 Live Bounty Status Meter & Metrics\n> **System Status**: `ONLINE 🟢` · **Health**: `[██████████████████████░░] 97.4%` · **Bounty #1149**: Verified\n\n| 🎯 Total Bounties | ⚡ Active Issues | 🏆 Resolved Bounties | 💰 Reward Pool Volume | 👥 Registered Hunters | 📈 Resolution Rate |\n|:---:|:---:|:---:|:---:|:---:|:---:|\n| **1,647** | **42 Open** | **1,605 Closed** | **$124,500 USD** | **128 Users** | **97.4%** |\n\n```\nStatus Meter: [██████████████████████░░] 97.4%\n================================================================================\nAll automated claim checks, balance transfers, and PR verification pipelines active.\n================================================================================\n```\n<!-- END STATUS METER -->\n\n## 1. 🏗️ Project Overview\n\nArenaX is a competitive gaming tournament platform tailored for **am"
+  },
+  {
+    "repo": "daveman419/idle",
+    "path": "README.md",
+    "sha": "fc02615ab2ad27b884d3f063d481e7defc991a6a",
+    "url": "https://github.com/daveman419/idle/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "# Solana Idle Game\n\nA blockchain-based idle/incremental game built on Solana with automatic token generation and on-chain state management.\n\n## Features\n\n- 🎮 **Idle Gameplay**: Earn tokens automatically over time\n- ⚡ **Solana Blockchain**: All game state stored on-chain\n- 💰 **5 Generator Types**: Purchase upgrades to increase production\n- 🔗 **Wallet Integration**: Connect with Phantom, Solflare, or any Solana wallet\n- 📊 **Real-time Stats**: Track balance, production rate, and total earnings\n- 🌐 **Web-based**: Play directly in your browser\n\n## Game Mechanics\n\n### Generators\n\n| Generator | Cost | Production | Emoji |\n|-----------|------|------------|-------|\n| Basic Miner | 10 tokens | 1 token/sec | ⛏️ |\n| Advanced Rig | 100 tokens | 15 tokens/sec | 🖥️ |\n| Quantum Processor | 1,100 tokens | 180 tokens/sec | ⚛️ |\n| Fusion Reactor | 12,000 tokens | 2,400 tokens/sec | ☢️ |\n| Singularity"
+  },
+  {
+    "repo": "ikevin127/MetinPythonLibV2-Rebuild",
+    "path": "README.md",
+    "sha": "87d9c526abc373b49f3f0ae5b5e46ece5487fa7b",
+    "url": "https://github.com/ikevin127/MetinPythonLibV2-Rebuild/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "# MetinPythonLib V0.3.1\r\n\r\nAdds some functions to the python API, and try to inject a script.py from the current directory. \r\n\r\n## Things that need to be checked before moving across servers:\r\n\r\n- Packet Headers and structures\r\n- Patterns of send, recv, GetEther, SendAttackPacket, SendStatePacket and network class pointer\r\n- Structure of CMappedFile\r\n- The executed script is resposible for making sure the following functions work properly:\r\n  - Module app\r\n    - Function OpenTextFile\r\n    - Function IsExistFile\r\n\r\n\r\n## Python Exports\r\n- Module net_packet\r\n  - Get(\\<string\\> filePath) returns \\<bytearray\\><br>\r\n    Similar to old app.Get, allows to extract any file encrypted.\r\n    \r\n  - IsPositionBlocked(\\<int\\>x,\\<int\\>y) returns \\<boolean\\><br>\r\n    Allows to check if a map position is walkable(mobs don't count), true if is walkable or false if is not walkable.<br>\r\n    Note: For better"
+  },
+  {
+    "repo": "bigguy345/Github-Copilot-Atlas",
+    "path": "README.md",
+    "sha": "fdea4a4541b097236eb216995ff961950afb814b",
+    "url": "https://github.com/bigguy345/Github-Copilot-Atlas/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# Copilot Atlas\n\nA multi-agent orchestration system for VS Code Copilot that enables complex software development workflows through intelligent agent delegation and parallel execution.\n\n> Built upon the foundation of [copilot-orchestra](https://github.com/ShepAlderson/copilot-orchestra) by ShepAlderson, with agent naming conventions inspired by [oh-my-opencode](https://github.com/code-yeongyu/oh-my-opencode).\n\n> **Note:** Best supported on VS Code Insiders (as of January 2026) for access to the latest agent orchestration features.\n\n## Overview\n\nThis repository contains custom agent prompts that work together to handle the complete software development lifecycle: **Planning → Implementation → Review → Commit**. The system uses a conductor-delegate pattern where a main orchestrator (Atlas) coordinates specialized subagents to efficiently tackle complex development tasks.\n\n## Architecture\n\n"
+  },
+  {
+    "repo": "ZCW-Spring26/WordGuess",
+    "path": "README.md",
+    "sha": "5ed914624df89b046b2d10c7efa25fdf4f565893",
+    "url": "https://github.com/ZCW-Spring26/WordGuess/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "# Word Guess Game Lab\n\nWelcome to the Word Guess Game lab! This repository contains starter code for implementing a classic word guessing game (similar to \"hangman\") in either Java or Python.\n\n## Game Overview\n\nIn this lab, you'll be implementing a word guessing game where:\n- A secret word is chosen\n- The player guesses letters one at a time\n- Correct guesses reveal the letter's position(s) in the word\n- Incorrect guesses count against the player\n- The player wins by guessing all letters before running out of attempts\n- The player loses if they make too many incorrect guesses\n\n## Getting Started\n\nChoose your preferred programming language and follow the instructions below:\n\n### Java Version\n\nNavigate to the `java/` directory to find:\n- `WordGuess.java` - Main game class (empty, ready for implementation)\n- `Person.java` - Player class with interface\n- `PersonInterface.java` - Defines the "
+  },
+  {
+    "repo": "saintycode/Game",
+    "path": "README.md",
+    "sha": "85a03d1884893fc068efd5e1db831564bd0e9692",
+    "url": "https://github.com/saintycode/Game/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "# 🌲 Isle of Simpleton – Village Building Game 🌊\n\nA progressive web‑based village building and management game where you gather resources, construct buildings, assign workers, and grow an island settlement over time.\n\nBuilt with **vanilla HTML5, CSS3, and JavaScript** — no frameworks, no dependencies.\n\n---\n\n## 🎮 Game Overview\n\n**Isle of Simpleton** is an idle / incremental village builder focused on **clear systems and player choice**.\n\nPlayers manage villagers, assign them to specific buildings, and balance production to expand their settlement. Buildings unlock new capabilities, while workers determine how efficiently resources are produced.\n\nThe game is designed to grow gradually, with additional buildings and mechanics introduced over time.\n\n---\n\n## 🛠️ Tech Stack\n\n- **HTML5** – Structure  \n- **CSS3** – Styling & layout  \n- **JavaScript (ES6)** – Game logic  \n- **Canvas API** – Map"
+  },
+  {
+    "repo": "everest-engineering/scribble-assignment",
+    "path": "README.md",
+    "sha": "bd93e504f3250f8037dd4d2f09d5189647ac38c5",
+    "url": "https://github.com/everest-engineering/scribble-assignment/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "# Scribble Starter\n\nThis repository is a scaffold for the Scribble lab.\n\n## Overview\n\nThis lab starts from a runnable but intentionally incomplete Scribble-style guessing game with a minimal REST backend and an in-memory room system. The work is a brownfield enhancement: inspect the starter, produce Spec Kit artifacts, implement the missing behavior incrementally, validate against acceptance criteria, and reflect on the AI-assisted workflow.\n\nGranular, meaningful commits are encouraged so implementation decisions remain easy to assess.\n\n| Item | Details |\n|------|---------|\n| Project type | Brownfield enhancement |\n| Tech model | Frontend + minimal REST backend, in-memory store, manual room refresh in the starter; polling added by learners |\n| Difficulty | Intermediate |\n| Prerequisites | Comfort reading an existing codebase. |\n\nIt already provides:\n\n- `frontend/`: Vite + React + TypeScr"
+  },
+  {
+    "repo": "kcunning/Katie-s-Rougish-PyGame",
+    "path": "README.md",
+    "sha": null,
+    "url": null,
+    "status": "NOT_FOUND",
+    "excerpt": ""
+  },
+  {
+    "repo": "jpollo/Game",
+    "path": "README.md",
+    "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "url": "https://github.com/jpollo/Game/blob/master/README.md",
+    "status": "empty",
+    "excerpt": ""
+  },
+  {
+    "repo": "AndreasOxinos/2DRPG",
+    "path": "README.md",
+    "sha": null,
+    "url": null,
+    "status": "NOT_FOUND",
+    "excerpt": ""
+  },
+  {
+    "repo": "cncplyr/datasets-games",
+    "path": "README.md",
+    "sha": "eae13834c04441685ba23244f4fe23a95569e71a",
+    "url": "https://github.com/cncplyr/datasets-games/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "datasets-games\n====================\nDatasets from a variety of games, organised by platform then game. Data includes my personal high scores, time-based tournaments and in-game information.\n\nThe current list of games includes:\n\n## Android\n* Adventure Town\n* Asphalt-9\n* Assassin's Creed Rebellion\n* Atomas\n* Brothers in Arms 3\n* Call of Duty: Mobile\n* Criminal Legacy\n* Crossy Road\n* CSR Racing 2\n* Disco Zoo\n* #DRIVE\n* Don't Touch The Spikes\n* Fading Light\n* Fallout Shelter\n* Farmville 2\n* Gun Master 2\n* Hitman GO\n* Hitman Sniper\n* Jack Lumber\n* Jurassic World\n* Miitomo\n* Motor World Car Factory\n* Need for Speed: No Limits\n* Peak\n* Peridot\n* Pewdiepie's Tuber Simulator\n* Pokemon Go\n* Pokemon: Magikarp Jump\n* Rapala Fishing - Daily Catch\n* Retry\n* Sniper X with Jason Statham\n* Snowboarding : The Fourth Phase\n* SpaceChem\n* Star Trek: Timelines\n* Subway Surfers World Tour\n* Super Hexagon\n* Tap"
+  },
+  {
+    "repo": "beeglebug/phaser-pixel-scaler",
+    "path": "README.md",
+    "sha": "f75bff87f4d8b0c8de9f9f182223342376ee6d0c",
+    "url": "https://github.com/beeglebug/phaser-pixel-scaler/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "phaser-pixel-scaler\n===================\n\nPhaser Pixel Scaler Plugin\n\n## Usage\nIn your create method, simply add the plugin to the game, and pass it the desired scale factor:\n\n````\ngame.plugins.add(Phaser.Plugin.PixelScaler, 4);\n````\n"
+  },
+  {
+    "repo": "jptiancai/Parkour",
+    "path": "README.md",
+    "sha": "88903ffbeb1fb4dc74646ce9f5a1684b836a5fb0",
+    "url": "https://github.com/jptiancai/Parkour/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "Parkour\n=======\n\nParkour game base on cocos2d-x 3.0\n\n详情参考 [WIKI](https://github.com/jptiancai/Parkour/wiki)\n"
+  },
+  {
+    "repo": "OpenIOSProjects/Chess",
+    "path": "README.md",
+    "sha": "0cb81ef1f2e819488ebac262cb03649b4981aa07",
+    "url": "https://github.com/OpenIOSProjects/Chess/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# Chess\niOS Chess game to learn SpriteKit\n"
+  },
+  {
+    "repo": "angelozerr/tern-phaser",
+    "path": "README.md",
+    "sha": "c880128d75f343c9126341bc2c6fbe93e83bf9ef",
+    "url": "https://github.com/angelozerr/tern-phaser/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# tern-phaser\n\n[![Build Status](https://secure.travis-ci.org/angelozerr/tern-phaser.png)](http://travis-ci.org/angelozerr/tern-phaser)\n[![NPM version](https://img.shields.io/npm/v/tern-phaser.svg)](https://www.npmjs.org/package/tern-phaser)\n\n[tern-phaser](https://github.com/angelozerr/tern-phaser) is a plugin which adds support for [Phaser](http://phaser.io/) to the JavaScript code intelligence system [Tern](http://ternjs.net/).\n\n## Demo\n\nYou can play with [online demo](http://demo-angelozerr.rhcloud.com/CodeMirror-Java/phaser.html) which uses CodeMirror ((inside Web Browser).\n\nHere a screenshot with completion with CodeMorror Phaser completion :\n \n![CodeMirror & TernPhaser](https://github.com/angelozerr/tern-phaser/wiki/images/TernPhaserWithCodeMirror.png)\n\nHere a screenshot with completion with Eclipse IDE Phaser completion :\n\n![Eclipse & TernPhaser](https://github.com/angelozerr/tern-"
+  },
+  {
+    "repo": "Aksh77/Pygame",
+    "path": "README.md",
+    "sha": "39565e37471ade5ccb8f482b918a0b3ba8ab67d3",
+    "url": "https://github.com/Aksh77/Pygame/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# Games using Pygame \nA collection of basic games made using Pygame\n\n### About Pygame\nPygame is a cross-platform set of Python modules designed for writing video games. It includes computer graphics and sound libraries designed to be used with the Python programming language.\n\n### List of Projects completed\n\n* [Memory Game](https://github.com/Aksh77/Pygame/tree/master/Memory-Game)\n"
+  },
+  {
+    "repo": "real-marco-b/unity-water-shader2d",
+    "path": "README.md",
+    "sha": "9213fb0ef18e687c546394199b5b017213c82d74",
+    "url": "https://github.com/real-marco-b/unity-water-shader2d/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# Unity 2D Water Shader\n\nAdd a nice refraction water shader to your game!\n\nCheckout the video:\n\n[![Youtube Demo Video](https://img.youtube.com/vi/M-sK7hOlYnE/1.jpg)](https://www.youtube.com/watch?v=M-sK7hOlYnE)\n\n\n## Usage\n\n### Try it \n\nJust clone or download the repository and open the folder within Unity. \n\nRun the included Demo Scene.\n\n\n### Use it within your Game\n\n\n* Put the DisplacementBehaviour and DisplacementShader into your game. Keep the shader under Resources folder.\n\n* Attach the DisplacementBehaviour to your main camera and set up a noise and water texture as behaviour property (the sample ships with sample textures).\n\n* Limit the water effect to a certain scene area by adding planes to the built-in Water layer.\n\n* You can specify the turbulence (waviness) of the water by setting the Turbulence property of the DisplacementBehaviour. The turbulence will also influence the stre"
+  },
+  {
+    "repo": "raksa/phaser-dragonbones",
+    "path": "README.md",
+    "sha": "16a710f3e85466313edcf39f421a7d75759ea266",
+    "url": "https://github.com/raksa/phaser-dragonbones/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "Please refer to [Official Support Repo for DragonBones JS](https://github.com/DragonBones/DragonBonesJS)"
+  },
+  {
+    "repo": "s00190970/MonoGameServer",
+    "path": "README.md",
+    "sha": null,
+    "url": null,
+    "status": "NOT_FOUND",
+    "excerpt": ""
+  },
+  {
+    "repo": "cxong/PepperTown",
+    "path": "README.md",
+    "sha": "1985980a4a8f8cc00616b1884d6cbe8b0016750b",
+    "url": "https://github.com/cxong/PepperTown/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# PepperTown\n\nAn RPG-themed idle game, [**Play Online**](https://congusbongus.itch.io/peppertown)\n\n![](https://github.com/cxong/PepperTown/blob/master/cover.png?raw=true)\n\n# Licenses\n\nFeaturing characters and art from [Pepper&Carrot](https://www.peppercarrot.com) by David Revoy https://creativecommons.org/licenses/by/4.0/\n\nDialog by [StarNavigator](https://starnavigator.itch.io)\n\n**Code**: based on https://github.com/nkholski/phaser3-es6-webpack\n\n**GFX**:\n\n- [24x32 Pepper&Carrot Characters](https://opengameart.org/content/24x32-peppercarrot-characters) https://creativecommons.org/licenses/by/4.0/\n- [Cabbit Collection](https://opengameart.org/node/79804) http://opengameart.org/content/oga-by-30-faq\n- [Tiny 16: Basic](https://opengameart.org/content/tiny-16-basic) http://opengameart.org/content/oga-by-30-faq\n- [Roguelike/RPG Items](https://opengameart.org/content/roguelikerpg-items) http:/"
+  },
+  {
+    "repo": "matinaghaei/2D-Soccer-Game",
+    "path": "README.md",
+    "sha": "640b34b3178ba74c6e2d6c3103989e8d995f6901",
+    "url": "https://github.com/matinaghaei/2D-Soccer-Game/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# 2D-Soccer-Game\nA top-down football game with AI players implemented by Unity!\n\n![](https://media.giphy.com/media/DqKQXEZj2U08sCuwKG/giphy.gif)\n"
+  },
+  {
+    "repo": "ryancheung/MonoGame.IMEHelper",
+    "path": "README.md",
+    "sha": "f817a7620680244893fe91a0b56372c1efced9f1",
+    "url": "https://github.com/ryancheung/MonoGame.IMEHelper/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "## MonoGame IME Helper for desktop and mobile platforms\n\n### Targeted MonoGame platforms\n\n- MonoGame.Framework.WindowsDX\n- MonoGame.Framework.DesktopGL\n- MonoGame.Framework.Android\n- MonoGame.Framework.iOS\n\n## Getting started\n\n### NuGet\n\n```\nPM> Install-Package MonoGame.IMEHelper.WindowsDX\n```\n\nAll available packages for specific platforms:\n\n```\nMonoGame.IMEHelper.WindowsDX\nMonoGame.IMEHelper.DesktopGL\nMonoGame.IMEHelper.Android\nMonoGame.IMEHelper.iOS\nMonoGame.IMEHelper.Common\n```\n\n### Initialize a IMEHandler instance in your game Initialize method\n\n```c#\nprotected override void Initialize()\n{\n   imeHandler = new WinFormsIMEHandle(this);\n   imeHandler.TextInput += (s, e) => { ... };\n}\n```\n\n### If your want to render Composition String\n\n```#\n   imeHandler = new WinFormsIMEHandler(this);\n   imeHandler.TextInput += (s, e) => { ... };\n   imeHandler.TextComposition += (s, e) => { ... };\n```\n\n"
+  },
+  {
+    "repo": "ZhichenRen/cocos2d-xGameDesign",
+    "path": "README.md",
+    "sha": "9ab6faaf9b1a304caf33905754f2c08eeeae04b0",
+    "url": "https://github.com/ZhichenRen/cocos2d-xGameDesign/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# SoulKnight项目说明文档\n\n> 同济大学软件工程荣誉课2020年高级语言程序设计2课程期末大项目\n\n## 项目信息\n\n- 项目选题：**元气骑士**\n\n- 项目成员：\n\n  - 1850061 阮辰伟\n  - 1850091 任致辰\n  - 1851009 沈益立\n  - 1852612 周涵嵩\n\n- 项目Github地址：https://github.com/ZhichenRen/cocos2d-xGameDesign\n\n\n- 选用引擎：**Cocos2d-x 3.17.2**\n\n- 辅助软件：Tiled Map Editor 1.0.3、Adobe Photoshop CC 2018、Cocos Studio\n\n- 支持平台：Windows\n\n- 小组分工：\n\n  |  姓名  |        分工        | 贡献比例 |\n  | :----: | :----------------: | :------: |\n  | 阮辰伟 |        人物        |   25%    |\n  | 任致辰 | 武器、部分UI与场景 |   25%    |\n  | 沈益立 |        怪物        |   25%    |\n  | 周涵嵩 | 地图、部分UI与场景 |   25%    |\n\n- 项目时间线：\n  2020.5.15 完成远程武器基类\n  2020.5.18 完成近战武器基类\n  2020.5.20 完成两张简单地图，实现地图类\n  2020.5.22 完成简单暂停功能，实现随机地图类\n  2020.5.23 增加基础战斗UI\n  2020.5.27 完成怪物类基本功能\n  2020.6.1 完成人物类基本功能\n  2020.6.4 完成暂停界面\n  2020.6.5 增加怪物类生成新怪物功能，实现基本碰撞检测\n  2020.6.6 地图中增加商店与宝箱\n  2020.6.9 增加存储数据用的单例类GameData\n  2020.6.10 完成药物\n  2020.6.13 完成人物选择界面，增加牧师\n  2020.6"
+  },
+  {
+    "repo": "ahkong0429/wuxian",
+    "path": "README.md",
+    "sha": "151289bea8f01bad987be60b1426122b6ad44246",
+    "url": "https://github.com/ahkong0429/wuxian/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# 去年，今年，人非物也非\n\n**去年**\n\n2019年1月份印象很深刻，由于公司业务原因第一次接触cocos，有个不错的朋友就叫coco，因此本能的初始好感度+99，但是项目完成后也就没时间再折腾了……\n\n**今年**\n\n2020年的开头可以说是对全人类的一个灵魂暴击！有些人不在了……有些项目黄了工作也没了……渡劫失败！\n\n## 可能每个成年人都会有过的感受\n\n> 迷茫，不知所措，未来是怎样的，我们这场巨大的游戏，结局会怎样，最终BOSS是谁，能过吗？\n\n> 于是，在一堆创业点子的尝试过程里，摸呀摸的又摸回来了，想想也不一定要创业吧，干点自己喜欢的事情就好\n\n> 比如：~~沉迷游戏~~ 或者 <abbr title=\"码农誓不为奴！\">沉迷开发游戏</abbr>\n\n\n## 这次小游戏开发完毕做个技术分享，嗯，比较初级的分享！\n\n### cocos 论坛原贴\n[个人娱乐小游戏欢迎品尝](https://forum.cocos.org/t/topic/96816 \"个人娱乐小游戏欢迎品尝\")\n\n有疑问请电邮我 Thanks ♪(･ω･)ﾉ \n[mailto:47168219@qq.com](mailto:47168219@qq.com)\n\n"
+  },
+  {
+    "repo": "jimandreas/GamepadTest",
+    "path": "README.md",
+    "sha": "9c58136d5fe7ac0faae3a07d28d2563df8ed4e8b",
+    "url": "https://github.com/jimandreas/GamepadTest/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "cd# GamepadTest\n\nCurrently updating to this Android Studio version.  Some clean up still needed.\n\n<b> Android Studio Narwhal 4 Feature Drop | 2025.1.4</b>\n\nRepository link on Github:  https://github.com/bammellab/GamepadTest\n\nScreenshot of application:\n\n![Screenshot](docs/img/AppScreenshot.PNG)\n\nThis Android App listens for connected GameControllers and displays the joysticks,\nbuttons, and Dpad visually.\n\nThe app was developed and tested so far with the TRUST GXT 590 Gamepad:\n\n<img src=\"docs/img/Gamepad-TRUST-GXT-590.PNG\" width = 200 alt=\"none\">\n\nhttps://www.trust.com/en/product/22258-gxt-590-bosi-bluetooth-wireless-gamepad\n\n## Issues\n\n### Connection as \"Input Device\" is flakey\n\nWhat I have found from casual experimentation is that the TRUST GXT 590 toggles between\nconnecting via BlueTooth to my Xperia phone as a regular device and as an \"Input Device\".\nIt MUST be in the \"Input Device\" m"
+  },
+  {
+    "repo": "DooMx3/PyGame",
+    "path": "README.md",
+    "sha": null,
+    "url": null,
+    "status": "NOT_FOUND",
+    "excerpt": ""
+  },
+  {
+    "repo": "mateusz-kifner/Meteors",
+    "path": "README.md",
+    "sha": "d298d3186f7272f6394a5b36799b3a61b10e027b",
+    "url": "https://github.com/mateusz-kifner/Meteors/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# Mateors\n\nsimple game meteors in raylib\n\n\n## setup windows\n\n1. Clone repo `git clone https://github.com/kifner-mateusz/Meteors.git`.\n2. Generate vs2019 project by runing `generate.bat`.\n3. Now you can open vs2019 and compile project.\n"
+  },
+  {
+    "repo": "EvanderChristianDumalang/Tower-Defense",
+    "path": "README.md",
+    "sha": "4851d7f40bce89701f8941a276e9943309481252",
+    "url": "https://github.com/EvanderChristianDumalang/Tower-Defense/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "[![LinkedIn][linkedin-shield]][linkedin-url]\n\n[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555\n[linkedin-url]: https://www.linkedin.com/in/evanderchristiandumalang/\n\n# 2D Tower Defense Game\n\n## Features\n\n1. Enemy, Projectiles\n2. 2 Level\n3. UI (Enemy, Lives, Win and Lose Condition)\n4. Sound effect\n5. Continuous Play\n\n### Built With\n\n* [![Unity][Unity.com]][Unity-url]\n\n[Unity.com]: https://img.shields.io/badge/Unity-FFFFFF?style=for-the-badge&logo=unity&logoColor=black\n[Unity-url]: https://unity.com/\n\n## Documentation\n\n### Game Preview\n<img src=\"Preview/start.png\" width=\"400\" height=\"200\"> <img src=\"Preview/level1.png\" width=\"400\" height=\"200\"> <img src=\"Preview/level2.png\" width=\"400\" height=\"200\"> <img src=\"Preview/lose.png\" width=\"400\" height=\"200\"> <img src=\"Preview/win.png\" width=\"400\" height=\"200\">\n\n### Demo\n<img src=\"Pr"
+  },
+  {
+    "repo": "EvanderChristianDumalang/Angry-Birds",
+    "path": "README.md",
+    "sha": "153a3f03de92154769cf40183713e486fe8e526a",
+    "url": "https://github.com/EvanderChristianDumalang/Angry-Birds/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "[![LinkedIn][linkedin-shield]][linkedin-url]\n\n[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555\n[linkedin-url]: https://www.linkedin.com/in/evanderchristiandumalang/\n\n# 2D Angry Birds Game\n\n## Features\n\n1. Exploding Owl and Enemy\n2. 2 Level\n3. UI (Win and Lose Condition and Play Again)\n4. Sound effect\n\n### Built With\n\n* [![Unity][Unity.com]][Unity-url]\n\n[Unity.com]: https://img.shields.io/badge/Unity-FFFFFF?style=for-the-badge&logo=unity&logoColor=black\n[Unity-url]: https://unity.com/\n\n## Documentation\n\n### Game Preview\n<img src=\"Preview/main.png\" width=\"400\" height=\"200\"> <img src=\"Preview/level1.png\" width=\"400\" height=\"200\"> <img src=\"Preview/level2.png\" width=\"400\" height=\"200\"> <img src=\"Preview/trail.png\" width=\"400\" height=\"200\"> <img src=\"Preview/lose.png\" width=\"400\" height=\"200\"> <img src=\"Preview/win.png\" width=\"40"
+  },
+  {
+    "repo": "jderazoa/https-github.com-practical-tutorials-project-based-learning",
+    "path": "README.md",
+    "sha": "408e9c825b3c1c41f9d62d96a54a51a319d55f11",
+    "url": "https://github.com/jderazoa/https-github.com-practical-tutorials-project-based-learning/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# Project Based Learning\n[![Gitter](https://badges.gitter.im/practical-tutorials/community.svg)](https://gitter.im/practical-tutorials/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)\n\nA list of programming tutorials in which aspiring software developers learn how to build an application from scratch. These tutorials are divided into different primary programming languages. Tutorials may involve multiple technologies and languages.\n\nTo get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.\n\n## Table of Contents:\n\n- [C#](#c)\n- [C/C++](#cc)\n- [Clojure](#clojure)\n- [Elixir](#elixir)\n- [Erlang](#erlang)\n- [F#](#f)\n- [Go](#go)\n- [Haskell](#haskell)\n- [HTML/CSS](#html-and-css)\n- [Java](#java)\n- [JavaScript](#javascript)\n- [Kotlin](#kotlin)\n- [Lua](#lua)\n- [OCaml](#ocaml)\n- [PHP](#php)\n- [Python](#python)\n- [R](#r)\n-"
+  },
+  {
+    "repo": "etopuz/The-Prophecy",
+    "path": "README.md",
+    "sha": "4a3148dd9e8b460b1c9edd3031d711b857ba1659",
+    "url": "https://github.com/etopuz/The-Prophecy/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "# The Prophecy Game\n\n### Description \nTheProphecy is a game that you play as a cute archer lizard. Your main goal is escape from dungeon. So you need the clear your path from enemies.\n\n### Controls\n- Movement with left joystick\n- Shoot and aim with right joystick\n- Use skills(dash, invisibility) from buttons\n- Auto-aim when targets are in range\n\n### Download\n[Download APK for Android](https://github.com/etopuz/The-Prophecy/releases/tag/The_Prophecy_v0.2 \"Second early release of the game\")\n\n# Technical Details\n\n### Version\nUnity 2021.3.5f1\n\n### Implemented Algorithms and Used Patterns\n- A* Pathfinding Algorithm implemented.\n- Random Dungeon Generation implemented with Random Walk Algorithm.\n- Object Pool implemented for bullets.\n- Singleton Pattern is used for Unique Manager Scripts.\n\n### Used assets\n- [16x16 Dungeon Tileset II](https://0x72.itch.io/dungeontileset-ii) by 0x72\n- [Cryos Min"
+  },
+  {
+    "repo": "amannan-123/Bubble-Shooter-2D",
+    "path": "README.md",
+    "sha": "8f98dcb6b545b6b7e2df2037b42e48584202f934",
+    "url": "https://github.com/amannan-123/Bubble-Shooter-2D/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "# Bubble-Shooter-2D\n2D bubble shooter game made in unity.\n\n[Gameplay video](https://drive.google.com/file/d/1e1bDLwK_IjqvOxOHnD8gAR0JdMXDJiwE/view?usp=sharing)\n"
+  },
+  {
+    "repo": "hathora/hathora-phaser",
+    "path": "README.md",
+    "sha": null,
+    "url": null,
+    "status": "NOT_FOUND",
+    "excerpt": ""
+  },
+  {
+    "repo": "moonstream-to/awesome-web3-games",
+    "path": "README.md",
+    "sha": "eb9ee38a05e318164108a76b1fc19caaea508805",
+    "url": "https://github.com/moonstream-to/awesome-web3-games/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "# awesome-web3-games\n[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)\n\nThis is a list of interesting games that also happen to be web3. Some of them you can already play, some have demo versions available, some are still in development. Feel free to add more web3 games to the list. \n\nBefore adding a game, please read [the contributing guide](https://github.com/moonstream-to/awesome-web3-games/blob/fdd3b8fa35bac87602eb920d7e55bb8f3b061b2e/contributing.md#contribution-guidelines).\n\n--------------------\n## Table of contents\n\n- [Arcade](#arcade)\n- [Combat](#combat)\n- [Extraction Shooter](#extraction-shooter)\n- [Farming Sim](#farming-sim)\n- [Horror](#horror)\n- [MMORPG](#mmorpg)\n- [MOBA](#moba)\n- [Puzzle](#puzzle)\n- [Racing](#racing)\n- [RPG](#rpg)\n- [Sports](#sports)\n- [Strategy](#strategy)\n- [Survival](#survival)\n- [Trading Card Game](#trading-card-game)\n\n-----------------"
+  },
+  {
+    "repo": "shuyunyu/game_2048",
+    "path": "README.md",
+    "sha": "76014373927dc4b433a1d92168247baa7ddb5354",
+    "url": "https://github.com/shuyunyu/game_2048/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "# 2048\n\n----------\n\n 使用 **cocos creator 3.8** 开发的2048小游戏。\n\n![](./2048.png)\n\n[在线试玩](https://yumubai.com/cocos/games/2048)"
+  },
+  {
+    "repo": "nathanpc/android-game-engine",
+    "path": "README.md",
+    "sha": null,
+    "url": null,
+    "status": "NOT_FOUND",
+    "excerpt": ""
+  },
+  {
+    "repo": "lappemic/awesome-ai-built-games",
+    "path": "README.md",
+    "sha": "685b18c9b9889a9a18851b9ece9651df608137a9",
+    "url": "https://github.com/lappemic/awesome-ai-built-games/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "# Awesome AI-Built Games [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)\n\n![Awesome AI-Built Games](public/og-image.png)\n\nA curated list of the best vibe-coded games: playable games built with AI coding agents like Claude Code, Cursor, Codex, GPT, Gemini, Grok and Lovable. These are games made with AI, not games about AI. AI wrote most of each game's code, and every one is playable right now, most in the browser.\n\n**Built a game with AI?** [Submit it here](https://github.com/lappemic/awesome-ai-built-games/issues/new?template=submit-game.yml), no pull request needed.\n\n## Contents\n\n- [Games](#games)\n  - [Action & Shooters](#action--shooters)\n  - [Racing & Vehicles](#racing--vehicles)\n  - [Adventure & Open Worlds](#adventure--open-worlds)\n  - [Simulation & Strategy](#simulation--strategy)\n  - [Puzzle, Word & Trivia](#puzzle-word--trivia)\n  - [Arcade & Retro](#arcade--retro)\n"
+  },
+  {
+    "repo": "SinlessDevil/EcsStickmanSurvivors",
+    "path": "README.md",
+    "sha": "6b1b25455ea5b3ba4055577e0df44b95464c2c47",
+    "url": "https://github.com/SinlessDevil/EcsStickmanSurvivors/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "# 🕹 ECS Stickman Survivors\n\n**ECS Stickman Survivors** is a minimalist top-down action prototype inspired by *Vampire Survivors*.  \nBuilt with Unity DOTS (ECS), it's focused on high performance, scalable spawning systems, and modular gameplay logic.\n\n![image](https://github.com/user-attachments/assets/2b94c339-45be-4d16-b060-d73a09878c5e)\n\n### 📦 PrefabSetupEditor v1.0.0\nQuickly assign materials and configure renderer options for prefabs or scene objects in bulk.\n- Assign or randomize materials recursively  \n- Match mesh names for targeted setup  \n- Configure shadow casting, GI, probes, motion vectors & more  \n👉 [View Release](https://github.com/SinlessDevil/EcsStickmanSurvivors/releases/tag/PrefabSetupEditor-v1.0.0)\n\n### 📦 ConcaveHull v1.0.0\nA lightweight plugin for generating concave hulls from 2D point clouds (XZ plane).  \nDesigned for procedural outlines, collision geometry, or ga"
+  },
+  {
+    "repo": "SivaRamaKrishna4444/OOPs-Project-Game",
+    "path": "README.md",
+    "sha": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+    "url": "https://github.com/SivaRamaKrishna4444/OOPs-Project-Game/blob/main/README.md",
+    "status": "empty",
+    "excerpt": "\n"
+  },
+  {
+    "repo": "skooter500/cc26",
+    "path": "README.md",
+    "sha": "5fceeb5763126b2cb72ab044d80da1809762f02e",
+    "url": "https://github.com/skooter500/cc26/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "# Creative Coding for AI & Data Science 2026\n\n```\nGreetings fellow octopus\n```\n\n# Hello from Rishi\n\n# Assessment\n- End of year programming test 33%\n- Weekly engagement mark 33%\n- [Assignment 1 33% - Due 30/04/2026](assignment.md)\n\n# Notes\n- [Godot 2D & 3D Essentials](notes/godot%20intro.pdf)\n- [GDScript Comprehensive](notes/gdscript.pdf)\n\n# Resources\n- [FOSSIKAL](https://github.com/skooter500/csresources/blob/main/foss_resources.md)\n- [CSResources git repo](https://github.com/skooter500/csresources/blob/main/git_ref.pdf). Here you will find links to the previous courses and all my quick references\n- [Git for poets](https://www.youtube.com/watch?v=BCQHnlnPusY)\n- [Godot for beginners](https://www.youtube.com/watch?v=LOhfqjmasi0)\n- [GDScript Tutorial](https://www.youtube.com/watch?v=e1zJS31tr88)\n- [5 Games Made in Godot to inspire you each week](https://www.youtube.com/@stayathomedev) \n\n\n##"
+  },
+  {
+    "repo": "babyzombie/BabyzombieAddons",
+    "path": "README.md",
+    "sha": "ee7ce2a634545894055a8d7a0055b1ebe4e8e02b",
+    "url": "https://github.com/babyzombie/BabyzombieAddons/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "# BabyzombieAddons\n\nA quality-of-life client mod for Hypixel SkyBlock, built on [Fabric](https://fabricmc.net/).\n\n[English](README.md) · [中文](README_CN.md)\n\n> This project was developed with AI assistance (requirement analysis, implementation, review and iteration).\n\n[GitHub](https://github.com/babyzombie/BabyzombieAddons) · [Gitee](https://gitee.com/Bluesky-kk/BabyzombieAddons)\n\n## Overview\n\n- **Purpose**: a client-side QoL / helper / automation mod for Hypixel SkyBlock, covering Dungeons, Kuudra, Slayers, Mining, Fishing, Garden, parties & chat, events and more.\n- **Core features**: HUD displays, waypoint / beacon / light-pillar markers, chat and interaction enhancements, combat / skill / item timers, key-event alerts and safeguards, plus plenty of toggles and searchable config options.\n- **Use cases**: daily grinding and runs, Dungeon / Kuudra party play, Slayer boss fights, Crystal H"
+  },
+  {
+    "repo": "Unity-Technologies/2d-gamedemo-robodash",
+    "path": "README.md",
+    "sha": "6af24fd35996acb633ccb9c19b6cb2efe39743ab",
+    "url": "https://github.com/Unity-Technologies/2d-gamedemo-robodash/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# 2d-gamedemo-robodash\n  \nThe RoboDash game demo project was a prototyping experiment to test workflow and also create an example of using Brushes and Tiles in a development scenario. We had one developer work with an external game artist for a few weeks to create the prototype with a primary goal of using brushes and tiles setup to make level building for artists and designers faster and more fun! It is now made available for use with Unity 2017.2b02 (and in the experimental 2D builds).\n\nAn important thing to note - This demo project was developed as a fast prototype, so the game-play code itself is not optimized, it contains some not so good practices and was only used as a base game. With the base game, we could start creating a setup, where a developer would create Brushes and Tiles for a level artist or designer to quickly create game levels. That said, the Brushes and Tiles are the"
+  },
+  {
+    "repo": "project-slippi/slippi-js",
+    "path": "README.md",
+    "sha": "2ef214608ef174961b05c14de83e5d75e9b99e5e",
+    "url": "https://github.com/project-slippi/slippi-js/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# `slippi-js`\n\n[![npm version](http://img.shields.io/npm/v/@slippi/slippi-js.svg?style=flat)](https://npmjs.org/package/@slippi/slippi-js \"View this project on npm\")\n[![Build Status](https://github.com/project-slippi/slippi-js/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/project-slippi/slippi-js/actions/workflows/build.yml?query=branch%3Amaster)\n[![Coverage Status](https://coveralls.io/repos/github/project-slippi/slippi-js/badge.svg)](https://coveralls.io/github/project-slippi/slippi-js)\n[![License](https://img.shields.io/npm/l/@slippi/slippi-js)](https://github.com/project-slippi/slippi-js/blob/master/LICENSE)\n\nThis is the official Project Slippi Javascript SDK. It provides tools for parsing `.slp` files into structured data and can be used to compute stats. There are already many built-in stats that are computed by the library but the data provided can also "
+  },
+  {
+    "repo": "duanma/cocosCreator-wxGame",
+    "path": "README.md",
+    "sha": "8774fe9ba0f56f48a707e7fb3ecd8958cbafdc19",
+    "url": "https://github.com/duanma/cocosCreator-wxGame/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "基于cocosCreator2.0封装的微信小游戏开发框架\n"
+  },
+  {
+    "repo": "pmndrs/react-three-fiber",
+    "path": "README.md",
+    "sha": null,
+    "url": null,
+    "status": "NOT_FOUND",
+    "excerpt": ""
+  },
+  {
+    "repo": "BL-MSCH-C220-S22/Exercise-02a-Ship",
+    "path": "README.md",
+    "sha": "b1ecf0db8226fcab336cdc7a914838f991275d76",
+    "url": "https://github.com/BL-MSCH-C220-S22/Exercise-02a-Ship/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "# Exercise-02a-Ship\n\nExercise for MSCH-C220\n\nA demonstration of this exercise is available at [https://youtu.be/rVAZ---1Aus](https://youtu.be/rVAZ---1Aus)\n\nThis exercise is the first opportunity for you to get your feet wet with Godot. It will explore the first step to creating an Arcade Space Shooter: a player-controlled character. We will be exploring key bindings; adding a sprite to our game; vectors, velocity, and acceleration; and our first physics body: KinematicBody2D.\n\nFirst, be sure you have downloaded and installed the appropriate version of [Godot 3.4.2](https://godotengine.org/download) for your computer. Most likely, you will want the 64-bit version (only install the 32-bit version if the 64-bit doesn't run). Godot will download as a zip file. **Be sure to extract the application from the zip file and copy it to an appropriate location.**\n\nGodot is currently not code-signed "
+  },
+  {
+    "repo": "BL-MSCH-C220/Exercise-02a-Ship",
+    "path": "README.md",
+    "sha": "9e966817baa7516fd3c102e592fe8c2f584c34df",
+    "url": "https://github.com/BL-MSCH-C220/Exercise-02a-Ship/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "# Exercise-02a-Ship\n\nExercise for MSCH-C220\n\nA demonstration of this exercise is available at [https://youtu.be/rVAZ---1Aus](https://youtu.be/rVAZ---1Aus)\n\nThis exercise is the first opportunity for you to get your feet wet with Godot. It will explore the first step to creating an Arcade Space Shooter: a player-controlled character. We will be exploring key bindings; adding a sprite to our game; vectors, velocity, and acceleration; and our first physics body: KinematicBody2D.\n\nThe expectations for this exercise are that you will\n\n - [ ] Download and install Godot 3.5.1\n - [ ] Fork and clone this repository\n - [ ] Import the project into Godot\n - [ ] Create key mappings\n - [ ] Create a user-controlled ship (using the provided assets)\n - [ ] Script the ship so that it can accelerate and rotate. Cause it to wrap at the window boundaries\n - [ ] Edit the LICENSE and README.md\n - [ ] Commit an"
+  },
+  {
+    "repo": "Roblox/creator-docs",
+    "path": "README.md",
+    "sha": "761f2bbe4ecd604e34d4d569aed718e9f60fd747",
+    "url": "https://github.com/Roblox/creator-docs/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "# Roblox Creator Documentation\n\nThis repository holds source code for the creator documentation at [create.roblox.com/docs](https://create.roblox.com/docs).\n\n**Note**: Currently, the repository has guides, tutorials, educational content, and a read-only version of the Engine API reference.\n\nIf you're unfamiliar with the GitHub contribution process, see [About pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) and the following video.\n\n<https://github.com/Roblox/creator-docs/assets/84365734/b5d10495-837a-454f-9d96-e01ed44e32c7>\n\n## Reporting Issues\n\nIf you find a problem with the documentation and don't want to submit a pull request, please let us know by [reporting it on the Roblox developer forums](https://devforum.roblox.com/w/bug-report/).\n\n## Contribution Guidelines\n\nAny addit"
+  },
+  {
+    "repo": "qizhuboy/GameAlgorithmWithCocos",
+    "path": "README.md",
+    "sha": "de8a19ead1ce6124f1739f1da21905cd5ef22f9e",
+    "url": "https://github.com/qizhuboy/GameAlgorithmWithCocos/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "# GameAlgorithmWithCocos\n## 基于cocos creator的常用游戏算法  \n1. 四叉树计算碰撞检测  \n当移动方框检测与哪些圆圈发送碰撞时，暴力方法便是遍历所有圆圈依次判断，数量越多效率越差。而且在移动期间需要每帧检测，全部遍历显然不行。于是便用过四叉树对圆圈进行快速查找。  \n\n    [四叉树相关内容链接](https://zhuanlan.zhihu.com/p/530405796)  \n<div>\t\t\t\n    <!--块级封装-->\n    <center><!--将图片和文字居中-->\n    <img src=\"PNG/quadtree.png\">\n    <br><!--换行-->\n    图1 <!--标题-->\n    </center>\n</div>  \n\n2. A*寻路  \n游戏中常用的算法便是寻路，该项目里的寻路是点击开始自动随机生成起点和终点，然后起点一步步走向终点。感兴趣的朋友也可以了解一下迪杰斯特拉算法。  \n  \n    [A*寻路相关内容链接](https://zhuanlan.zhihu.com/p/595716772)  \n<div>\t\t\t\n    <!--块级封装-->\n    <center><!--将图片和文字居中-->\n    <img src=\"PNG/aStar.png\">\n    <br><!--换行-->\n    图2 <!--标题-->\n    </center>\n</div>  \n\n3. 酷跑小游戏  \n类似天天酷派小游戏，主要做了碰撞检测以及update帧逻辑计算 (暂未上传，感兴趣的朋友可以留言)  \n\n<div>\t\t\t\n    <!--块级封装-->\n    <center><!--将图片和文字居中-->\n    <img src=\"PNG/kupao.gif\">\n    <br><!--换行-->\n    酷跑小游戏效果 <!--标题-->\n    </center>\n</div>  \n\n4. apk获取手机相册\n主要涉及到原生android和coocs互相通信的内容，j"
+  },
+  {
+    "repo": "liangzi-aha/cocos_doudizhu_game",
+    "path": "README.md",
+    "sha": "2fc2b7194176437a28f55f832bc4f182b5bcf379",
+    "url": "https://github.com/liangzi-aha/cocos_doudizhu_game/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "# cocos_doudizhu_game\n\n# 项目介绍\n\n- cocos creator 3.85 版本 + node（服务） + mysql（数据库） 开发斗地主<strong>微信</strong>游戏 Demo\n- nodejs 服务中，斗地主<strong>游戏中状态</strong>都是存储在<strong>内存中</strong>，比如玩家扑克牌、房间信息、准备状态、游戏状态等，游戏对局结束会存储玩家对局信息入库，游戏中不会存储状态（设计初觉得游戏对局中状态频繁写入数据库太过麻烦，可能还有延迟，后期也不想改用 Redis 数据库）\n\n# 1、数据库初始化\n\n- mysql 数据库初始化（需要安装 mysql 数据库）\n- 使用 navicat 连接本地 mysql、\n- 找到项目根目录下，<strong>cocos_doudizhu_game/playing_card.sql</strong> 文件\n- 使用 navicat 导入数据库，导入 playing_card.sql 文件（导入表数据可以删除，主要是表和字段）\n  ![alt text](image-1.png)\n- 注意：<strong>导入后记得刷新一下可能才会展示数据库</strong>\n\n# 2、服务端 server 运行\n\n- nodejs 服务端（依赖 node 环境，本人采用 node v18.3.0 版本，如果有问题就使用该版本）\n- 修改 node server 连接本地 mysql 密码 (代码默认采用 123456，如果你的也是不用修改了)\n  - 进入 pukepai_server\\src\\mysql\\index.ts 目录下\n  - 修改 password 密码为你的本地 mysql 密码\n    ![alt text](image-3.png)\n- 进入 pukepai_server 目录下，执行命令行命令\n\n  ```shell\n  npm install  # 安装依赖\n  ```\n\n  ```shell\n  npm run start:dev  # 安装依赖\n "
+  },
+  {
+    "repo": "pixel-agents-hq/pixel-agents",
+    "path": "README.md",
+    "sha": "be2dcc33e9b077ad31386fcf9e0cb6b9884a2911",
+    "url": "https://github.com/pixel-agents-hq/pixel-agents/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "<h1 align=\"center\">\n  <a href=\"https://github.com/pixel-agents-hq/pixel-agents/discussions\">\n    <img src=\"webview-ui/public/banner.png\" alt=\"Pixel Agents\">\n  </a>\n</h1>\n\n<h2 align=\"center\">The most playful way to orchestrate your agents</h2>\n\n<div align=\"center\">\n\n[![version](https://img.shields.io/endpoint?url=https%3A%2F%2Fgist.githubusercontent.com%2Fpablodelucca%2F3cd28398fa4a2c0a636e1d51d41aee39%2Fraw%2Fversion.json)](https://github.com/pixel-agents-hq/pixel-agents/releases)\n[![marketplaces](https://img.shields.io/endpoint?url=https%3A%2F%2Fgist.githubusercontent.com%2Fpablodelucca%2F3cd28398fa4a2c0a636e1d51d41aee39%2Fraw%2Finstalls.json)](https://marketplace.visualstudio.com/items?itemName=pablodelucca.pixel-agents)\n[![npm downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fgist.githubusercontent.com%2Fpablodelucca%2F3cd28398fa4a2c0a636e1d51d41aee39%2Fraw%2Fnpm-downloads."
+  },
+  {
+    "repo": "AvramovDV/WeavingGame",
+    "path": "README.md",
+    "sha": "79632c5d4d34e48afc6740ed627464a5b9d880d6",
+    "url": "https://github.com/AvramovDV/WeavingGame/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "# WeavingGame\nA simple game where you need to get images by weaving lines.\n"
+  },
+  {
+    "repo": "AzaleahRaven/Fizzy-Pop-",
+    "path": "README.md",
+    "sha": "f2d9cb80442f93caa6fd3fa5279be60341d779da",
+    "url": "https://github.com/AzaleahRaven/Fizzy-Pop-/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "# Fizzy Pop!\nThe files below are the scripts used in Fizzy pop for the Game Jam 2025. Screenshots are provided below.\n\n![image](https://github.com/user-attachments/assets/3c7ef1bb-4a99-4f91-91ff-3c6f476423b9)\n\n![image](https://github.com/user-attachments/assets/afd2422c-d597-4efc-83c5-8c9d2dd3779c)\n\n![image](https://github.com/user-attachments/assets/26f5f0b0-1387-46d2-92ee-fc92d789a797)\n\n# Short Description\nFizzy Pop is a 3D ball-drop physics-based game with the applied \"Bubble\" theme from the Game Jam 2025, hence the sode and vending machine themes thrown into the mix. It heavily relies on luck and physics, with the player choosing their initial position before the drop. The game consists of 3 playable levels varying on difficulty.\n\n# How to Install and Play\n1. Download the ZIP file.\n2. Right-click the compressed folder and \"Extract All\"\n3. Click on the folder and run the aapplication "
+  },
+  {
+    "repo": "FaultyRAM/infinite-money-printer",
+    "path": "README.md",
+    "sha": null,
+    "url": null,
+    "status": "NOT_FOUND",
+    "excerpt": ""
+  },
+  {
+    "repo": "GamerC0der/fallsimulator",
+    "path": "README.md",
+    "sha": "18d8280c500e1c7ddbb9f99fcf30a198b7adac22",
+    "url": "https://github.com/GamerC0der/fallsimulator/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "# Fall Simulator\n\nFall Simulator is a clicker game (simulator) in which you click leaves to earn well, leaves. Unlock upgrades, eat food, and rebirth! Active boosts with gems, that you can earn via background effects and the minigame!"
+  },
+  {
+    "repo": "GrindheadGames/shredder",
+    "path": "README.md",
+    "sha": "2fd2a7ec089bf67d5cc5b76169d537c93d2d0b21",
+    "url": "https://github.com/GrindheadGames/shredder/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "shredder\n========\n\nLibrary of useful game development classes\n"
+  },
+  {
+    "repo": "ItsMoakey/OrbitSweep",
+    "path": "README.md",
+    "sha": null,
+    "url": null,
+    "status": "NOT_FOUND",
+    "excerpt": ""
+  },
+  {
+    "repo": "Kammill/the_Peeling",
+    "path": "README.md",
+    "sha": null,
+    "url": null,
+    "status": "NOT_FOUND",
+    "excerpt": ""
+  },
+  {
+    "repo": "Koumarin/vacuum",
+    "path": "README.md",
+    "sha": null,
+    "url": null,
+    "status": "NOT_FOUND",
+    "excerpt": ""
+  },
+  {
+    "repo": "Mathew-Pearce/Drill-Game",
+    "path": "README.md",
+    "sha": "964efffd21f35169c298f45036f6855dee3df8ee",
+    "url": "https://github.com/Mathew-Pearce/Drill-Game/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "# Drill-Game\nAn incremental drilling game\n"
+  },
+  {
+    "repo": "micycle8778/unboxing",
+    "path": "README.md",
+    "sha": null,
+    "url": null,
+    "status": "NOT_FOUND",
+    "excerpt": ""
+  },
+  {
+    "repo": "orlando-mm/needle-hunt",
+    "path": "README.md",
+    "sha": null,
+    "url": null,
+    "status": "NOT_FOUND",
+    "excerpt": ""
+  },
+  {
+    "repo": "OwenBrush/pixel-pottery",
+    "path": "README.md",
+    "sha": "374de62f66def1889c5c9dbb6d2cb88760e54d4e",
+    "url": "https://github.com/OwenBrush/pixel-pottery/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "# [Play the game here](https://owenbrush.itch.io/pixel-pottery)\n\n### Project Goal:\n\n* Challenge the typical implementation of crafting in video games that relies on limited predetermined options and static outcomes.\n\n### Approach:\n\n* Develop a free form crafting mechanic that creates a totally unique piece of pixel art that can then be used in the game.\n* Use image classification to give value to the created object based on aesthetic qualities, so that the creative process has meaning within the game.\t\n\n### Results:\n* Greater player agency, creative freedom, and personal expression.\n* Potential for more meaningful story telling that reacts to the player’s own creativity.\n* Player-made game assets.\n\n### How the image classification works:\n* The profile of the object created is captured as a black and white image and classified as one of 4 categories:\n  * Cup\n  * Bowl\n  * Decorative piece\n"
+  },
+  {
+    "repo": "shawnxin89/seele-one-button-mining",
+    "path": "README.md",
+    "sha": "647527e6dae6b6e24f55e3795bebe1e3711da115",
+    "url": "https://github.com/shawnxin89/seele-one-button-mining/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "### **Seele One Button Mining**\r\n\r\nSeele One Button Mining is a utility that helps with setting up Seele mining process.  It provides a GUI for the Seele command line based tools. \r\n\r\n### How to Build\r\n\r\nBuilding the executable is pretty straight forward.  The current released version is build with Python 3.7 and PyInstaller.  Please read the documentation on how to generate a Windows executable from a python script using PyInstaller.\r\n\r\nHere's the command that's use to build the Seele One Button Mining on Windows:\r\n\r\npyinstaller --onefile -wF --clean --name smc --icon=seele.ico main.py \r\n\r\nThe executable is in the dist directory.  The tool must be run in Administrator mode for it to interact the mining services. \r\n\r\n### Contribution\r\n\r\nThank you for considering helping out with our source code. We appreciate any contributions, even the smallest fixes.\r\n\r\n* Pull requests need to be based"
+  },
+  {
+    "repo": "Sidhant-1024/Claw-Machine-Game",
+    "path": "README.md",
+    "sha": "6e89518df6a88e33b91e49dd61354a40db964ee6",
+    "url": "https://github.com/Sidhant-1024/Claw-Machine-Game/blob/main/README.md",
+    "status": "retrieved",
+    "excerpt": "# Claw-Machine-Game\ncreated a game using HTML, CSS and  JavaScript.\n"
+  },
+  {
+    "repo": "Ucinorn/snowglobe",
+    "path": "README.md",
+    "sha": "11d76639a3a4d67c031ba31e7827e10c2fe2ef2d",
+    "url": "https://github.com/Ucinorn/snowglobe/blob/master/README.md",
+    "status": "retrieved",
+    "excerpt": "# snowglobe\nAn incremental game about a small world with big problems\n"
+  },
+  {
+    "repo": "xxMudCloudxx/UnscrewPuzzleGame",
+    "path": "README.md",
+    "sha": null,
+    "url": null,
+    "status": "NOT_FOUND",
+    "excerpt": ""
+  }
+]
