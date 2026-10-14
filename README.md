@@ -1,5 +1,8 @@
 # GitHub Game Miner
 
+**Start here for choosing a game:** [Consolidated selection review — 1,066 repository names, 12 first-choice candidates and 39 isolated mechanics (2026-10-14)](docs/CATALOG_REVIEW_2026-10-14.md). [Downloadable offline catalog with search and filters](catalog/index.html) · [Full JSON database](data/selection-catalog.json). The catalog reconciles all 859 registry entries with 207 additional names from 18 manual reports. Metadata/README screening is explicitly separated from source checks; these are not 1,066 audited games. The discovery registry is unchanged.
+
+
 Find public games **and** Phaser plugins, tools, templates, and experiments for studying mechanics. Unity, Android, iOS, and native desktop projects are valid leads even when porting them to Phaser would require a rewrite. Discoveries are **not verified builds, playable games, or permission to republish code or assets**.
 
 ## Curated ideas and decisions
