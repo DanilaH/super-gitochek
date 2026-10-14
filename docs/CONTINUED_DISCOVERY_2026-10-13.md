@@ -383,3 +383,102 @@ Observed/publicly described loop:
 - Ranked #14 Overall in Gamedev.js Jam 2026 and #2 in Graphics; public jam feedback includes positive comments on its addictive/chill sorting feel.
 
 Keep it as a playtest/reference lead. Do not infer implementation burden until source or a deeper teardown is available.
+
+
+## Continuation — 2026-10-14: excavation, physical rewards, tiny production chains
+
+This pass continued the remaining leads and targeted searches around excavation, repair, cleanup, unboxing, gachapon, claw machines and salvage. Searches were manual and narrow; the mass miner was not run. The findings below are source reviews, **not live playtests or market validation**. README-only and tree-only exclusions are identified separately.
+
+### Best new lead — Fossil Horihori — HIGH for a mechanic playtest; MEDIUM production fit as a whole
+
+Repository: https://github.com/tanuu5/fossil-horihori  
+Author's play link (not played in this pass): https://tanuu5.github.io/fossil-horihori/?lang=en  
+Reviewed revision: `c33f9ee825aef4e3a885fb9347403812bd5a9e3a`.
+
+Confirmed in [Game.js](https://github.com/tanuu5/fossil-horihori/blob/c33f9ee825aef4e3a885fb9347403812bd5a9e3a/src/game/Game.js):
+
+- Hold to charge a hammer/chisel; release to strike. The charge meter warns when power exceeds the locally calculated safe limit. Holding at maximum for too long triggers an overdrive strike.
+- Brushing is a held action with battery cost. The game handles wear from over-brushing clean fossil surfaces.
+- Extraction becomes available at **60% exposure**. The player can stop there or continue improving the find.
+- The extracted fossil visibly lifts out of the slab, leaving a cavity. This is an implemented reward sequence rather than a score popup alone.
+- Result score weights exposure, integrity and cleanliness, plus remaining battery. Best results and attempts are saved per stage.
+- Integrity below the difficulty threshold causes shattering. Empty battery automatically extracts an eligible find; otherwise it fails the attempt. Easy mode regenerates battery during inactivity and disables brush wear, so its pressure differs materially from normal/hard.
+
+**Why it fits:** tangible action → gradual discovery → a vulnerable object → a decision to stop → physical extraction and grading. Of this pass, it is the clearest new example of the sought action/reward relationship.
+
+**Why not an ultra-cheap whole-game candidate:** Three.js heightfields, dynamic textures/shaders, fossil geometry and extraction visuals add real engineering burden. Procedural visuals reduce asset production but do not make the implementation trivial. The README describes five dig sites; procedural shapes/attempt variation should not be confused with an unlimited content system. No purchase/upgrade economy was established in the reviewed loop.
+
+**Possible independent small prototype (proposal, not a feature of the source):** one 2D slab, three tool strengths, one hidden procedural silhouette, integrity and an extract button. First test whether revealing and lifting the object feels rewarding; add collection or upgrades only if that action works.
+
+Read: README, Game.js, selected sections of Slab.js and fossils.js; inspected repository structure. Touch controls are declared by the author and present in the source tree, but mobile usability/performance were not tested.
+
+### Useful isolated mechanic — Tiny Factory Rush — MEDIUM
+
+Repository: https://github.com/michalex93/tiny-factory-rush  
+Reviewed revision: `f8df8e055bcbef74fa83a4f2cd89cfcfe261a661`.
+
+Reviewed [ProductionLine.ts](https://github.com/michalex93/tiny-factory-rush/blob/f8df8e055bcbef74fa83a4f2cd89cfcfe261a661/src/simulation/ProductionLine.ts), Machine.ts, Upgrades.ts and the sale integration in Factory.ts.
+
+Confirmed:
+
+- A source feeds three machines with two intervening buffers.
+- Full downstream storage blocks a completed machine; missing input starves a downstream machine.
+- A click boost advances the remaining work of an actively processing machine, subject to cooldown.
+- Speed and buffer upgrades alter the actual simulation; value upgrades multiply the sale value.
+- Output is wired through Factory.ts to an actual cash credit, including golden-item multipliers.
+
+The useful decision is **which machine to help**, because speeding a non-bottleneck can leave final output unchanged. This could make a tiny visible production line more engaging than generic tapping.
+
+The full repository has campaigns, progression, routing and other layers; it is not a tiny whole-game recommendation. Keep only the three-machine flow as a reference. A model-level caveat: Upgrades.ts preserves buffer levels for the final machine although only two buffers physically exist. Whether the UI lets players buy that unused level was not checked; do not report this as a reproduced player-facing bug.
+
+### Small control reference — The Claw Machine — LOW–MEDIUM, below existing Claw Machine
+
+Repository: https://github.com/malaguna825/The-Claw-Machine  
+Reviewed revision: `61bdfe1ec21bb42c8dea57f1b68ab9558b7ac94e`.
+
+The complete [canvas.js](https://github.com/malaguna825/The-Claw-Machine/blob/61bdfe1ec21bb42c8dea57f1b68ab9558b7ac94e/canvas.js) and circle movement were inspected.
+
+- Keyboard arrows move a magnet horizontally; Space drops it.
+- Three moving positive-value targets and a row of small targets award points; bombs end the round.
+- The round lasts 45 seconds. Captured small balls are drawn travelling with the magnet, while the moving bonus targets simply disappear and award points.
+- No collection, upgrades or longer progression appears in the inspected gameplay file.
+- Fixed 1440×880 canvas, keyboard-only bindings in the gameplay code, frame-based motion and alert/reload loss handling make it a rough desktop prototype.
+
+Useful only as a compact aim/drop/retrieve comparison. It does not displace `variuzstudio/claw-machine-v1`.
+
+### Cleanup controls — cheap actions, weaker reward loops
+
+**kindworksgames/kindworks-beach-cleanup:** inspected game.js and core.js. Seeded grid coverage: swipe or key moves one cell; leaving a cell rakes it, rubbish is collected, and completion depends on coverage plus collection. Stars depend on path length. Reachability repair supports generated boards, but this is principally a route/coverage puzzle, not a tactile cleaning/reveal economy. LOW–MEDIUM reference, below House Cleanup.
+
+**myriadpaint/Closing-Cleanup:** inspected Phaser Game.js. A 30-second authored scene with 11 messes, tool selection and repeated taps: floor takes three mop taps, tables/window two rag taps, dishes a hand tap. Fade/shake/lift feedback and success/failure endings are implemented. No continuous wipe gesture or upgrade economy. LOW reference. Source-level risk: dish interaction remains enabled until its destruction tween completes while each click increments the counter; rapid repeated clicks may overshoot the equality-based completion condition. Not reproduced live. README award claims were not independently verified.
+
+### Other leads: exclusions and incomplete checks
+
+| Repository | Evidence level | Reason not promoted |
+| --- | --- | --- |
+| priyanshu2734/world-break | README + tree | Multiplayer/lobby/server structure; no small repair loop established. |
+| Jeffrey-Searcy/shopkeepers-legacy | README + tree | Farming, dungeon, NPC and shop scope is much larger than the target. |
+| borchowiec/wood-factory | README + tree | Multi-stage logistics and conveyors; whole-project scope too broad. |
+| narutamaaurum/FactoryIsland | Tree only | Broad logistics/crafting structure; preliminary deprioritization, not a mechanics verdict. |
+| ianis66666/factory-overload | Tree only | Combat/enemy/projectile structure; needs source review before any narrower claim. |
+| lvl-devs/cleanup-chaos | Tree only | Ship/asteroid/powerup structure; remains unverified. |
+| kindworksgames/kindworks-river-cleanup | Selected game.js code | Falling-block/row-clear puzzle with authored board data; not the sought reveal loop. |
+| sudokatie/excavation | README | Boulder Dash-style falling-rock puzzle with eight levels; not a new extraction/reward finding. |
+| Vampiyah/Excavation | Tree only | Movement/hazard structure; no rewarding digging loop established. |
+| chikle9090/chrono-repair-rush | GameScene.js | Three very small tap/timing tasks; advertised time manipulation does not establish a deeper loop in this scene. |
+| bitsbysoph/vend-your-destiny | README + selected index.html code | Authored characters, choices and responses; substantial narrative content rather than physical prize progression. |
+| enhancedrock/Coinpon | README + tree | Server/account setup; collection/trading/recycling listed as missing by author. Below existing Gacha. |
+| JacobGDelisle/FossilHunt | Selected main.js code | Educational questions and activities; fossil theme does not imply tactile excavation. |
+| micycle8778/unboxing | Tree only | Insufficient gameplay evidence; keep unverified. |
+| RobynAwesome/starfall-salvage | Tree only | Broad application structure; no compact salvage loop established. |
+| js13kGames/clawstrike | README + tree | Cat action platformer; “claw” search false positive. |
+| TatsuKo-Tsukimi/ClawTrap | README + tree | Agent-driven maze with backend/LLM requirements; not a prize machine. Not installed or run. |
+| EricFreeman/GiantShaftEnterprises | README + tree | Cookie Clicker-style project expanded into prestige/resources/space battles. |
+
+### Decision after this pass
+
+1. Add **Fossil Horihori** to the next hands-on test queue. Verify whether tool feedback, gradual exposure and extraction are enjoyable on both desktop and touch before promoting the whole game.
+2. Retain **Tiny Factory Rush's bottleneck interaction** as an isolated mechanic reference.
+3. Keep the simpler claw/cleanup examples as controls; do not pad the high-priority shortlist with them.
+4. Existing ClickMining, Fix It, Gacha and House Cleanup remain relevant. This pass supplies no retention, revenue or market-success evidence and does not rank the new excavation above them on proven fun.
+5. Manual findings were saved here; registry statuses were not changed. No new games were deployed to Game Lab.
