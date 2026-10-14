@@ -1,0 +1,1057 @@
+{
+  "seif-khaled12/copper-scrapper": {
+    "decision": "shortlist",
+    "core_loop": "Разобрать оболочку → медь → продать → улучшить инструмент",
+    "production_burden": "Низкий для 3–5 предметов",
+    "reason": "Самый предметный небольшой цикл. Снятие оболочки полосами Canvas; позднюю экономику не переносить.",
+    "next_check": "Короткий playtest ядра: ввод, первый результат, первое улучшение; отдельно touch.",
+    "evidence_level": "source_prior",
+    "rank": 1,
+    "playtest": "Архив: desktop до продажи и первой покупки, 14.10.2026"
+  },
+  "drangoht/glassbloom": {
+    "decision": "shortlist",
+    "core_loop": "Удерживать / отпускать → форма и точность → изделие → витрина / доход",
+    "production_burden": "Низкий–средний для трёх форм",
+    "reason": "Число вдохов меняет форму, отпускание — качество. Полная коллекция и престиж увеличивают объём.",
+    "next_check": "Короткий playtest ядра: ввод, первый результат, первое улучшение; отдельно touch.",
+    "evidence_level": "source_prior",
+    "rank": 2
+  },
+  "w00tyd00d/bubble-popper": {
+    "decision": "shortlist",
+    "core_loop": "Провести по пузырям → валюта → больше пузырей / радиус → массовая волна",
+    "production_burden": "Низкий",
+    "reason": "Один экран, мало типов объектов, заметное усиление действия. Hover нужно переработать для touch.",
+    "next_check": "Короткий playtest ядра: ввод, первый результат, первое улучшение; отдельно touch.",
+    "evidence_level": "source_prior",
+    "rank": 3
+  },
+  "nekomiya-sebastian/worm-game": {
+    "decision": "shortlist",
+    "core_loop": "Разбить плитку → открыть червя → отдельно собрать → помощники",
+    "production_burden": "Низкий–средний",
+    "reason": "Добыча и сбор — разные действия. Ограничить помощников двумя; следующий биом покупается отдельно.",
+    "next_check": "Короткий playtest ядра: ввод, первый результат, первое улучшение; отдельно touch.",
+    "evidence_level": "source_prior",
+    "rank": 4
+  },
+  "nors3ai/field-incremental": {
+    "decision": "shortlist",
+    "core_loop": "Сбор по радиусу → исчерпать энергию → золото → магазин → новый заход",
+    "production_burden": "Низкий",
+    "reason": "Сквозная экономика подтверждена. Первое увеличение радиуса и частота магазина требуют перебалансировки.",
+    "next_check": "Короткий playtest ядра: ввод, первый результат, первое улучшение; отдельно touch.",
+    "evidence_level": "source_prior",
+    "rank": 5
+  },
+  "andriipets/approved_game": {
+    "decision": "shortlist",
+    "core_loop": "Поставить печать → готовый документ → деньги → штамп / коллега → квота",
+    "production_burden": "Низкий для одного документа",
+    "reason": "Визуальная работа связана с доходом и автоматизацией. Исходные стартовые настройки уже многое автоматизируют.",
+    "next_check": "Короткий playtest ядра: ввод, первый результат, первое улучшение; отдельно touch.",
+    "evidence_level": "source_prior",
+    "rank": 6
+  },
+  "isa4ac/clickmining": {
+    "decision": "shortlist",
+    "core_loop": "Разбить камень → собрать минерал → рюкзак → продажа → кирка / вместимость",
+    "production_burden": "Низкий–средний",
+    "reason": "Чёткая связка открытия находки, ограничения запаса и усиления. Ощущения и баланс ещё не подтверждены.",
+    "next_check": "Короткий playtest ядра: ввод, первый результат, первое улучшение; отдельно touch.",
+    "evidence_level": "source_prior",
+    "rank": 7
+  },
+  "shademakesgames/fisherclicker": {
+    "decision": "shortlist",
+    "core_loop": "Создать волну → попадания по поплавкам → рыба → новые поплавки / улучшения",
+    "production_burden": "Низкий–средний",
+    "reason": "Одно действие приносит массовую награду; размещение имеет смысл. Легендарный финал исходника непригоден без нового баланса.",
+    "next_check": "Короткий playtest ядра: ввод, первый результат, первое улучшение; отдельно touch.",
+    "evidence_level": "source_prior",
+    "rank": 8
+  },
+  "trentsterling/fellswoop": {
+    "decision": "shortlist",
+    "core_loop": "Провести топором → деревья падают → итог дня → улучшить следующий заход",
+    "production_burden": "Средний, только урезанное ядро",
+    "reason": "Проверены урон, падение, перевод добычи и покупки. Полная Three.js-игра существенно больше первого прототипа.",
+    "next_check": "Короткий playtest ядра: ввод, первый результат, первое улучшение; отдельно touch.",
+    "evidence_level": "source_prior",
+    "rank": 9
+  },
+  "masonlet/fix-it": {
+    "decision": "shortlist",
+    "core_loop": "Объект на конвейере → неисправность → короткий жест → починка → следующий",
+    "production_burden": "Средний для двух жестов",
+    "reason": "Шесть типов мини-игр подтверждены. Для старта выбрать два; не обещать дешёвый перенос всей игры.",
+    "next_check": "Короткий playtest ядра: ввод, первый результат, первое улучшение; отдельно touch.",
+    "evidence_level": "source_prior",
+    "rank": 10
+  },
+  "kindworksgames/kindworks-house-cleanup": {
+    "decision": "shortlist",
+    "core_loop": "Рассортировать мусор → убрать пыль → 95% чистоты → звёзды / следующий уровень",
+    "production_burden": "Низкий–средний",
+    "reason": "Параметризованные задачи уменьшают авторский контент; долгосрочная экономика слабая.",
+    "next_check": "Короткий playtest ядра: ввод, первый результат, первое улучшение; отдельно touch.",
+    "evidence_level": "source_prior",
+    "rank": 11
+  },
+  "gravityst/woodform": {
+    "decision": "shortlist",
+    "core_loop": "Выточить профиль → шлифовка → оценка → заказ / оплата",
+    "production_burden": "Средний",
+    "reason": "Ограниченная геометрия дешевле полной симуляции резьбы; нужны образцы, хорошее управление и проверка оценки.",
+    "next_check": "Короткий playtest ядра: ввод, первый результат, первое улучшение; отдельно touch.",
+    "evidence_level": "source_prior",
+    "rank": 12
+  },
+  "sirlich/fossil-fanatic": {
+    "decision": "mechanic",
+    "core_loop": "Разбить камень → убрать пыль → сохранить находку → звёзды / следующий уровень",
+    "production_burden": "Средний",
+    "reason": "Интересен риск повредить находку. Магазин и продажа не подтверждены; нужны рисунки ископаемых.",
+    "next_check": "Короткий playtest ядра: ввод, первый результат, первое улучшение; отдельно touch.",
+    "evidence_level": "source_prior"
+  },
+  "frankkn/rinse": {
+    "decision": "mechanic",
+    "core_loop": "Стереть грязь → завершить поверхность → результат → следующая",
+    "production_burden": "Низкий–средний",
+    "reason": "2D-маска вместо 3D. Нет подтверждённого магазина инструмента.",
+    "next_check": "Короткий playtest ядра: ввод, первый результат, первое улучшение; отдельно touch.",
+    "evidence_level": "source_prior",
+    "playtest": "Архив: завершён первый уровень и открыт второй, 14.10.2026"
+  },
+  "brendonion/shuck-it": {
+    "decision": "mechanic",
+    "core_loop": "Снять верхние листья → раскрыть початок → сортировать свайпом",
+    "production_burden": "Средний",
+    "reason": "Жест и раскрытие подтверждены. Полные враги, таймер и фазы дороже; магазин косметический.",
+    "next_check": "Короткий playtest ядра: ввод, первый результат, первое улучшение; отдельно touch.",
+    "evidence_level": "source_prior"
+  },
+  "deokgu-blip/stencil-spray-game": {
+    "decision": "mechanic",
+    "core_loop": "Заполнить маску → снять трафарет → открыть рисунок",
+    "production_burden": "Низкий–средний",
+    "reason": "Проверен preview-fill.html: пять фигур, автоподбор цвета. Не весь проект и не экономика.",
+    "next_check": "Короткий playtest ядра: ввод, первый результат, первое улучшение; отдельно touch.",
+    "evidence_level": "source_prior"
+  },
+  "chrise82/chain-reaction-incremental": {
+    "decision": "mechanic",
+    "core_loop": "Выбрать точку → запустить каскад → награда → увеличить плотность / радиус",
+    "production_burden": "Низкий–средний",
+    "reason": "Брать цепную реакцию; полную многослойную мету сократить.",
+    "next_check": "Короткий playtest ядра: ввод, первый результат, первое улучшение; отдельно touch.",
+    "evidence_level": "source_prior"
+  },
+  "kolya5544/radioactiveidle": {
+    "decision": "mechanic",
+    "core_loop": "Запустить взрыв → цепная реакция → награда → магазин",
+    "production_burden": "Низкий–средний",
+    "reason": "Код ввода, награды и покупок проверен; heat/matter увеличивают объём.",
+    "next_check": "Короткий playtest ядра: ввод, первый результат, первое улучшение; отдельно touch.",
+    "evidence_level": "source_prior"
+  },
+  "dreamy-sheeblings/froglick": {
+    "decision": "mechanic",
+    "core_loop": "Нажать при качании прицела → язык → вернуть добычу → улучшить",
+    "production_burden": "Средний",
+    "reason": "Сильная связка тайминга и возврата награды; голод, враги и паутина не входят в маленькое ядро.",
+    "next_check": "Короткий playtest ядра: ввод, первый результат, первое улучшение; отдельно touch.",
+    "evidence_level": "source_prior"
+  },
+  "keyshooter/juniper-game-jam-26-clean-version": {
+    "decision": "mechanic",
+    "core_loop": "Повернуть рукоятку → капсула → редкость / выплата → улучшить шансы",
+    "production_burden": "Средний",
+    "reason": "Полный оборот связан с выдачей; есть экономика. Коллекционные визуалы увеличивают производство.",
+    "next_check": "Короткий playtest ядра: ввод, первый результат, первое улучшение; отдельно touch.",
+    "evidence_level": "source_prior"
+  },
+  "eren-ozcan/nuggetcreek": {
+    "decision": "mechanic",
+    "core_loop": "Провести по ручью → собрать самородки → полёт в сундук / коллекция",
+    "production_burden": "Высокий целиком; средний жест",
+    "reason": "Это свайп-сбор, не промывка песка. Социальные функции и большая мета лишние для первого ядра.",
+    "next_check": "Короткий playtest ядра: ввод, первый результат, первое улучшение; отдельно touch.",
+    "evidence_level": "source_prior"
+  },
+  "maklestiguan/restoration-game": {
+    "decision": "mechanic",
+    "core_loop": "Снять слои загрязнения → восстановить предмет → награда",
+    "production_burden": "Средний",
+    "reason": "Маски 128×128; ограничение за проход и сброс при выходе курсора нужно проверить на удобство.",
+    "next_check": "Короткий playtest ядра: ввод, первый результат, первое улучшение; отдельно touch.",
+    "evidence_level": "source_prior"
+  },
+  "pcebs-dev/henrys-dig-adventure": {
+    "decision": "mechanic",
+    "core_loop": "Выбрать новую клетку или копать глубже → другая таблица находок",
+    "production_burden": "Высокий целиком; низкий локально",
+    "reason": "Ценен выбор расходования ограниченных попыток. Полную приключенческую игру не переносить.",
+    "next_check": "Короткий playtest ядра: ввод, первый результат, первое улучшение; отдельно touch.",
+    "evidence_level": "source_prior"
+  },
+  "tanuu5/fossil-horihori": {
+    "decision": "mechanic",
+    "core_loop": "Раскопать → извлечь находку",
+    "production_burden": "Средний",
+    "reason": "Выразительное извлечение; полная реализация сложнее минимального прототипа.",
+    "next_check": "Короткий playtest ядра: ввод, первый результат, первое улучшение; отдельно touch.",
+    "evidence_level": "source_prior"
+  },
+  "timgoergen/blob-chain": {
+    "decision": "mechanic",
+    "core_loop": "Добавить каплю → взрыв → цепочка → следующее поле",
+    "production_burden": "Средний",
+    "reason": "Проверены core-скрипты. Нужно проверить разрешимость поля и запас ходов.",
+    "next_check": "Короткий playtest ядра: ввод, первый результат, первое улучшение; отдельно touch.",
+    "evidence_level": "source_prior"
+  },
+  "aysecra/coin-sort-clone": {
+    "decision": "mechanic",
+    "core_loop": "Перенести группу монет → полная стопка → слияние → деньги / слоты",
+    "production_burden": "Средний",
+    "reason": "Полный цикл, но много состояний и риск unsigned-списания без проверки баланса.",
+    "next_check": "Короткий playtest ядра: ввод, первый результат, первое улучшение; отдельно touch.",
+    "evidence_level": "source_prior"
+  },
+  "johninwork/crush-factory": {
+    "decision": "mechanic",
+    "core_loop": "Бросить блок в зубья → столкновение / дробление → деньги",
+    "production_burden": "Средний",
+    "reason": "Физическая обратная связь подтверждена; экономика смешана с обычным кликером.",
+    "next_check": "Короткий playtest ядра: ввод, первый результат, первое улучшение; отдельно touch.",
+    "evidence_level": "source_prior"
+  },
+  "shawi1/the-forge": {
+    "decision": "mechanic",
+    "core_loop": "Нагреть → точные удары → остудить → продать",
+    "production_burden": "Средний",
+    "reason": "Полезен температурный ритм; не считать симуляцией произвольной ковки.",
+    "next_check": "Короткий playtest ядра: ввод, первый результат, первое улучшение; отдельно touch.",
+    "evidence_level": "source_prior"
+  },
+  "legerdo/corebreak": {
+    "decision": "mechanic",
+    "core_loop": "Цель → рычаг → DRILL/BOMB/MAGNET → руда → улучшение",
+    "production_burden": "Средний",
+    "reason": "Проверен короткий машинный цикл; не переносить автоматически всю прогрессию.",
+    "next_check": "Короткий playtest ядра: ввод, первый результат, первое улучшение; отдельно touch.",
+    "evidence_level": "source_prior"
+  },
+  "legerdo/beat-foundry": {
+    "decision": "mechanic",
+    "core_loop": "Ритмическое воздействие → производство → развитие",
+    "production_burden": "Средний",
+    "reason": "Референс ритма производства; детали и границы — в раунде 2.",
+    "next_check": "Короткий playtest ядра: ввод, первый результат, первое улучшение; отдельно touch.",
+    "evidence_level": "source_prior"
+  },
+  "ricko-shaha/orbit-daily": {
+    "decision": "mechanic",
+    "core_loop": "Тап меняет направление орбиты → препятствия дня → рекорд / повтор",
+    "production_burden": "Низкий",
+    "reason": "Ежедневная аркада, а не экономика. Seed связан с UTC-датой.",
+    "next_check": "Короткий playtest ядра: ввод, первый результат, первое улучшение; отдельно touch.",
+    "evidence_level": "source_prior"
+  },
+  "variuzstudio/claw-machine-v1": {
+    "decision": "mechanic",
+    "core_loop": "Навести → опустить / отпустить → захват → доставка приза",
+    "production_burden": "Средний",
+    "reason": "Награда и напряжение есть, постоянная коллекция / экономика не подтверждены.",
+    "next_check": "Короткий playtest ядра: ввод, первый результат, первое улучшение; отдельно touch.",
+    "evidence_level": "source_prior"
+  },
+  "hidelya/clawmachine": {
+    "decision": "mechanic",
+    "core_loop": "Захват → капсула → предмет / деньги → улучшение",
+    "production_burden": "Средний–высокий",
+    "reason": "Физика и коллекция дороже простого ядра; переход после списания монеты требует проверки.",
+    "next_check": "Короткий playtest ядра: ввод, первый результат, первое улучшение; отдельно touch.",
+    "evidence_level": "source_prior"
+  },
+  "theshovel/shaving-simulator": {
+    "decision": "mechanic",
+    "core_loop": "Вести инструмент → удалять волосы → завершение / повтор",
+    "production_burden": "Низкий",
+    "reason": "Проверено снятие элементов; нет улучшений, есть сомнительная случайность удаления.",
+    "next_check": "Короткий playtest ядра: ввод, первый результат, первое улучшение; отдельно touch.",
+    "evidence_level": "source_prior"
+  },
+  "aydmnalpr/sheepshave": {
+    "decision": "mechanic",
+    "core_loop": "Снять мех → очистить всё → победа",
+    "production_burden": "Средний",
+    "reason": "Референс отделяемого слоя, не подтверждённая экономика.",
+    "next_check": "Короткий playtest ядра: ввод, первый результат, первое улучшение; отдельно touch.",
+    "evidence_level": "source_prior"
+  },
+  "robyoung88/detectorist": {
+    "decision": "mechanic",
+    "core_loop": "Двигаться → сканировать 0–9 → копать → открыть предмет",
+    "production_burden": "Низкий–средний",
+    "reason": "Скан основан на расстоянии; продажи, редкости и усиления не подтверждены.",
+    "next_check": "Короткий playtest ядра: ввод, первый результат, первое улучшение; отдельно touch.",
+    "evidence_level": "source_prior"
+  },
+  "mikosama326/dot-matrix-game": {
+    "decision": "mechanic",
+    "core_loop": "Производители заполняют клетки → потребители стирают → валюта",
+    "production_burden": "Средний",
+    "reason": "Видимое производство связано с доходом; оплата покупок не проверена сквозным образом.",
+    "next_check": "Короткий playtest ядра: ввод, первый результат, первое улучшение; отдельно touch.",
+    "evidence_level": "source_prior"
+  },
+  "s3-d1/beltline-panic": {
+    "decision": "mechanic",
+    "core_loop": "Обработать деталь; пропущенная возвращается по кругу",
+    "production_burden": "Средний",
+    "reason": "Подтверждённый конвейерный принцип; подробности в NON_FISHING_MECHANICS.",
+    "next_check": "Короткий playtest ядра: ввод, первый результат, первое улучшение; отдельно touch.",
+    "evidence_level": "source_prior"
+  },
+  "kokomolokolo/the-lying-elevator": {
+    "decision": "mechanic",
+    "core_loop": "Пропускать по изменяющимся правилам",
+    "production_burden": "Средний",
+    "reason": "Референс нарастающих правил, контент требует отдельной оценки.",
+    "next_check": "Короткий playtest ядра: ввод, первый результат, первое улучшение; отдельно touch.",
+    "evidence_level": "source_prior"
+  },
+  "engodev/recycler": {
+    "decision": "mechanic",
+    "core_loop": "Навестись на взрывающийся мусор → цепная отдача",
+    "production_burden": "Средний",
+    "reason": "Кодовая опора в ручном отчёте, полная экономика не обещана.",
+    "next_check": "Короткий playtest ядра: ввод, первый результат, первое улучшение; отдельно touch.",
+    "evidence_level": "source_prior"
+  },
+  "onihorns/rincewindspawnshop": {
+    "decision": "mechanic",
+    "core_loop": "Купить загадочный лот → открыть находку или подделку",
+    "production_burden": "Средний",
+    "reason": "Ценен момент раскрытия; ассортимент и оценки добавляют контент.",
+    "next_check": "Короткий playtest ядра: ввод, первый результат, первое улучшение; отдельно touch.",
+    "evidence_level": "source_prior"
+  },
+  "alexjbernard/miningrisk_minijam166": {
+    "decision": "mechanic",
+    "core_loop": "Добывать → повышать риск обрушения",
+    "production_burden": "Низкий–средний",
+    "reason": "Добыча одновременно усиливает угрозу; не просто обычный HP-кликер.",
+    "next_check": "Короткий playtest ядра: ввод, первый результат, первое улучшение; отдельно touch.",
+    "evidence_level": "source_prior"
+  },
+  "fluffysquirrels/one-click-ninja": {
+    "decision": "mechanic",
+    "core_loop": "Одной кнопкой выбирать действие по состоянию",
+    "production_burden": "Средний",
+    "reason": "Референс контекстной кнопки, не готовая минимальная прогрессия.",
+    "next_check": "Короткий playtest ядра: ввод, первый результат, первое улучшение; отдельно touch.",
+    "evidence_level": "source_prior"
+  },
+  "all-things-js/phaser-fishing": {
+    "decision": "mechanic",
+    "core_loop": "Реагировать на стрелки → улов → готовка → больше времени ловли",
+    "production_burden": "Низкий–средний",
+    "reason": "Подтверждён круговой ресурс; долгосрочная коллекция не установлена.",
+    "next_check": "Короткий playtest ядра: ввод, первый результат, первое улучшение; отдельно touch.",
+    "evidence_level": "source_prior"
+  },
+  "williamwhorton/factory-sort": {
+    "decision": "mechanic",
+    "core_loop": "Сортировка на конвейере → рост скорости → следующий уровень",
+    "production_burden": "Низкий–средний",
+    "reason": "Три уровня и ввод; содержательная мета не найдена.",
+    "next_check": "Короткий playtest ядра: ввод, первый результат, первое улучшение; отдельно touch.",
+    "evidence_level": "source_prior"
+  },
+  "omhet/recycle-game": {
+    "decision": "mechanic",
+    "core_loop": "Сортировать свайпом → жизни / сложность → рекорд",
+    "production_burden": "Низкий–средний",
+    "reason": "Хороший аркадный референс, слабее по предметной прогрессии.",
+    "next_check": "Короткий playtest ядра: ввод, первый результат, первое улучшение; отдельно touch.",
+    "evidence_level": "source_prior"
+  },
+  "playwithk/diggingpirategame": {
+    "decision": "incomplete",
+    "reason": "Эффекты улучшений закомментированы; покупка не доказывает рабочую прогрессию."
+  },
+  "logicdisaster/vacuum": {
+    "decision": "incomplete",
+    "reason": "В архивном дереве только README размером 0; игровая реализация не обнаружена."
+  },
+  "k33n42/sediment": {
+    "decision": "incomplete",
+    "reason": "README, LICENSE и .gitkeep; игровая реализация не обнаружена."
+  },
+  "youtringscamera/worldfishinglife": {
+    "decision": "incomplete",
+    "reason": "Game/main.ts фактически пуст; не считать готовой игрой."
+  },
+  "greeneyegm/voidwork": {
+    "decision": "incomplete",
+    "reason": "В roadmap остаются TODO применения важных улучшений; обещанный цикл не подтверждён."
+  },
+  "godotgarden/ant-game": {
+    "decision": "incomplete",
+    "reason": "Пища, феромоны и окружение отмечены TODO; не подтверждённая муравьиная экономика."
+  },
+  "mk418/hellofish": {
+    "decision": "tool",
+    "reason": "Дополнение для WoW Classic, не самостоятельная рыбалка."
+  },
+  "frobozzwaxwing/sweep_weave": {
+    "decision": "tool",
+    "reason": "Редактор интерактивных историй; ложное попадание по sweep/weave."
+  },
+  "andrestorres123/delve": {
+    "decision": "noise",
+    "reason": "README описывает TnT-LLM для анализа текста; не игра про добычу."
+  },
+  "piecehealth/fishing_pond_game": {
+    "decision": "learning",
+    "reason": "Учебная backend-задача по теории игр и Sorbet; не визуальная рыбалка."
+  },
+  "sarnavakonar/gamebaaz": {
+    "decision": "learning",
+    "reason": "Демонстрация full-stack Kotlin: Android и backend. Игровой цикл в README не описан."
+  },
+  "renshan/arrowgame": {
+    "decision": "learning",
+    "reason": "Учебная игра о стрельбе из лука на Cocos2d-x; не посторонний неигровой проект."
+  },
+  "duanma/cocoscreator-wxgame": {
+    "decision": "tool",
+    "reason": "README прямо называет проект фреймворком WeChat-мини-игр."
+  },
+  "gexchai/cocos2dxnovelgame": {
+    "decision": "reserve",
+    "reason": "Прототип визуальной новеллы на Cocos2d-x, а не неигровое ПО; цикл не проверен."
+  },
+  "robot518/musicgame": {
+    "decision": "uncertain",
+    "reason": "README содержит только ссылку на описание; качество и прогрессия не установлены."
+  },
+  "unity-technologies/2d-gamedemo-robodash": {
+    "decision": "learning",
+    "reason": "Игровое технодемо Unity Tilemap, не независимая проверенная продуктовая идея."
+  },
+  "blabash/bossbattletrivia": {
+    "decision": "reserve",
+    "reason": "README: ответы на вопросы уменьшают HP босса, ошибки — HP игрока; код не проверен."
+  },
+  "liangzi-aha/cocos_doudizhu_game": {
+    "decision": "complex",
+    "reason": "Карточное сетевое демо с Node и MySQL; не маленькая одиночная игра."
+  },
+  "prilepskiyae/clicker": {
+    "decision": "learning",
+    "reason": "Автор прямо называет проект Unity clicker template."
+  },
+  "eidorian-richi/void-miner": {
+    "decision": "incomplete",
+    "reason": "По README реализованы движение и астероиды; добыча и улучшения ещё в roadmap."
+  },
+  "raksoiv/phaser-incremental-1": {
+    "decision": "incomplete",
+    "reason": "Архив: прототип появления юнитов, содержательная экономика не подтверждена."
+  },
+  "owenbrush/pixel-pottery": {
+    "decision": "complex",
+    "reason": "README доступен: свободное формование и классификация изображения отдельной нейросетью каждого клиента. Инженерный объём выше WoodForm; код не проверен.",
+    "evidence_level": "readme"
+  },
+  "tutut834834/welder": {
+    "decision": "mechanic",
+    "reason": "Сварочный жест есть; счёт зависит от кадров, завершение по максимальному индексу требует переделки."
+  },
+  "tparlak/screw-and-sort-metal-asmr": {
+    "decision": "mechanic",
+    "reason": "Падение пластины выразительно, но три одинаковых винта на каждой пластине делают порядок тривиальным."
+  },
+  "winchxyz/celadon": {
+    "decision": "complex",
+    "reason": "Формование, влажность, стены, глазурь, обжиг: полный симулятор дороже маленького ядра."
+  },
+  "nathanwnorris/little-vac": {
+    "decision": "complex",
+    "reason": "Полная игра с комнатами и уборкой дороже одной области; старый код не равен актуальной live-сборке."
+  },
+  "thechaoticatmospheres/little-waters": {
+    "decision": "complex",
+    "reason": "Химия воды, разведение, растения, рынок и автоматизация выше целевого объёма."
+  },
+  "giovanniypro-web/empire-idle": {
+    "decision": "complex",
+    "reason": "Сотрудники, отделы, рынок, акции, миссии и престиж: слишком много систем."
+  },
+  "yossava/phaser-aquarium": {
+    "decision": "complex",
+    "reason": "Большой набор рыб, декораций и фонов плюс длинная экономика."
+  },
+  "mooreinteractive/loot-hoarder": {
+    "decision": "complex",
+    "reason": "Можно взять раскрытие сундука; RPG, экипировка, навыки и подземелья дорогие."
+  },
+  "willcoming/neon-salvage": {
+    "decision": "complex",
+    "reason": "99 волн и несколько combat/build-метасистем; выше целевого масштаба."
+  },
+  "mrwuss/idle": {
+    "decision": "complex",
+    "reason": "Гидравлика, давление, тепло, R&D, сотрудники и престиж — много систем."
+  },
+  "risingore/gear-arena": {
+    "decision": "complex",
+    "reason": "Можно выделить зарядку и решающий удар; полная игра содержит боссов, билды, сюжет."
+  },
+  "stiggstogg/machines": {
+    "decision": "complex",
+    "reason": "Повторение ритма завязано на авторскую музыку и уровни."
+  },
+  "warrenrross/five-element-crafting": {
+    "decision": "complex",
+    "reason": "Около 100 сущностей, 110 рецептов и второй режим; высокая контентная нагрузка."
+  },
+  "masterhan/sugarspark-bakery": {
+    "decision": "complex",
+    "reason": "Сервисная экономика с клиентами, рецептами и NPC превышает ультрамалый объём."
+  },
+  "abrahamambedkar-debug/food-empire": {
+    "decision": "complex",
+    "reason": "Сервисная экономика с клиентами, рецептами и NPC превышает ультрамалый объём."
+  },
+  "spacesquare640/core-idle": {
+    "decision": "reserve",
+    "reason": "Технический референс детерминированной экономики; слабое предметное действие."
+  },
+  "krugalo/incremental": {
+    "decision": "reserve",
+    "reason": "Архив: рабочий Vue incremental, обычные генераторы и валюты без сильного тактильного отличия."
+  },
+  "patrickkang/run-robot": {
+    "decision": "reserve",
+    "reason": "Однокнопочный Flappy-подобный runner без подтверждённой прогрессии."
+  },
+  "8bts/bear_the_fisher": {
+    "decision": "reserve",
+    "reason": "Рыболовная score-аркада с акулами, долгосрочная прогрессия не найдена."
+  },
+  "jasonpanghf/solar-salvager": {
+    "decision": "reserve",
+    "reason": "90-секундная auto-shoot аркада; рекорды вместо предметной прогрессии."
+  },
+  "ag-game/scrapyard-charter": {
+    "decision": "duplicate",
+    "reason": "В старом разборе отмечено возможное зеркало mharv/scrapyard-charter; идентичность содержимого не доказана.",
+    "related_to": "mharv/scrapyard-charter"
+  },
+  "narakai/so-many-games-master": {
+    "decision": "duplicate",
+    "reason": "README ведёт к сборнику potato47/so-many-games; отдельную новую механику не считать.",
+    "related_to": "potato47/so-many-games"
+  },
+  "carapacik/beltz": {
+    "decision": "mechanic",
+    "core_loop": "Переключать ремни / направления шкивов → согласовать связи → следующий уровень",
+    "production_burden": "Средний",
+    "reason": "Puzzle.cs подтверждает правила, undo/restart; CampaignProgress — 4×30 уровней, открытие после 10. Ввод сцены и генератор не аудитированы.",
+    "next_check": "Короткий playtest ядра: ввод, первый результат, первое улучшение; отдельно touch.",
+    "evidence_level": "source_current",
+    "source_checks": [
+      {
+        "repo": "Carapacik/Beltz",
+        "path": "Assets/Beltz/Core/Puzzle.cs",
+        "commit": "156df041454a221e962c05a4f71e6dccf49ca4bf",
+        "blob_sha": "e374447950bfd9482c5ead836d71fe5363ffe995",
+        "url": "https://github.com/Carapacik/Beltz/blob/156df041454a221e962c05a4f71e6dccf49ca4bf/Assets/Beltz/Core/Puzzle.cs",
+        "tree_sha_matches": true
+      },
+      {
+        "repo": "Carapacik/Beltz",
+        "path": "Assets/Beltz/Core/CampaignProgress.cs",
+        "commit": "156df041454a221e962c05a4f71e6dccf49ca4bf",
+        "blob_sha": "9c54138c59d973765e29fd5dfd87b0b0027afdf3",
+        "url": "https://github.com/Carapacik/Beltz/blob/156df041454a221e962c05a4f71e6dccf49ca4bf/Assets/Beltz/Core/CampaignProgress.cs",
+        "tree_sha_matches": true
+      }
+    ]
+  },
+  "polyarik/shape-up": {
+    "decision": "reserve",
+    "core_loop": "Клики → уровень фигуры → открытие следующей",
+    "production_burden": "Низкий–средний",
+    "reason": "GameCtrl и LevelCtrl подтверждают рост и открытие. В Click есть обращение к следующей фигуре без явной проверки последнего индекса; сцена не проверена.",
+    "next_check": "Короткий playtest ядра: ввод, первый результат, первое улучшение; отдельно touch.",
+    "evidence_level": "source_current",
+    "source_checks": [
+      {
+        "repo": "polyarik/shape-up",
+        "path": "Assets/Scripts/GameCtrl.cs",
+        "commit": "8fb841847e37f55e06d12fec9a75941cd1b458ee",
+        "blob_sha": "bbffe5f1a0c43977f82fab171c782fc40ed317ef",
+        "url": "https://github.com/polyarik/shape-up/blob/8fb841847e37f55e06d12fec9a75941cd1b458ee/Assets/Scripts/GameCtrl.cs",
+        "tree_sha_matches": true
+      },
+      {
+        "repo": "polyarik/shape-up",
+        "path": "Assets/Scripts/LevelCtrl.cs",
+        "commit": "8fb841847e37f55e06d12fec9a75941cd1b458ee",
+        "blob_sha": "cf1780af450e2c930796a2109a01e6427c2120cc",
+        "url": "https://github.com/polyarik/shape-up/blob/8fb841847e37f55e06d12fec9a75941cd1b458ee/Assets/Scripts/LevelCtrl.cs",
+        "tree_sha_matches": true
+      }
+    ]
+  },
+  "epicsharpcode/cockroachpanic": {
+    "decision": "mechanic",
+    "core_loop": "Удерживать указатель → область паники → мешать насекомым",
+    "production_burden": "Средний",
+    "reason": "FingerScript вызывает Panic для объектов в сфере. В прочитанном GameManager есть параметры и состояния, экономика не найдена.",
+    "next_check": "Короткий playtest ядра: ввод, первый результат, первое улучшение; отдельно touch.",
+    "evidence_level": "source_current",
+    "source_checks": [
+      {
+        "repo": "EpicSharpCode/CockroachPanic",
+        "path": "Assets/CockroachPanic!/Scripts/FingerScript.cs",
+        "commit": "dc0af848a5296cedeca762e42d5ff5ea64a23e73",
+        "blob_sha": "1140d9963a2ff524ac61f4bbce4f4831b402324c",
+        "url": "https://github.com/EpicSharpCode/CockroachPanic/blob/dc0af848a5296cedeca762e42d5ff5ea64a23e73/Assets/CockroachPanic!/Scripts/FingerScript.cs",
+        "tree_sha_matches": true
+      },
+      {
+        "repo": "EpicSharpCode/CockroachPanic",
+        "path": "Assets/CockroachPanic!/Scripts/GameManagerScript.cs",
+        "commit": "dc0af848a5296cedeca762e42d5ff5ea64a23e73",
+        "blob_sha": "634f021ad67de6cfe8e52524521d783db4c76759",
+        "url": "https://github.com/EpicSharpCode/CockroachPanic/blob/dc0af848a5296cedeca762e42d5ff5ea64a23e73/Assets/CockroachPanic!/Scripts/GameManagerScript.cs",
+        "tree_sha_matches": true
+      }
+    ]
+  },
+  "navyciokas/clicker": {
+    "decision": "reserve",
+    "core_loop": "Нажатие → счётчик / клики в секунду → анимация",
+    "production_burden": "Низкий",
+    "reason": "Clicker.cs: счётчики и DOScale; магазины/открытия в этом файле отсутствуют. Не сильнее проверенных предметных циклов.",
+    "next_check": "Короткий playtest ядра: ввод, первый результат, первое улучшение; отдельно touch.",
+    "evidence_level": "source_current",
+    "source_checks": [
+      {
+        "repo": "Navyciokas/Clicker",
+        "path": "Assets/Scripts/Clicker.cs",
+        "commit": "cfa8f9927c4f520e1ac6e7e29177f927e0f80a4f",
+        "blob_sha": "8363daf9ae57ea8b172bf5fdbad55659221c5fe4",
+        "url": "https://github.com/Navyciokas/Clicker/blob/cfa8f9927c4f520e1ac6e7e29177f927e0f80a4f/Assets/Scripts/Clicker.cs",
+        "tree_sha_matches": true
+      }
+    ]
+  },
+  "gitlomaz/plinko": {
+    "decision": "reserve",
+    "reason": "Контрольный референс plinko/idle. В предшествующем playtest отмечались проблемы темпа, FPS, офлайна и эффекта первого престижа; не лидер выбора.",
+    "playtest": "Архив: развёрнут и проверялся ранее; не повторялся в этом проходе",
+    "evidence_level": "source_prior"
+  },
+  "d2658182-hub/lucky-fisher": {
+    "decision": "reserve",
+    "reason": "Уже развёрнутый контроль рыболовной механики; не новая находка. Использовать для сравнения с более предметными циклами.",
+    "playtest": "Архив: развёрнут и проверялся ранее; не повторялся здесь",
+    "evidence_level": "source_prior"
+  },
+  "polymarsdev/flappuccino": {
+    "decision": "mechanic",
+    "core_loop": "Однокнопочный прыжок → кофе / здоровье / валюта → улучшения на попытку",
+    "reason": "Короткий цикл подтверждён; после смерти улучшения сбрасываются. Самостоятельная реализация, исходники только для некоммерческого использования по архивному README.",
+    "license_status": "Архив: некоммерческое использование исходника; перед заимствованием проверить условия",
+    "evidence_level": "source_prior"
+  },
+  "adermgram/tetris-game": {
+    "decision": "reserve",
+    "reason": "Это игра по описанию, а упоминание используемой библиотеки не делает её инструментом. Оставлена сравнительным игровым резервом без подтверждённой новой петли."
+  },
+  "iampgzp/catchrun": {
+    "decision": "reserve",
+    "reason": "Это игра по описанию, а упоминание используемой библиотеки не делает её инструментом. Оставлена сравнительным игровым резервом без подтверждённой новой петли."
+  },
+  "ilijamihajlovic/sweet-sweets-mania-spritekit-game-with-continuous-integration": {
+    "decision": "reserve",
+    "reason": "Это игра по описанию, а упоминание используемой библиотеки не делает её инструментом. Оставлена сравнительным игровым резервом без подтверждённой новой петли."
+  },
+  "mandrelbrotset/pygame-chess": {
+    "decision": "reserve",
+    "reason": "Это игра по описанию, а упоминание используемой библиотеки не делает её инструментом. Оставлена сравнительным игровым резервом без подтверждённой новой петли."
+  },
+  "mbriden/helicoptergame": {
+    "decision": "reserve",
+    "reason": "Это игра по описанию, а упоминание используемой библиотеки не делает её инструментом. Оставлена сравнительным игровым резервом без подтверждённой новой петли."
+  },
+  "mehmetemineker/flappy-bird": {
+    "decision": "reserve",
+    "reason": "Это игра по описанию, а упоминание используемой библиотеки не делает её инструментом. Оставлена сравнительным игровым резервом без подтверждённой новой петли."
+  },
+  "mrdredowan/brick-ball-game": {
+    "decision": "reserve",
+    "reason": "Это игра по описанию, а упоминание используемой библиотеки не делает её инструментом. Оставлена сравнительным игровым резервом без подтверждённой новой петли."
+  },
+  "pygame/solarwolf": {
+    "decision": "reserve",
+    "reason": "Это игра по описанию, а упоминание используемой библиотеки не делает её инструментом. Оставлена сравнительным игровым резервом без подтверждённой новой петли."
+  },
+  "rajatdiptabiswas/snake-pygame": {
+    "decision": "reserve",
+    "reason": "Это игра по описанию, а упоминание используемой библиотеки не делает её инструментом. Оставлена сравнительным игровым резервом без подтверждённой новой петли."
+  },
+  "rajatdiptabiswas/tetris-pygame": {
+    "decision": "reserve",
+    "reason": "Это игра по описанию, а упоминание используемой библиотеки не делает её инструментом. Оставлена сравнительным игровым резервом без подтверждённой новой петли."
+  },
+  "zilongshanren/cuttherope-x": {
+    "decision": "reserve",
+    "reason": "Это игра по описанию, а упоминание используемой библиотеки не делает её инструментом. Оставлена сравнительным игровым резервом без подтверждённой новой петли."
+  },
+  "agar3s/advcapitalist": {
+    "decision": "reserve",
+    "reason": "Это игра по описанию, а упоминание используемой библиотеки не делает её инструментом. Оставлена сравнительным игровым резервом без подтверждённой новой петли."
+  },
+  "henrykvdb/ultimatetttandroid": {
+    "decision": "reserve",
+    "reason": "Это игра по описанию, а упоминание используемой библиотеки не делает её инструментом. Оставлена сравнительным игровым резервом без подтверждённой новой петли."
+  },
+  "jhyde927/deadcitynights": {
+    "decision": "complex",
+    "reason": "Игра с приключениями, авторским контентом, симуляцией или сетевой частью; целиком выше целевого масштаба. Не библиотека."
+  },
+  "jmrapp1/terralegion": {
+    "decision": "complex",
+    "reason": "Игра с приключениями, авторским контентом, симуляцией или сетевой частью; целиком выше целевого масштаба. Не библиотека."
+  },
+  "saintycode/game": {
+    "decision": "complex",
+    "reason": "Игра с приключениями, авторским контентом, симуляцией или сетевой частью; целиком выше целевого масштаба. Не библиотека."
+  },
+  "jpsim/cardsagainst": {
+    "decision": "complex",
+    "reason": "Игра с приключениями, авторским контентом, симуляцией или сетевой частью; целиком выше целевого масштаба. Не библиотека."
+  },
+  "jerenaux/phaserquest": {
+    "decision": "complex",
+    "reason": "Игра с приключениями, авторским контентом, симуляцией или сетевой частью; целиком выше целевого масштаба. Не библиотека."
+  },
+  "johanli/uncharted-waters-2": {
+    "decision": "complex",
+    "reason": "Игра с приключениями, авторским контентом, симуляцией или сетевой частью; целиком выше целевого масштаба. Не библиотека."
+  },
+  "hairic95/nuclear-throne-godot-clone": {
+    "decision": "complex",
+    "reason": "Игра с приключениями, авторским контентом, симуляцией или сетевой частью; целиком выше целевого масштаба. Не библиотека."
+  },
+  "sks-gamedev/between-two-worlds": {
+    "decision": "complex",
+    "reason": "Игра с приключениями, авторским контентом, симуляцией или сетевой частью; целиком выше целевого масштаба. Не библиотека."
+  },
+  "snollygolly/isocitysim": {
+    "decision": "complex",
+    "reason": "Игра с приключениями, авторским контентом, симуляцией или сетевой частью; целиком выше целевого масштаба. Не библиотека."
+  },
+  "janparkio/love2d-docs": {
+    "decision": "learning",
+    "reason": "По описанию — учебные материалы, демонстрация технологии или шаблон; не повышать до продуктовой идеи."
+  },
+  "noooway/love2d_arkanoid_tutorial": {
+    "decision": "learning",
+    "reason": "По описанию — учебные материалы, демонстрация технологии или шаблон; не повышать до продуктовой идеи."
+  },
+  "ptidejteam/ecs-survivors": {
+    "decision": "learning",
+    "reason": "По описанию — учебные материалы, демонстрация технологии или шаблон; не повышать до продуктовой идеи."
+  },
+  "sience/love2d_gametemplate": {
+    "decision": "learning",
+    "reason": "По описанию — учебные материалы, демонстрация технологии или шаблон; не повышать до продуктовой идеи."
+  },
+  "yanjifa/game-template": {
+    "decision": "learning",
+    "reason": "По описанию — учебные материалы, демонстрация технологии или шаблон; не повышать до продуктовой идеи."
+  },
+  "iwae/coingame": {
+    "decision": "learning",
+    "reason": "По описанию — учебные материалы, демонстрация технологии или шаблон; не повышать до продуктовой идеи."
+  },
+  "btroncone/learn-rxjs": {
+    "decision": "learning",
+    "reason": "По описанию — учебные материалы, демонстрация технологии или шаблон; не повышать до продуктовой идеи."
+  },
+  "ipante/ressources_cours_jeux_video_2d": {
+    "decision": "learning",
+    "reason": "По описанию — учебные материалы, демонстрация технологии или шаблон; не повышать до продуктовой идеи."
+  },
+  "iam-veeramalla/devsecops-demo": {
+    "decision": "learning",
+    "reason": "По описанию — учебные материалы, демонстрация технологии или шаблон; не повышать до продуктовой идеи."
+  },
+  "heydon/principles-of-web-accessibility": {
+    "decision": "learning",
+    "reason": "По описанию — учебные материалы, демонстрация технологии или шаблон; не повышать до продуктовой идеи."
+  },
+  "godotjs/godotjsexample": {
+    "decision": "learning",
+    "reason": "По описанию — учебные материалы, демонстрация технологии или шаблон; не повышать до продуктовой идеи."
+  },
+  "warrpy/godot-vehiclebody-demo": {
+    "decision": "learning",
+    "reason": "По описанию — учебные материалы, демонстрация технологии или шаблон; не повышать до продуктовой идеи."
+  },
+  "coderdarren/zigzagclone": {
+    "decision": "learning",
+    "reason": "По описанию — учебные материалы, демонстрация технологии или шаблон; не повышать до продуктовой идеи."
+  },
+  "efimj/gameoflife": {
+    "decision": "learning",
+    "reason": "Клеточный автомат Game of Life; не самостоятельная игра с вводом, наградой и развитием."
+  },
+  "voronianski-on-games/gameoflifeswift": {
+    "decision": "learning",
+    "reason": "Клеточный автомат Game of Life; не самостоятельная игра с вводом, наградой и развитием."
+  },
+  "babyzombie/babyzombieaddons": {
+    "decision": "tool",
+    "reason": "По описанию — вспомогательное ПО, мод, компонент или технический пример; не отдельная новая игровая петля."
+  },
+  "cykyrios/godot360": {
+    "decision": "tool",
+    "reason": "По описанию — вспомогательное ПО, мод, компонент или технический пример; не отдельная новая игровая петля."
+  },
+  "edwin-cox/godot-infinite-worldmap": {
+    "decision": "tool",
+    "reason": "По описанию — вспомогательное ПО, мод, компонент или технический пример; не отдельная новая игровая петля."
+  },
+  "expo/expo-phaser": {
+    "decision": "tool",
+    "reason": "По описанию — вспомогательное ПО, мод, компонент или технический пример; не отдельная новая игровая петля."
+  },
+  "godotengine/emacs-gdscript-mode": {
+    "decision": "tool",
+    "reason": "По описанию — вспомогательное ПО, мод, компонент или технический пример; не отдельная новая игровая петля."
+  },
+  "ikevin127/metinpythonlibv2-rebuild": {
+    "decision": "tool",
+    "reason": "По описанию — вспомогательное ПО, мод, компонент или технический пример; не отдельная новая игровая петля."
+  },
+  "iplaygamezgit/island-mastery-engine": {
+    "decision": "tool",
+    "reason": "По описанию — вспомогательное ПО, мод, компонент или технический пример; не отдельная новая игровая петля."
+  },
+  "lavagang/melonloader.installer": {
+    "decision": "tool",
+    "reason": "По описанию — вспомогательное ПО, мод, компонент или технический пример; не отдельная новая игровая петля."
+  },
+  "maheshsharan/framex-android": {
+    "decision": "tool",
+    "reason": "По описанию — вспомогательное ПО, мод, компонент или технический пример; не отдельная новая игровая петля."
+  },
+  "moriyashiine/enchancement": {
+    "decision": "tool",
+    "reason": "По описанию — вспомогательное ПО, мод, компонент или технический пример; не отдельная новая игровая петля."
+  },
+  "nombersdev/casemove": {
+    "decision": "tool",
+    "reason": "По описанию — вспомогательное ПО, мод, компонент или технический пример; не отдельная новая игровая петля."
+  },
+  "obsidian-ttrpg-community/fantasy-statblocks": {
+    "decision": "tool",
+    "reason": "По описанию — вспомогательное ПО, мод, компонент или технический пример; не отдельная новая игровая петля."
+  },
+  "photonstorm/box2d-lite": {
+    "decision": "tool",
+    "reason": "По описанию — вспомогательное ПО, мод, компонент или технический пример; не отдельная новая игровая петля."
+  },
+  "pmndrs/react-three-fiber": {
+    "decision": "tool",
+    "reason": "По описанию — вспомогательное ПО, мод, компонент или технический пример; не отдельная новая игровая петля."
+  },
+  "project-error/npwd": {
+    "decision": "tool",
+    "reason": "По описанию — вспомогательное ПО, мод, компонент или технический пример; не отдельная новая игровая петля."
+  },
+  "redphx/better-xcloud": {
+    "decision": "tool",
+    "reason": "По описанию — вспомогательное ПО, мод, компонент или технический пример; не отдельная новая игровая петля."
+  },
+  "thumbkin/missingtradeskillslist_classic": {
+    "decision": "tool",
+    "reason": "По описанию — вспомогательное ПО, мод, компонент или технический пример; не отдельная новая игровая петля."
+  },
+  "thumbkin/missingtradeskillslist_tbc": {
+    "decision": "tool",
+    "reason": "По описанию — вспомогательное ПО, мод, компонент или технический пример; не отдельная новая игровая петля."
+  },
+  "trueicecold/phaser-scrollable": {
+    "decision": "tool",
+    "reason": "По описанию — вспомогательное ПО, мод, компонент или технический пример; не отдельная новая игровая петля."
+  },
+  "whatyouthing/nofrills": {
+    "decision": "tool",
+    "reason": "По описанию — вспомогательное ПО, мод, компонент или технический пример; не отдельная новая игровая петля."
+  },
+  "xavierarpa/uniflux": {
+    "decision": "tool",
+    "reason": "По описанию — вспомогательное ПО, мод, компонент или технический пример; не отдельная новая игровая петля."
+  },
+  "xginko/anarchyexploitfixes": {
+    "decision": "tool",
+    "reason": "По описанию — вспомогательное ПО, мод, компонент или технический пример; не отдельная новая игровая петля."
+  },
+  "yarnspinnertool/yarnspinner": {
+    "decision": "tool",
+    "reason": "По описанию — вспомогательное ПО, мод, компонент или технический пример; не отдельная новая игровая петля."
+  },
+  "aiko-chan-ai/discord-quest-auto-completion-selfbot": {
+    "decision": "noise",
+    "reason": "Назначение по описанию вне отбора компактных самостоятельных игр: автоматизация, инфраструктура, исследования или служебное приложение."
+  },
+  "arenax-gaming/arenax": {
+    "decision": "noise",
+    "reason": "Назначение по описанию вне отбора компактных самостоятельных игр: автоматизация, инфраструктура, исследования или служебное приложение."
+  },
+  "axentro/axentro": {
+    "decision": "noise",
+    "reason": "Назначение по описанию вне отбора компактных самостоятельных игр: автоматизация, инфраструктура, исследования или служебное приложение."
+  },
+  "bankrbot/skills": {
+    "decision": "noise",
+    "reason": "Назначение по описанию вне отбора компактных самостоятельных игр: автоматизация, инфраструктура, исследования или служебное приложение."
+  },
+  "codelion/adaptive-classifier": {
+    "decision": "noise",
+    "reason": "Назначение по описанию вне отбора компактных самостоятельных игр: автоматизация, инфраструктура, исследования или служебное приложение."
+  },
+  "frc2713/qrscout": {
+    "decision": "noise",
+    "reason": "Назначение по описанию вне отбора компактных самостоятельных игр: автоматизация, инфраструктура, исследования или служебное приложение."
+  },
+  "galnir/master-bot": {
+    "decision": "noise",
+    "reason": "Назначение по описанию вне отбора компактных самостоятельных игр: автоматизация, инфраструктура, исследования или служебное приложение."
+  },
+  "minimax-ai/openroom": {
+    "decision": "noise",
+    "reason": "Назначение по описанию вне отбора компактных самостоятельных игр: автоматизация, инфраструктура, исследования или служебное приложение."
+  },
+  "peteromallet/desloppify": {
+    "decision": "noise",
+    "reason": "Назначение по описанию вне отбора компактных самостоятельных игр: автоматизация, инфраструктура, исследования или служебное приложение."
+  },
+  "qubic/qubic-cli": {
+    "decision": "noise",
+    "reason": "Назначение по описанию вне отбора компактных самостоятельных игр: автоматизация, инфраструктура, исследования или служебное приложение."
+  },
+  "tlaplus/examples": {
+    "decision": "noise",
+    "reason": "Назначение по описанию вне отбора компактных самостоятельных игр: автоматизация, инфраструктура, исследования или служебное приложение."
+  },
+  "vibeeval/vibecosystem": {
+    "decision": "noise",
+    "reason": "Назначение по описанию вне отбора компактных самостоятельных игр: автоматизация, инфраструктура, исследования или служебное приложение."
+  },
+  "wokwi/avr8js": {
+    "decision": "noise",
+    "reason": "Назначение по описанию вне отбора компактных самостоятельных игр: автоматизация, инфраструктура, исследования или служебное приложение."
+  },
+  "xuetf/kdd_cup_2020_debiasing_rush": {
+    "decision": "noise",
+    "reason": "Назначение по описанию вне отбора компактных самостоятельных игр: автоматизация, инфраструктура, исследования или служебное приложение."
+  },
+  "yangboz/lotteryprediction": {
+    "decision": "noise",
+    "reason": "Назначение по описанию вне отбора компактных самостоятельных игр: автоматизация, инфраструктура, исследования или служебное приложение."
+  },
+  "peter1591/hearthstone-ai": {
+    "decision": "noise",
+    "reason": "Назначение по описанию вне отбора компактных самостоятельных игр: автоматизация, инфраструктура, исследования или служебное приложение."
+  },
+  "insality/shooting_circles": {
+    "decision": "learning",
+    "reason": "README: игровой пример ECS/tiny-ecs. Полезен для реализации, но петля награды и улучшения не проверена."
+  },
+  "mberkdemir/godot-casesimulator": {
+    "decision": "incomplete",
+    "reason": "README: основа открытия кейсов; сохранение полученных предметов и звук запланированы, готовая коллекционная игра не подтверждена."
+  },
+  "hectickiwi/web-osu-mania": {
+    "decision": "complex",
+    "reason": "Проигрывание osu!mania beatmap; авторские ритм-карты и музыка добавляют контентную нагрузку."
+  },
+  "ralex91/razzia": {
+    "decision": "complex",
+    "reason": "Самостоятельно размещаемая викторина для мероприятий; инфраструктура и банк вопросов вместо нашего предметного короткого цикла."
+  },
+  "kuzmichevaksenia/kcakc": {
+    "decision": "complex",
+    "reason": "Мобильное приложение со сбором пульса и изменением скорости игры; зависит от отдельного сенсорного сценария."
+  },
+  "grindheadgames/shredder": {
+    "decision": "tool",
+    "reason": "README: Library of useful game development classes; не игра-измельчитель.",
+    "evidence_level": "readme"
+  },
+  "shawnxin89/seele-one-button-mining": {
+    "decision": "noise",
+    "reason": "README: GUI для настройки криптомайнинга Seele; не однокнопочная игровая добыча.",
+    "evidence_level": "readme"
+  },
+  "azaleahraven/fizzy-pop-": {
+    "decision": "reserve",
+    "reason": "README: 3D ball-drop с выбором начальной позиции и тремя уровнями. Физика/удача, полноценная экономика не подтверждена.",
+    "evidence_level": "readme"
+  },
+  "avramovdv/weavinggame": {
+    "decision": "reserve",
+    "reason": "README: получение изображений переплетением линий. Код награды и прогрессии не проверен.",
+    "evidence_level": "readme"
+  },
+  "gamerc0der/fallsimulator": {
+    "decision": "reserve",
+    "reason": "README: клики по листьям, улучшения, rebirth и мини-игра; реализация заявленного не проверена.",
+    "evidence_level": "readme"
+  },
+  "mathew-pearce/drill-game": {
+    "decision": "reserve",
+    "reason": "README называет проект incremental drilling game; структура кода известна, сквозной цикл не проверен.",
+    "evidence_level": "readme"
+  },
+  "ucinorn/snowglobe": {
+    "decision": "incomplete",
+    "reason": "README обещает incremental-мир; архивное дерево содержит пустой main.js. Завершённый цикл не установлен, не повышать в выбор.",
+    "evidence_level": "readme"
+  },
+  "sidhant-1024/claw-machine-game": {
+    "decision": "reserve",
+    "reason": "README подтверждает лишь HTML/CSS/JS-проект; захват и экономика не проверены, не путать с разобранными кранами.",
+    "evidence_level": "readme"
+  },
+  "talha-shamim/ozone": {
+    "decision": "reserve",
+    "reason": "README: стрелять по вредным сферам, защищая здоровье озонового слоя; score-аркада, развитие не подтверждено.",
+    "evidence_level": "readme"
+  },
+  "pavelmalkov/clicker": {
+    "decision": "incomplete",
+    "reason": "Повторное дерево HEAD содержит только .gitignore; игровой реализации в этом срезе нет.",
+    "evidence_level": "tree_current"
+  },
+  "pusachef/clicker": {
+    "decision": "incomplete",
+    "reason": "Повторное дерево HEAD содержит только .gitignore; игровой реализации в этом срезе нет.",
+    "evidence_level": "tree_current"
+  }
+}
